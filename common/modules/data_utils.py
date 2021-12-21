@@ -11,7 +11,8 @@
 import torch
 from torch.utils.data import TensorDataset
 
-def convert_to_bert_batch_data(data,tokenizer,max_length):
+
+def convert_to_bert_batch_data(data, tokenizer, max_length):
     input_ids = []
     attention_masks = []
     token_type_ids = []
@@ -30,12 +31,12 @@ def convert_to_bert_batch_data(data,tokenizer,max_length):
             token_type_ids.append(encoded_dict['token_type_ids'])
         except:
             pass
-    #convert list to tensor
-    input_ids = torch.cat(input_ids,dim=0)
-    attention_masks = torch.cat(attention_masks,dim=0)
+    # convert list to tensor
+    input_ids = torch.cat(input_ids, dim=0)
+    attention_masks = torch.cat(attention_masks, dim=0)
 
-    if len(token_type_ids)!=0:
-        token_type_ids = torch.cat(token_type_ids,dim=0)
-        return TensorDataset(input_ids,attention_masks,token_type_ids)
+    if len(token_type_ids) != 0:
+        token_type_ids = torch.cat(token_type_ids, dim=0)
+        return TensorDataset(input_ids, attention_masks, token_type_ids)
     else:
-        return TensorDataset(input_ids,attention_masks)
+        return TensorDataset(input_ids, attention_masks)

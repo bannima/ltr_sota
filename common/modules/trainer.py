@@ -8,19 +8,21 @@
 @time: 2021/12/21 10:20 AM
 @desc: basic train procedure
 """
-
+import os
 import random
 import time
 
 import numpy as np
+import pandas as pd
 import torch
 import torch.nn as nn
 from tqdm import tqdm
 from transformers import AdamW
 from transformers import get_linear_schedule_with_warmup
 
-from common import logger
-from common.utils import format_time, current_time
+from common.config import logger
+from common.modules import create_loss, create_metrics
+from common.utils import format_time, current_time, save_to_json
 
 
 class Trainer():
@@ -30,21 +32,26 @@ class Trainer():
 
     def __init__(self,
                  model,
-                 model_name,
-                 metrics,
-                 criterion,
                  dataloaders,
                  data_converter,
-                 tokenizer,
+                 result_path,
                  HYPERS):
         super(Trainer).__init__()
 
+        assert model is not None
         self.model = model
-        self.criterion = criterion
-        self.metrics = metrics
-        self.tokenizer = tokenizer
+
+        self.criterion = create_loss(HYPERS['Criterion'])
+        self.metrics = create_metrics(HYPERS['Metrics'])
+
+        assert data_converter is not None
         self.data_converter = data_converter
+
         self.train_loader, self.valid_loader, self.test_loader = dataloaders
+
+        if not os.path.exists(result_path):
+            raise ValueError("result path not exists: {}".format(result_path))
+        self.result_path = result_path
 
         self.HYPERS = HYPERS
 
@@ -60,7 +67,7 @@ class Trainer():
         # optimzer
         self.optimizer = AdamW(
             self.model.parameters(),
-            lr=HYPERS['Learning_rate'],
+            lr=HYPERS['LearningRate'],
             eps=1e-8
         )
 
@@ -101,7 +108,7 @@ class Trainer():
         total_t0 = time.time()
 
         for epoch in tqdm(range(1, self.HYPERS['Epochs'] + 1),
-                          desc="Training All {} Epochs".format(self.HYPERS['Epochs'] + 1), unit_scale='epoch'):
+                          desc="Training All {} Epochs".format(self.HYPERS['Epochs'] + 1), unit='epoch'):
             logger.info("# Training for epoch: {} ".format(epoch))
 
             t0 = time.time()
@@ -148,14 +155,14 @@ class Trainer():
                     "Test Metrics": test_metrics,
                     "Test Time": format_time(time.time() - t0),
                     "Time": current_time(),
-                    "Test Result Dir": ""
+                    "Test Result Dir": self.exp_result_dir
                 }
             )
 
             if self.HYPERS['Save_Model']:
-                self._save_model(epoch)
+                self.save_model(epoch)
 
-            self._save_stats(epoch)
+            # self._save_stats(epoch)
 
         logger.info(
             " Training complete! Total Train Procedure took: {}".format(str(format_time(time.time() - total_t0))))
@@ -254,11 +261,33 @@ class Trainer():
                                                                         is_save=True)
         return epoch_test_loss, test_metrics
 
-    def unique_model_name(self, epoch):
-        return '{}_{}_Epoch{}_Time{}.m'.format(epoch, str(current_time()))
+    @property
+    def exp_result_dir(self):
+        unique_dir = 'Model_LR{}_Batch{}_Loss{}'.format( \
+            self.HYPERS['LearningRate'], self.HYPERS['Batch'], self.HYPERS['Criterion'])
+        exp_result_dir = os.path.join(self.result_path, unique_dir)
+        if not os.path.exists(exp_result_dir):
+            os.mkdir(exp_result_dir)
+        return exp_result_dir
 
-    def _save_model(self, epoch, save_dir):
-        model_name = ""
+    def save_model(self, epoch):
+        model_filename = "Model_Epoch{}_Time{}.m".format(epoch, str(current_time()))
+        model_filepath = os.path.join(self.exp_result_dir, model_filename)
+        torch.save(self.model, model_filepath)
+        logger.info("Model {} saved at {}".format(model_filename, self.exp_result_dir))
 
-    def _save_predictions(self, epoch):
+    def save_predictions(self, epoch, predicts, labels):
+        pred_filename = "Model_Epoch{}_Time{}.m".format(epoch, str(current_time()))
+        pred_filepath = os.path.join(self.exp_result_dir, pred_filename)
+        data = pd.DataFrame(
+            {
+                'predict': predicts,
+                'labels': labels
+            }
+        )
+        save_to_json(data.to_dict(orient='records'), pred_filepath)
+        logger.info("Prediction {} saved at {}".format(pred_filename, self.exp_result_dir))
+
+    def summary(self):
+        ''' summary the model '''
         pass

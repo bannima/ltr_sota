@@ -12,7 +12,6 @@ import os
 
 import logzero
 from logzero import logger
-
 from common.utils import which_day
 
 # project path

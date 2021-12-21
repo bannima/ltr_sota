@@ -8,8 +8,8 @@
 @time: 2021/12/20 4:08 PM
 @desc: 
 """
-from common.config import logger
-
-__all__ = [
-    'logger'
-]
+# from common.config import logger
+#
+# __all__ = [
+#     'logger'
+# ]

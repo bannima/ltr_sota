@@ -9,8 +9,12 @@
 @desc: 
 """
 
+from .criterions import create_loss
+from .evaluation_metrics import create_metrics
 from .trainer import Trainer
 
 __all__ = [
-    'Trainer'
+    'Trainer',
+    'create_metrics',
+    'create_loss'
 ]

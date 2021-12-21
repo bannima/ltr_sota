@@ -8,8 +8,9 @@
 @time: 2021/12/20 4:08 PM
 @desc: 
 """
-from common.config import logger
+
+from ltr_sota.multi_task_based.mmoe import MMoE
 
 __all__ = [
-    'logger'
+    'MMoE'
 ]

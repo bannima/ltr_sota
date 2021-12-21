@@ -5,11 +5,6 @@
 @author: zhouenguo
 @license: Apache Licence
 @file: __init__.py.py
-@time: 2021/12/20 4:08 PM
+@time: 2021/12/21 2:47 PM
 @desc: 
 """
-from common.config import logger
-
-__all__ = [
-    'logger'
-]

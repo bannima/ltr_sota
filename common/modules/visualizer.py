@@ -4,12 +4,7 @@
 @version: 0.1
 @author: zhouenguo
 @license: Apache Licence
-@file: __init__.py.py
-@time: 2021/12/20 4:08 PM
+@file: visualizer.py
+@time: 2021/12/21 1:43 PM
 @desc: 
 """
-from common.config import logger
-
-__all__ = [
-    'logger'
-]

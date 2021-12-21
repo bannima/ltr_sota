@@ -9,16 +9,17 @@
 @desc: 
 """
 import os
-import pandas as pd
-import numpy as np
-from common.config import logger
-from common.config import dataset_path
 
+import numpy as np
+import pandas as pd
+
+from common import logger
+from common.config import dataset_path
 
 def to_categorical(y, num_classes=None, dtype='float32'):
     y = np.array(y, dtype='int')
     input_shape = y.shape
-    if input_shape and input_shape[-1]==1 and len(input_shape)>1:
+    if input_shape and input_shape[-1] == 1 and len(input_shape) > 1:
         input_shape = tuple(input_shape[:-1])
     y = y.ravel()  # 拉成一维矩阵
     if not num_classes:
@@ -26,9 +27,10 @@ def to_categorical(y, num_classes=None, dtype='float32'):
     n = y.shape[0]
     categorical = np.zeros((n, num_classes), dtype=dtype)
     categorical[np.arange(n), y] = 1
-    output_shape = input_shape + (num_classes, )
+    output_shape = input_shape + (num_classes,)
     categorical = np.reshape(categorical, output_shape)
     return
+
 
 def data_preparation():
     # The column names are from
@@ -43,14 +45,14 @@ def data_preparation():
 
     # Load the dataset in Pandas
     train_df = pd.read_csv(
-        os.path.join(dataset_path,'census-income','census-income.data.gz'),
+        os.path.join(dataset_path, 'census-income', 'census-income.data.gz'),
         delimiter=',',
         header=None,
         index_col=None,
         names=column_names
     )
     other_df = pd.read_csv(
-        os.path.join(dataset_path,'census-income','census-income.test.gz'),
+        os.path.join(dataset_path, 'census-income', 'census-income.test.gz'),
         delimiter=',',
         header=None,
         index_col=None,
@@ -107,6 +109,7 @@ def data_preparation():
 
     return train_data, train_label, validation_data, validation_label, test_data, test_label, output_info
 
+
 def trainer():
     # 1. load census income dataset
     data_preparation()
@@ -119,7 +122,6 @@ def trainer():
     # 4. eval results on census income dataset
 
     # 5. trained mmoe analysis
-
 
 
 if __name__ == '__main__':

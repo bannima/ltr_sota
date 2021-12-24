@@ -26,6 +26,10 @@ __registered_loss = {
     'CrossEntropy': {
         'cls': nn.CrossEntropyLoss,
         'intro': ''
+    },
+    'BCELoss':{
+        'cls':nn.BCELoss,
+        'intro':''
     }
 }
 
@@ -33,4 +37,4 @@ __registered_loss = {
 def create_loss(loss_type):
     if loss_type not in __registered_loss:
         raise ValueError("{} not registered, must in {}".format(loss_type, list(__registered_loss.keys())))
-    return __registered_loss[loss_type]['cls']()
+    return __registered_loss[loss_type]['cls']

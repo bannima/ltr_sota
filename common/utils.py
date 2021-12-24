@@ -21,16 +21,21 @@ def parse_parmas():
     parser = argparse.ArgumentParser()
     parser.add_argument('--batchsize', type=int, required=False, default=64)
     parser.add_argument('--lr', type=float, required=False, default=1e-5)
-    parser.add_argument('--epoch', type=int, required=False, default=5)
-    parser.add_argument('--criterion', type=str, required=False, default='CrossEntropy')
-    parser.add_argument('--metrics', type=str, required=False, default='rank_based')
+    parser.add_argument('--epoch', type=int, required=False, default=10)
+    parser.add_argument('--criterion', type=str, required=False, default='BCELoss')
+    parser.add_argument('--metrics', type=str, required=False, default='classification')
+    parser.add_argument('--save_model', type=bool, required=False, default=True)
+    parser.add_argument('--save_test_preds', type=bool, required=False, default=True)
+
     args = parser.parse_args()
     HYPERS = {
         'LearningRate': args.lr,
         'Epochs': args.epoch,
         'Batch': args.batchsize,
         'Criterion': args.criterion,
-        'Metrics': args.metrics
+        'Metrics': args.metrics,
+        'Save_Model':args.save_model,
+        'save_test_preds':args.save_test_preds
     }
 
     return HYPERS
@@ -47,7 +52,7 @@ def which_day():
 
 
 def current_time():
-    return time.strftime("%Y/%m/%d_%H%M", time.localtime(time.time()))
+    return time.strftime("%Y%m%d_%H%M", time.localtime(time.time()))
 
 
 def save_to_json(datas, filepath, type='w'):
@@ -65,3 +70,12 @@ def read_from_json(filepath):
         for line in tqdm(fread.readlines(), desc=' read json file', unit='line'):
             dataframe.append(json.loads(line.strip('\n')))
     return dataframe
+
+
+def flatten(lists):
+    ''' flatten nested lists-like object '''
+    for x in lists:
+        if hasattr(x,'__iter__') and not isinstance(x,(str,bytes)):
+            yield from flatten(x)
+        else:
+            yield x

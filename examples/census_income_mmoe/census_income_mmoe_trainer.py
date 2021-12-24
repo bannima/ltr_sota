@@ -10,15 +10,11 @@
 """
 import os
 
-import numpy as np
-import pandas as pd
-
-from common.config import dataset_path
 from common.config import logger
 from common.data_loaders import create_dataloaders
-from common.modules import Trainer
 from common.utils import parse_parmas
 from ltr_sota import MMoE
+from common.trainers.multi_task_trainer import MultiTaskTrainer
 
 def train_mmoe_with_censusincome(HYPERS):
     # 1. load census income dataset
@@ -28,21 +24,24 @@ def train_mmoe_with_censusincome(HYPERS):
 
     # 2. prepare MMoE model
     mmoe = MMoE(
-        num_experts=10,
-        num_task=2,
-        input_size=100,
-        hidden_size=50,
-        output_size=2
+        input_size=499,
+        num_experts=6,
+        experts_out=16,
+        experts_hidden=32,
+        towers_hidden=8,
+        output_size=2,
+        tasks=2
     )
     logger.info(" mmoe initialized ")
 
-    # 3. train mode
-    trainer = Trainer(
+    # 3. train mode use MMoE Trainer
+    trainer = MultiTaskTrainer(
         model=mmoe,
         dataloaders=(train_loader, val_loader, test_loader),
         data_converter=data_converter,
         result_path=os.path.join(os.path.dirname(__file__), 'results'),
-        HYPERS=HYPERS
+        HYPERS=HYPERS,
+        num_tasks=2 #当前数据集只有两个任务
     )
     trainer.run_epoch()
 
@@ -54,4 +53,8 @@ def train_mmoe_with_censusincome(HYPERS):
 if __name__ == '__main__':
     logger.info(" Start train MMoE on census income dataset ")
     HYPERS = parse_parmas()
+
+    HYPERS['Epochs'] = 100
+    HYPERS['Save_Model']=False
+
     train_mmoe_with_censusincome(HYPERS)

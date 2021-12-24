@@ -11,7 +11,7 @@
 
 from functools import partial
 
-from sklearn.metrics import f1_score
+from sklearn.metrics import f1_score,precision_score,recall_score,accuracy_score
 
 __registered_metrics = {
     'multi_label': {
@@ -20,8 +20,13 @@ __registered_metrics = {
         'Weighted F1': partial(f1_score, average='weighted'),
         'Samples F1': partial(f1_score, average='samples')
     },
-    'rank_based': {
+    'rank': {
         'ndcg': ''
+    },
+    'classification':{
+        'f1':f1_score,
+        'precision':precision_score,
+        'accuracy':accuracy_score
     }
 }
 

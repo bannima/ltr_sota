@@ -12,6 +12,7 @@ import os
 
 import numpy as np
 import pandas as pd
+import torch
 
 from common.config import logger
 from common.data_loaders.ltr_dataset import LtrDataset
@@ -134,25 +135,31 @@ class CensusIncomeDataset(LtrDataset):
         train_data = transformed_train
         train_label = [dict_train_labels[key] for key in sorted(dict_train_labels.keys())]
 
-        return train_data, train_label, validation_data, validation_label, test_data, test_label, output_info
+        #column stack
+        # train_label = np.column_stack((np.argmax(train_label[0], axis=1), np.argmax(train_label[1], axis=1)))
+        # validation_label = np.column_stack((np.argmax(validation_label[0],axis=1),np.argmax(validation_label[1],axis=1)))
+        # test_label = np.column_stack((np.argmax(test_label[0],axis=1),np.argmax(test_label[1],axis=1)))
+
+        return torch.Tensor(train_data.to_numpy()), train_label, torch.Tensor(validation_data.to_numpy()),\
+               validation_label, torch.Tensor(test_data.to_numpy()),test_label, output_info
 
     def __getitem__(self, idx):
         if self.type == 'train':
-            return self.train_data.iloc[idx], self.train_label.iloc[idx]
+            return self.train_data[idx], torch.Tensor([task_label[idx] for task_label in self.train_label])
         elif self.type == 'val':
-            return self.validation_data.iloc[idx], self.validation_label.iloc[idx]
+            return self.validation_data[idx], torch.Tensor([task_label[idx] for task_label in self.validation_label])
         elif self.type == 'test':
-            return self.test_data.iloc[idx], self.test_label.iloc[idx]
+            return self.test_data[idx], torch.Tensor([task_label[idx] for task_label in self.test_label])
         else:
             raise ValueError("Not recognized type {}, must in train, val,test ".format(self.type))
 
     def __len__(self):
         if self.type == 'train':
-            return len(self.train_label)
+            return len(self.train_data)
         elif self.type == 'val':
-            return len(self.validation_label)
+            return len(self.validation_data)
         elif self.type == 'test':
-            return len(self.test_label)
+            return len(self.test_data)
         else:
             raise ValueError("Not recognized type {}, must in train, val,test ".format(self.type))
 

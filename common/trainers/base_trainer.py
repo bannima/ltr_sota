@@ -4,7 +4,7 @@
 @version: 0.1
 @author: zhouenguo
 @license: Apache Licence
-@file: trainer.py
+@file: base_trainer.py
 @time: 2021/12/21 10:20 AM
 @desc: basic train procedure
 """
@@ -25,9 +25,9 @@ from common.modules import create_loss, create_metrics
 from common.utils import format_time, current_time, save_to_json
 
 
-class Trainer():
+class BaseTrainer():
     '''
-    unified train procedure implementation
+    unified train procedure implementation, for single task
     '''
 
     def __init__(self,
@@ -36,12 +36,12 @@ class Trainer():
                  data_converter,
                  result_path,
                  HYPERS):
-        super(Trainer).__init__()
+        super(BaseTrainer).__init__()
 
         assert model is not None
         self.model = model
 
-        self.criterion = create_loss(HYPERS['Criterion'])
+        self.criterion = create_loss(HYPERS['Criterion'])(reduction='mean')
         self.metrics = create_metrics(HYPERS['Metrics'])
 
         assert data_converter is not None
@@ -126,7 +126,7 @@ class Trainer():
             # eval mode
             self.model.eval()
 
-            epoch_eval_loss, eval_metrics = self.valid(epoch)
+            epoch_eval_loss, eval_metrics = self.valid(epoch,save_preds=self.HYPERS.get("save_val_preds",False))
 
             logger.info("# Valid loss for epoch {} is {} ".format(epoch, epoch_eval_loss))
             for metric_name in eval_metrics:
@@ -136,7 +136,7 @@ class Trainer():
             # measure how long the validation run took
             valid_time = format_time(time.time() - t0)
 
-            epoch_test_loss, test_metrics = self.test(epoch)
+            epoch_test_loss, test_metrics = self.test(epoch,save_preds=self.HYPERS.get("save_test_preds",False))
             logger.info("# Test loss for epoch {} is {} ".format(epoch, epoch_test_loss))
 
             for metric_name in test_metrics:
@@ -162,8 +162,7 @@ class Trainer():
             if self.HYPERS['Save_Model']:
                 self.save_model(epoch)
 
-            # self._save_stats(epoch)
-
+        self.save_epoch_statistics(epoch_stats)
         logger.info(
             " Training complete! Total Train Procedure took: {}".format(str(format_time(time.time() - total_t0))))
 
@@ -171,7 +170,7 @@ class Trainer():
         ''' train process '''
         total_train_loss = 0
         num_batchs = 0
-        for batch in tqdm(self.train_loader, desc="Epoch {}".format(epoch), unit='batch'):
+        for batch in tqdm(self.train_loader, desc=" Train for Epoch: {}".format(epoch), unit='batch'):
             num_batchs += 1
             # clear any previously calculated gradients before performing a backward pass
             self.model.zero_grad()
@@ -182,13 +181,14 @@ class Trainer():
             # convert data to task-specific format
             inputs = self.data_converter(inputs)
 
-            inputs = [t.to(self.device) for t in inputs.tensors]
+            # inputs = [t.to(self.device) for t in inputs.tens
+            inputs = inputs.to(self.device)
 
             labels = labels.to(self.device)
 
-            outputs = self.model(*inputs)
+            outputs = self.model(inputs)
 
-            batch_loss = self.criterion(outputs, labels)
+            batch_loss = self.calc_loss(outputs, labels)
 
             # perform a backward pass to calculate the gradients
             batch_loss.backward()
@@ -196,7 +196,7 @@ class Trainer():
             total_train_loss += batch_loss.item()
 
             # normalization of the gradients to 1.0 to avoid exploding gradients
-            torch.nn.utils.clip_grad_norm(self.model.parameters(), 1.0)
+            torch.nn.utils.clip_grad_norm_(self.model.parameters(), 1.0)
 
             # update parameters and take a step using the computed gradient
             self.optimizer.step()
@@ -206,59 +206,88 @@ class Trainer():
 
         return total_train_loss
 
-    def _forward_pass_with_no_grad(self, epoch, loader, metrics, is_save=False):
+    def _forward_pass_with_no_grad(self, epoch, loader, metrics, save_preds=False, type='Val'):
         '''forward pass with no gradients'''
         epoch_loss = 0
-        predict_labels = []
-        target_labels = []
-        for batch in tqdm(loader, desc='forward pass with no grad for epoch {}'.format(epoch), unit="batch"):
+        predict_label = []
+        target_label = []
+        for batch in tqdm(loader, desc='{} for epoch {}'.format(type, epoch), unit="batch"):
             inputs, labels = batch
             inputs = self.data_converter(inputs)
-            inputs = [t.to(self.device) for t in inputs.tensors]
+            # inputs = [t.to(self.device) for t in inputs]
 
+            inputs = inputs.to(self.device)
             labels = labels.to(self.device)
 
             # no gradients
             with torch.no_grad():
                 # forward pass
-                outputs = self.model(*inputs)
+                outputs = self.model(inputs)
 
-                loss = self.criterion(outputs, labels)
+                loss = self.calc_loss(outputs, labels)
                 epoch_loss += loss.item()
 
-                # move logits and labels to GPU
-                logits = outputs.detach().cpu().numpy()
-                label_ids = labels.to("cpu")
+                y_pred, label_ids = self.calc_predicts(outputs, labels)
 
-                y_pred = np.argmax(logits, axis=1).flatten()
-                predict_labels.append(y_pred)
-                target_labels.append(label_ids)
+                predict_label.append(y_pred)
+                target_label.append(label_ids)
 
-        target_labels = torch.cat(target_labels, dim=0)
+        # transform results to list for save and metrics calculation
+        predict_label = self.transform_result(predict_label)
+        target_label = self.transform_result(target_label)
 
-        predict_labels = torch.cat(predict_labels, dim=0)
+        eval_metrics = self.calc_metrics(predict_label, target_label, metrics)
 
-        eval_metrics = {}
-        for metric_name, metric in metrics.items():
-            eval_metrics[metric_name] = metric(target_labels, predict_labels)
+        self.report_metrics(eval_metrics)
 
-        if is_save:
+        if save_preds:
             # save predicts and true labels
-            self.save_predictions()
+            self.save_predictions(epoch, predict_label, target_label)
 
         return epoch_loss, eval_metrics
 
-    def valid(self, epoch):
+    def calc_metrics(self, predict_labels, target_labels, metrics):
+        ''' calc metrics for single task, can be override '''
+        target_labels = torch.cat(target_labels, dim=0)
+        predict_labels = torch.cat(predict_labels, dim=0)
+        eval_metrics = {}
+        for metric_name, metric in metrics.items():
+            eval_metrics[metric_name] = metric(target_labels, predict_labels)
+        return eval_metrics
+
+    def transform_result(self, result):
+        return result
+
+    def report_metrics(self, metrics_results):
+        ''' report the eval and test metrics '''
+        for metric in metrics_results:
+            logger.info("{}: {}".format(metric, metrics_results[metric]))
+
+    def calc_predicts(self, outputs, labels):
+        ''' single task prediction calculation, can be override'''
+        # move logits and labels to GPU
+        logits = outputs.detach().cpu().numpy()
+        label_ids = labels.to("cpu")
+        y_pred = np.argmax(logits, axis=1).flatten()
+        return y_pred, label_ids
+
+    def calc_loss(self, outputs, labels):
+        '''single task loss calculation, can be override'''
+        batch_loss = self.criterion(outputs, labels)
+        return batch_loss
+
+    def valid(self, epoch, save_preds=False):
         ''' valid process '''
         logger.info(" Eval epoch {}".format(epoch))
-        epoch_val_loss, val_metrics = self._forward_pass_with_no_grad(epoch, self.valid_loader, self.metrics)
+        epoch_val_loss, val_metrics = self._forward_pass_with_no_grad(epoch, self.valid_loader, self.metrics,
+                                                                      save_preds=save_preds, type='Val')
         return epoch_val_loss, val_metrics
 
-    def test(self, epoch):
+    def test(self, epoch, save_preds=False):
         ''' test process '''
         logger.info(" Test epoch {}".format(epoch))
         epoch_test_loss, test_metrics = self._forward_pass_with_no_grad(epoch, self.test_loader, self.metrics,
-                                                                        is_save=True)
+                                                                        save_preds=save_preds, type='Test')
         return epoch_test_loss, test_metrics
 
     @property
@@ -277,7 +306,7 @@ class Trainer():
         logger.info("Model {} saved at {}".format(model_filename, self.exp_result_dir))
 
     def save_predictions(self, epoch, predicts, labels):
-        pred_filename = "Model_Epoch{}_Time{}.m".format(epoch, str(current_time()))
+        pred_filename = "Model_Epoch{}_Predictions.json".format(epoch)
         pred_filepath = os.path.join(self.exp_result_dir, pred_filename)
         data = pd.DataFrame(
             {
@@ -287,6 +316,12 @@ class Trainer():
         )
         save_to_json(data.to_dict(orient='records'), pred_filepath)
         logger.info("Prediction {} saved at {}".format(pred_filename, self.exp_result_dir))
+
+    def save_epoch_statistics(self, stats):
+        ''' save statistics for each epoch '''
+        stats = pd.DataFrame(stats)
+        epoch_stats_file = 'Epoch_Statstics_Time{}.csv'.format(str(current_time()))
+        stats.to_csv(os.path.join(self.exp_result_dir, epoch_stats_file), sep=',', encoding='utf-8', index=False)
 
     def summary(self):
         ''' summary the model '''

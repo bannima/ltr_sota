@@ -312,8 +312,11 @@ class BaseTrainer():
         logger.info("Model {} saved at {}".format(model_filename, self.exp_result_dir))
 
     def save_predictions(self, epoch, predicts, labels):
+        prediction_path = os.path.join(self.exp_result_dir,'predicts')
+        if not os.path.exists(prediction_path):
+            os.mkdir(prediction_path)
         pred_filename = "Model_Epoch{}_Predictions.json".format(epoch)
-        pred_filepath = os.path.join(self.exp_result_dir, pred_filename)
+        pred_filepath = os.path.join(prediction_path, pred_filename)
         data = pd.DataFrame(
             {
                 'predict': predicts,

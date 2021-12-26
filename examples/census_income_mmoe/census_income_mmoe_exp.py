@@ -52,7 +52,7 @@ def train_mmoe_with_censusincome(HYPERS):
     # 4. trained mmoe model analysis using MultiTaskExpAnalyzer
     cur_dir = os.path.dirname(__file__)
     analyzer = MultiTaskExpAnalyzer(os.path.join(cur_dir,epoch_stats_file))
-    analyzer.analysis_experiment(title='MMoE_CensusIncome_Experiment')
+    analyzer.analysis_experiment(exp_result_dir=trainer.exp_result_dir,title='MMoE_CensusIncome_Experiment')
 
 if __name__ == '__main__':
     logger.info(" Start train MMoE on census income dataset ")

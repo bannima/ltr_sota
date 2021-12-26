@@ -8,3 +8,5 @@
 
 ### Experiment Results Analysis
 
+![avatar](./figs/MMoE_CensusIncome_Experiment.png)
+

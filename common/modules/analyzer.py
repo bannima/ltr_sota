@@ -8,10 +8,9 @@
 @time: 2021/12/25 3:59 PM
 @desc: 
 """
-import json
 from abc import ABCMeta,abstractmethod
 import pandas as pd
-from common.modules.visualizer import draw_single_lines_chart,draw_twin_lines_chart
+from common.modules.visualizer import draw_twin_lines_chart
 
 class ExperimentAnalyzer(metaclass=ABCMeta):
     ''' Analysis the whole experiment '''
@@ -19,7 +18,7 @@ class ExperimentAnalyzer(metaclass=ABCMeta):
         self.statistics = pd.read_csv(stats_file, sep=',', encoding='utf-8')
 
     @abstractmethod
-    def analysis_experiment(self,title):
+    def analysis_experiment(self,exp_result_dir,title):
         raise NotImplementedError
 
 class MultiTaskExpAnalyzer(ExperimentAnalyzer):
@@ -39,7 +38,7 @@ class MultiTaskExpAnalyzer(ExperimentAnalyzer):
                     task_metrics[key].append(epoch_metric[task][metric])
         return list(task_metrics.values()),list(task_metrics.keys())
 
-    def analysis_experiment(self,title):
+    def analysis_experiment(self,exp_result_dir,title):
         #load experiment statistics
         evals,eval_metric_names = self.analysis_task_metric(self.statistics['Test Metrics'].apply(eval))
 
@@ -55,12 +54,7 @@ class MultiTaskExpAnalyzer(ExperimentAnalyzer):
                               xlabel='Epochs',\
                               ax1_ylabel='Eval Metric',\
                               ax2_ylabel='Loss',\
-                              save_path='./figs/')
-
-
-
-
-
+                              save_path=exp_result_dir)
 
 
 

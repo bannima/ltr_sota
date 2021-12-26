@@ -8,10 +8,8 @@
 @time: 2021/12/22 10:23 AM
 @desc: 
 """
-import torch
 import numpy as np
 from common.trainers.base_trainer import BaseTrainer
-from common.utils import flatten
 from common.config import logger
 
 class MultiTaskTrainer(BaseTrainer):
@@ -52,10 +50,6 @@ class MultiTaskTrainer(BaseTrainer):
 
     def calc_metrics(self,predict_label,target_label,metrics):
         ''' calc metrics for multi task situation '''
-
-        # predict_labels = np.hstack(predict_label)
-        # target_labels = np.hstack(target_label)
-
         eval_metrics = {}
         for task in range(self.num_tasks):
             eval_metrics[task] = {}

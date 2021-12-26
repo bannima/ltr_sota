@@ -49,7 +49,6 @@ class MMoE(nn.Module):
     '''
     implementations of MMoE model
     '''
-    #def __init__(self, num_experts, num_task, input_size,hidden_size,output_size):
     def __init__(self,input_size, num_experts, experts_out, experts_hidden, towers_hidden,output_size, tasks):
         super(MMoE, self).__init__()
         self.input_size = input_size

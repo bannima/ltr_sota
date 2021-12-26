@@ -1,0 +1,300 @@
+[I 211226 15:01:25 census_income_mmoe_exp:55]  Start train MMoE on census income dataset 
+[I 211226 15:01:25 census_income_dataset:58] ### Warning prepeocess census income dataset
+[I 211226 15:01:29 census_income_dataset:51]  census income dataset preprocessed 
+[I 211226 15:01:29 census_income_mmoe_exp:24]  census income dataset loaded
+[I 211226 15:01:29 census_income_mmoe_exp:36]  mmoe initialized 
+[I 211226 15:01:29 base_trainer:89] Using CPU ... 
+[I 211226 15:01:29 base_trainer:114] # Training for epoch: 1 
+[I 211226 15:07:18 census_income_mmoe_exp:55]  Start train MMoE on census income dataset 
+[I 211226 15:07:18 census_income_dataset:57] ### Warning prepeocess census income dataset
+[I 211226 15:50:45 census_income_mmoe_exp:55]  Start train MMoE on census income dataset 
+[I 211226 15:51:19 census_income_mmoe_exp:55]  Start train MMoE on census income dataset 
+[I 211226 15:51:42 census_income_mmoe_exp:55]  Start train MMoE on census income dataset 
+[I 211226 15:51:42 census_income_loader:57] ### Warning prepeocess census income dataset
+[I 211226 15:51:46 census_income_loader:54]  census income dataset preprocessed 
+[I 211226 15:52:26 census_income_mmoe_exp:55]  Start train MMoE on census income dataset 
+[I 211226 15:52:26 census_income_loader:57] ### Warning prepeocess census income dataset
+[I 211226 15:52:30 census_income_loader:54]  census income dataset preprocessed 
+[I 211226 16:49:08 census_income_mmoe_exp:55]  Start train MMoE on census income dataset 
+[I 211226 16:49:08 census_income_loader:57] ### Warning prepeocess census income dataset
+[I 211226 16:49:13 census_income_loader:54]  census income dataset preprocessed 
+[I 211226 16:53:46 census_income_mmoe_exp:55]  Start train MMoE on census income dataset 
+[I 211226 16:53:46 census_income_loader:57] ### Warning prepeocess census income dataset
+[I 211226 16:53:53 census_income_mmoe_exp:55]  Start train MMoE on census income dataset 
+[I 211226 16:53:53 census_income_loader:57] ### Warning prepeocess census income dataset
+[I 211226 16:53:57 census_income_loader:54]  census income dataset preprocessed 
+[I 211226 16:53:57 census_income_mmoe_exp:24]  census income dataset loaded
+[I 211226 16:53:57 census_income_mmoe_exp:36]  mmoe initialized 
+[I 211226 16:53:57 base_trainer:89] Using CPU ... 
+[I 211226 16:53:57 base_trainer:114] # Training for epoch: 1 
+[I 211226 16:54:15 base_trainer:122]  # Train loss for epoch:1 is 6202.436842083931 
+[I 211226 16:54:15 base_trainer:288]  Eval epoch 1
+[I 211226 16:54:16 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:54:16 multi_task_trainer:80] f1: 0.11496936095710535
+[I 211226 16:54:16 multi_task_trainer:80] precision: 0.06346649484536082
+[I 211226 16:54:16 multi_task_trainer:80] accuracy: 0.9391952847777711
+[I 211226 16:54:16 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:54:16 multi_task_trainer:80] f1: 0.0001845444059976932
+[I 211226 16:54:16 multi_task_trainer:80] precision: 9.230627221119675e-05
+[I 211226 16:54:16 multi_task_trainer:80] accuracy: 0.5655459994787595
+[I 211226 16:54:16 base_trainer:133] # Valid loss for epoch 1 is 781.2416018843651 
+[I 211226 16:54:16 base_trainer:136]  # Valid 0 score for epoch 1 is {'f1': 0.11496936095710535, 'precision': 0.06346649484536082, 'accuracy': 0.9391952847777711}
+[I 211226 16:54:16 base_trainer:136]  # Valid 1 score for epoch 1 is {'f1': 0.0001845444059976932, 'precision': 9.230627221119675e-05, 'accuracy': 0.5655459994787595}
+[I 211226 16:54:16 base_trainer:295]  Test epoch 1
+[I 211226 16:54:17 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:54:17 multi_task_trainer:80] f1: 0.11496936095710535
+[I 211226 16:54:17 multi_task_trainer:80] precision: 0.06346649484536082
+[I 211226 16:54:17 multi_task_trainer:80] accuracy: 0.9391952847777711
+[I 211226 16:54:17 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:54:17 multi_task_trainer:80] f1: 0.0001845444059976932
+[I 211226 16:54:17 multi_task_trainer:80] precision: 9.230627221119675e-05
+[I 211226 16:54:17 multi_task_trainer:80] accuracy: 0.5655459994787595
+[I 211226 16:54:17 base_trainer:325] Prediction Model_Epoch1_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/census_income_mmoe/results/Model_LR1e-05_Batch64_LossBCELoss
+[I 211226 16:54:17 base_trainer:142] # Test loss for epoch 1 is 781.2059037089348 
+[I 211226 16:54:17 base_trainer:145]  # Test 0 score for epoch 1 is {'f1': 0.11496936095710535, 'precision': 0.06346649484536082, 'accuracy': 0.9391952847777711}
+[I 211226 16:54:17 base_trainer:145]  # Test 1 score for epoch 1 is {'f1': 0.0001845444059976932, 'precision': 9.230627221119675e-05, 'accuracy': 0.5655459994787595}
+[I 211226 16:54:17 base_trainer:114] # Training for epoch: 2 
+[I 211226 16:54:35 base_trainer:122]  # Train loss for epoch:2 is 3568.568135499954 
+[I 211226 16:54:35 base_trainer:288]  Eval epoch 2
+[I 211226 16:54:36 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:54:36 multi_task_trainer:80] f1: 0.03129890453834116
+[I 211226 16:54:36 multi_task_trainer:80] precision: 0.01610824742268041
+[I 211226 16:54:36 multi_task_trainer:80] accuracy: 0.9379523265371584
+[I 211226 16:54:36 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:54:36 multi_task_trainer:80] f1: 0.0
+[I 211226 16:54:36 multi_task_trainer:80] precision: 0.0
+[I 211226 16:54:36 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:54:36 base_trainer:133] # Valid loss for epoch 2 is 746.6202628016472 
+[I 211226 16:54:36 base_trainer:136]  # Valid 0 score for epoch 2 is {'f1': 0.03129890453834116, 'precision': 0.01610824742268041, 'accuracy': 0.9379523265371584}
+[I 211226 16:54:36 base_trainer:136]  # Valid 1 score for epoch 2 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:54:36 base_trainer:295]  Test epoch 2
+[I 211226 16:54:37 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:54:37 multi_task_trainer:80] f1: 0.03129890453834116
+[I 211226 16:54:37 multi_task_trainer:80] precision: 0.01610824742268041
+[I 211226 16:54:37 multi_task_trainer:80] accuracy: 0.9379523265371584
+[I 211226 16:54:37 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:54:37 multi_task_trainer:80] f1: 0.0
+[I 211226 16:54:37 multi_task_trainer:80] precision: 0.0
+[I 211226 16:54:37 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:54:37 base_trainer:325] Prediction Model_Epoch2_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/census_income_mmoe/results/Model_LR1e-05_Batch64_LossBCELoss
+[I 211226 16:54:37 base_trainer:142] # Test loss for epoch 2 is 746.560619354248 
+[I 211226 16:54:37 base_trainer:145]  # Test 0 score for epoch 2 is {'f1': 0.03129890453834116, 'precision': 0.01610824742268041, 'accuracy': 0.9379523265371584}
+[I 211226 16:54:37 base_trainer:145]  # Test 1 score for epoch 2 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:54:37 base_trainer:114] # Training for epoch: 3 
+[I 211226 16:54:54 base_trainer:122]  # Train loss for epoch:3 is 3339.5205497145653 
+[I 211226 16:54:54 base_trainer:288]  Eval epoch 3
+[I 211226 16:54:55 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:54:55 multi_task_trainer:80] f1: 0.023921938936103244
+[I 211226 16:54:55 multi_task_trainer:80] precision: 0.012242268041237113
+[I 211226 16:54:55 multi_task_trainer:80] accuracy: 0.9378320402558088
+[I 211226 16:54:55 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:54:55 multi_task_trainer:80] f1: 0.0
+[I 211226 16:54:55 multi_task_trainer:80] precision: 0.0
+[I 211226 16:54:55 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:54:55 base_trainer:133] # Valid loss for epoch 3 is 725.1858036518097 
+[I 211226 16:54:55 base_trainer:136]  # Valid 0 score for epoch 3 is {'f1': 0.023921938936103244, 'precision': 0.012242268041237113, 'accuracy': 0.9378320402558088}
+[I 211226 16:54:55 base_trainer:136]  # Valid 1 score for epoch 3 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:54:55 base_trainer:295]  Test epoch 3
+[I 211226 16:54:57 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:54:57 multi_task_trainer:80] f1: 0.023921938936103244
+[I 211226 16:54:57 multi_task_trainer:80] precision: 0.012242268041237113
+[I 211226 16:54:57 multi_task_trainer:80] accuracy: 0.9378320402558088
+[I 211226 16:54:57 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:54:57 multi_task_trainer:80] f1: 0.0
+[I 211226 16:54:57 multi_task_trainer:80] precision: 0.0
+[I 211226 16:54:57 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:54:57 base_trainer:325] Prediction Model_Epoch3_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/census_income_mmoe/results/Model_LR1e-05_Batch64_LossBCELoss
+[I 211226 16:54:57 base_trainer:142] # Test loss for epoch 3 is 725.0890902876854 
+[I 211226 16:54:57 base_trainer:145]  # Test 0 score for epoch 3 is {'f1': 0.023921938936103244, 'precision': 0.012242268041237113, 'accuracy': 0.9378320402558088}
+[I 211226 16:54:57 base_trainer:145]  # Test 1 score for epoch 3 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:54:57 base_trainer:114] # Training for epoch: 4 
+[I 211226 16:55:14 base_trainer:122]  # Train loss for epoch:4 is 3240.2943680882454 
+[I 211226 16:55:14 base_trainer:288]  Eval epoch 4
+[I 211226 16:55:16 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:55:16 multi_task_trainer:80] f1: 0.006402048655569782
+[I 211226 16:55:16 multi_task_trainer:80] precision: 0.0032216494845360823
+[I 211226 16:55:16 multi_task_trainer:80] accuracy: 0.937771897115134
+[I 211226 16:55:16 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:55:16 multi_task_trainer:80] f1: 0.0
+[I 211226 16:55:16 multi_task_trainer:80] precision: 0.0
+[I 211226 16:55:16 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:55:16 base_trainer:133] # Valid loss for epoch 4 is 714.3381672501564 
+[I 211226 16:55:16 base_trainer:136]  # Valid 0 score for epoch 4 is {'f1': 0.006402048655569782, 'precision': 0.0032216494845360823, 'accuracy': 0.937771897115134}
+[I 211226 16:55:16 base_trainer:136]  # Valid 1 score for epoch 4 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:55:16 base_trainer:295]  Test epoch 4
+[I 211226 16:55:17 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:55:17 multi_task_trainer:80] f1: 0.006402048655569782
+[I 211226 16:55:17 multi_task_trainer:80] precision: 0.0032216494845360823
+[I 211226 16:55:17 multi_task_trainer:80] accuracy: 0.937771897115134
+[I 211226 16:55:17 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:55:17 multi_task_trainer:80] f1: 0.0
+[I 211226 16:55:17 multi_task_trainer:80] precision: 0.0
+[I 211226 16:55:17 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:55:17 base_trainer:325] Prediction Model_Epoch4_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/census_income_mmoe/results/Model_LR1e-05_Batch64_LossBCELoss
+[I 211226 16:55:17 base_trainer:142] # Test loss for epoch 4 is 714.2885864973068 
+[I 211226 16:55:17 base_trainer:145]  # Test 0 score for epoch 4 is {'f1': 0.006402048655569782, 'precision': 0.0032216494845360823, 'accuracy': 0.937771897115134}
+[I 211226 16:55:17 base_trainer:145]  # Test 1 score for epoch 4 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:55:17 base_trainer:114] # Training for epoch: 5 
+[I 211226 16:55:35 base_trainer:122]  # Train loss for epoch:5 is 3161.227851331234 
+[I 211226 16:55:35 base_trainer:288]  Eval epoch 5
+[I 211226 16:55:37 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:55:37 multi_task_trainer:80] f1: 0.0057692307692307696
+[I 211226 16:55:37 multi_task_trainer:80] precision: 0.0028994845360824743
+[I 211226 16:55:37 multi_task_trainer:80] accuracy: 0.9378119925422506
+[I 211226 16:55:37 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:55:37 multi_task_trainer:80] f1: 0.0
+[I 211226 16:55:37 multi_task_trainer:80] precision: 0.0
+[I 211226 16:55:37 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:55:37 base_trainer:133] # Valid loss for epoch 5 is 705.6920594573021 
+[I 211226 16:55:37 base_trainer:136]  # Valid 0 score for epoch 5 is {'f1': 0.0057692307692307696, 'precision': 0.0028994845360824743, 'accuracy': 0.9378119925422506}
+[I 211226 16:55:37 base_trainer:136]  # Valid 1 score for epoch 5 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:55:37 base_trainer:295]  Test epoch 5
+[I 211226 16:55:38 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:55:38 multi_task_trainer:80] f1: 0.0057692307692307696
+[I 211226 16:55:38 multi_task_trainer:80] precision: 0.0028994845360824743
+[I 211226 16:55:38 multi_task_trainer:80] accuracy: 0.9378119925422506
+[I 211226 16:55:38 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:55:38 multi_task_trainer:80] f1: 0.0
+[I 211226 16:55:38 multi_task_trainer:80] precision: 0.0
+[I 211226 16:55:38 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:55:38 base_trainer:325] Prediction Model_Epoch5_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/census_income_mmoe/results/Model_LR1e-05_Batch64_LossBCELoss
+[I 211226 16:55:38 base_trainer:142] # Test loss for epoch 5 is 705.7510511875153 
+[I 211226 16:55:38 base_trainer:145]  # Test 0 score for epoch 5 is {'f1': 0.0057692307692307696, 'precision': 0.0028994845360824743, 'accuracy': 0.9378119925422506}
+[I 211226 16:55:38 base_trainer:145]  # Test 1 score for epoch 5 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:55:38 base_trainer:114] # Training for epoch: 6 
+[I 211226 16:55:56 base_trainer:122]  # Train loss for epoch:6 is 3126.4097346663475 
+[I 211226 16:55:56 base_trainer:288]  Eval epoch 6
+[I 211226 16:55:58 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:55:58 multi_task_trainer:80] f1: 0.04690431519699813
+[I 211226 16:55:58 multi_task_trainer:80] precision: 0.02416237113402062
+[I 211226 16:55:58 multi_task_trainer:80] accuracy: 0.9388945690743971
+[I 211226 16:55:58 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:55:58 multi_task_trainer:80] f1: 0.0
+[I 211226 16:55:58 multi_task_trainer:80] precision: 0.0
+[I 211226 16:55:58 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:55:58 base_trainer:133] # Valid loss for epoch 6 is 699.6720709204674 
+[I 211226 16:55:58 base_trainer:136]  # Valid 0 score for epoch 6 is {'f1': 0.04690431519699813, 'precision': 0.02416237113402062, 'accuracy': 0.9388945690743971}
+[I 211226 16:55:58 base_trainer:136]  # Valid 1 score for epoch 6 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:55:58 base_trainer:295]  Test epoch 6
+[I 211226 16:55:59 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:55:59 multi_task_trainer:80] f1: 0.04690431519699813
+[I 211226 16:55:59 multi_task_trainer:80] precision: 0.02416237113402062
+[I 211226 16:55:59 multi_task_trainer:80] accuracy: 0.9388945690743971
+[I 211226 16:55:59 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:55:59 multi_task_trainer:80] f1: 0.0
+[I 211226 16:55:59 multi_task_trainer:80] precision: 0.0
+[I 211226 16:55:59 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:55:59 base_trainer:325] Prediction Model_Epoch6_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/census_income_mmoe/results/Model_LR1e-05_Batch64_LossBCELoss
+[I 211226 16:55:59 base_trainer:142] # Test loss for epoch 6 is 699.7560213804245 
+[I 211226 16:55:59 base_trainer:145]  # Test 0 score for epoch 6 is {'f1': 0.04690431519699813, 'precision': 0.02416237113402062, 'accuracy': 0.9388945690743971}
+[I 211226 16:55:59 base_trainer:145]  # Test 1 score for epoch 6 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:55:59 base_trainer:114] # Training for epoch: 7 
+[I 211226 16:56:17 base_trainer:122]  # Train loss for epoch:7 is 3084.9322949647903 
+[I 211226 16:56:17 base_trainer:288]  Eval epoch 7
+[I 211226 16:56:18 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:56:18 multi_task_trainer:80] f1: 0.0439146800501882
+[I 211226 16:56:18 multi_task_trainer:80] precision: 0.022551546391752577
+[I 211226 16:56:18 multi_task_trainer:80] accuracy: 0.9388945690743971
+[I 211226 16:56:18 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:56:18 multi_task_trainer:80] f1: 0.0
+[I 211226 16:56:18 multi_task_trainer:80] precision: 0.0
+[I 211226 16:56:18 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:56:18 base_trainer:133] # Valid loss for epoch 7 is 694.3704606294632 
+[I 211226 16:56:18 base_trainer:136]  # Valid 0 score for epoch 7 is {'f1': 0.0439146800501882, 'precision': 0.022551546391752577, 'accuracy': 0.9388945690743971}
+[I 211226 16:56:18 base_trainer:136]  # Valid 1 score for epoch 7 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:56:18 base_trainer:295]  Test epoch 7
+[I 211226 16:56:20 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:56:20 multi_task_trainer:80] f1: 0.0439146800501882
+[I 211226 16:56:20 multi_task_trainer:80] precision: 0.022551546391752577
+[I 211226 16:56:20 multi_task_trainer:80] accuracy: 0.9388945690743971
+[I 211226 16:56:20 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:56:20 multi_task_trainer:80] f1: 0.0
+[I 211226 16:56:20 multi_task_trainer:80] precision: 0.0
+[I 211226 16:56:20 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:56:20 base_trainer:325] Prediction Model_Epoch7_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/census_income_mmoe/results/Model_LR1e-05_Batch64_LossBCELoss
+[I 211226 16:56:20 base_trainer:142] # Test loss for epoch 7 is 694.460541844368 
+[I 211226 16:56:20 base_trainer:145]  # Test 0 score for epoch 7 is {'f1': 0.0439146800501882, 'precision': 0.022551546391752577, 'accuracy': 0.9388945690743971}
+[I 211226 16:56:20 base_trainer:145]  # Test 1 score for epoch 7 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:56:20 base_trainer:114] # Training for epoch: 8 
+[I 211226 16:56:38 base_trainer:122]  # Train loss for epoch:8 is 3070.5743449926376 
+[I 211226 16:56:38 base_trainer:288]  Eval epoch 8
+[I 211226 16:56:40 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:56:40 multi_task_trainer:80] f1: 0.05246720799500313
+[I 211226 16:56:40 multi_task_trainer:80] precision: 0.027061855670103094
+[I 211226 16:56:40 multi_task_trainer:80] accuracy: 0.9391752370642128
+[I 211226 16:56:40 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:56:40 multi_task_trainer:80] f1: 0.0
+[I 211226 16:56:40 multi_task_trainer:80] precision: 0.0
+[I 211226 16:56:40 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:56:40 base_trainer:133] # Valid loss for epoch 8 is 689.8224257826805 
+[I 211226 16:56:40 base_trainer:136]  # Valid 0 score for epoch 8 is {'f1': 0.05246720799500313, 'precision': 0.027061855670103094, 'accuracy': 0.9391752370642128}
+[I 211226 16:56:40 base_trainer:136]  # Valid 1 score for epoch 8 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:56:40 base_trainer:295]  Test epoch 8
+[I 211226 16:56:41 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:56:41 multi_task_trainer:80] f1: 0.05246720799500313
+[I 211226 16:56:41 multi_task_trainer:80] precision: 0.027061855670103094
+[I 211226 16:56:41 multi_task_trainer:80] accuracy: 0.9391752370642128
+[I 211226 16:56:41 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:56:41 multi_task_trainer:80] f1: 0.0
+[I 211226 16:56:41 multi_task_trainer:80] precision: 0.0
+[I 211226 16:56:41 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:56:41 base_trainer:325] Prediction Model_Epoch8_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/census_income_mmoe/results/Model_LR1e-05_Batch64_LossBCELoss
+[I 211226 16:56:41 base_trainer:142] # Test loss for epoch 8 is 689.8565734028816 
+[I 211226 16:56:41 base_trainer:145]  # Test 0 score for epoch 8 is {'f1': 0.05246720799500313, 'precision': 0.027061855670103094, 'accuracy': 0.9391752370642128}
+[I 211226 16:56:41 base_trainer:145]  # Test 1 score for epoch 8 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:56:41 base_trainer:114] # Training for epoch: 9 
+[I 211226 16:57:00 base_trainer:122]  # Train loss for epoch:9 is 3053.9982718229294 
+[I 211226 16:57:00 base_trainer:288]  Eval epoch 9
+[I 211226 16:57:01 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:57:01 multi_task_trainer:80] f1: 0.05246720799500313
+[I 211226 16:57:01 multi_task_trainer:80] precision: 0.027061855670103094
+[I 211226 16:57:01 multi_task_trainer:80] accuracy: 0.9391752370642128
+[I 211226 16:57:01 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:57:01 multi_task_trainer:80] f1: 0.0
+[I 211226 16:57:01 multi_task_trainer:80] precision: 0.0
+[I 211226 16:57:01 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:57:01 base_trainer:133] # Valid loss for epoch 9 is 687.4665788412094 
+[I 211226 16:57:01 base_trainer:136]  # Valid 0 score for epoch 9 is {'f1': 0.05246720799500313, 'precision': 0.027061855670103094, 'accuracy': 0.9391752370642128}
+[I 211226 16:57:01 base_trainer:136]  # Valid 1 score for epoch 9 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:57:01 base_trainer:295]  Test epoch 9
+[I 211226 16:57:02 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:57:02 multi_task_trainer:80] f1: 0.05246720799500313
+[I 211226 16:57:02 multi_task_trainer:80] precision: 0.027061855670103094
+[I 211226 16:57:02 multi_task_trainer:80] accuracy: 0.9391752370642128
+[I 211226 16:57:02 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:57:02 multi_task_trainer:80] f1: 0.0
+[I 211226 16:57:02 multi_task_trainer:80] precision: 0.0
+[I 211226 16:57:02 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:57:02 base_trainer:325] Prediction Model_Epoch9_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/census_income_mmoe/results/Model_LR1e-05_Batch64_LossBCELoss
+[I 211226 16:57:02 base_trainer:142] # Test loss for epoch 9 is 687.5266442894936 
+[I 211226 16:57:02 base_trainer:145]  # Test 0 score for epoch 9 is {'f1': 0.05246720799500313, 'precision': 0.027061855670103094, 'accuracy': 0.9391752370642128}
+[I 211226 16:57:02 base_trainer:145]  # Test 1 score for epoch 9 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:57:02 base_trainer:114] # Training for epoch: 10 
+[I 211226 16:57:21 base_trainer:122]  # Train loss for epoch:10 is 3048.2073655724525 
+[I 211226 16:57:21 base_trainer:288]  Eval epoch 10
+[I 211226 16:57:23 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:57:23 multi_task_trainer:80] f1: 0.054273237679351216
+[I 211226 16:57:23 multi_task_trainer:80] precision: 0.02802835051546392
+[I 211226 16:57:23 multi_task_trainer:80] accuracy: 0.9392153324913294
+[I 211226 16:57:23 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:57:23 multi_task_trainer:80] f1: 0.0
+[I 211226 16:57:23 multi_task_trainer:80] precision: 0.0
+[I 211226 16:57:23 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:57:23 base_trainer:133] # Valid loss for epoch 10 is 686.5205289125443 
+[I 211226 16:57:23 base_trainer:136]  # Valid 0 score for epoch 10 is {'f1': 0.054273237679351216, 'precision': 0.02802835051546392, 'accuracy': 0.9392153324913294}
+[I 211226 16:57:23 base_trainer:136]  # Valid 1 score for epoch 10 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:57:23 base_trainer:295]  Test epoch 10
+[I 211226 16:57:24 multi_task_trainer:78] # Task 0 metrics
+[I 211226 16:57:24 multi_task_trainer:80] f1: 0.054273237679351216
+[I 211226 16:57:24 multi_task_trainer:80] precision: 0.02802835051546392
+[I 211226 16:57:24 multi_task_trainer:80] accuracy: 0.9392153324913294
+[I 211226 16:57:24 multi_task_trainer:78] # Task 1 metrics
+[I 211226 16:57:24 multi_task_trainer:80] f1: 0.0
+[I 211226 16:57:24 multi_task_trainer:80] precision: 0.0
+[I 211226 16:57:24 multi_task_trainer:80] accuracy: 0.5656261903329926
+[I 211226 16:57:24 base_trainer:325] Prediction Model_Epoch10_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/census_income_mmoe/results/Model_LR1e-05_Batch64_LossBCELoss
+[I 211226 16:57:24 base_trainer:142] # Test loss for epoch 10 is 686.50377368927 
+[I 211226 16:57:24 base_trainer:145]  # Test 0 score for epoch 10 is {'f1': 0.054273237679351216, 'precision': 0.02802835051546392, 'accuracy': 0.9392153324913294}
+[I 211226 16:57:24 base_trainer:145]  # Test 1 score for epoch 10 is {'f1': 0.0, 'precision': 0.0, 'accuracy': 0.5656261903329926}
+[I 211226 16:57:24 base_trainer:170] # Training complete; Total Train Procedure took: 0:03:27
+[I 211226 16:57:24 base_trainer:172] # Epoch Statistics saved at Epoch_Statstics_Time20211226_1657.csv

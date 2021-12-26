@@ -11,7 +11,6 @@
 import os
 import random
 import time
-
 import numpy as np
 import pandas as pd
 import torch
@@ -70,6 +69,9 @@ class BaseTrainer():
             lr=HYPERS['LearningRate'],
             eps=1e-8
         )
+
+        #report the whole trainer
+        self.summary()
 
     def _set_random_seed(self):
         # set the seed value all over the place to make this reproducible
@@ -162,9 +164,14 @@ class BaseTrainer():
             if self.HYPERS['Save_Model']:
                 self.save_model(epoch)
 
-        self.save_epoch_statistics(epoch_stats)
+        epoch_stats_file = 'Epoch_Statstics_Time{}.csv'.format(str(current_time()))
+        self.save_epoch_statistics(epoch_stats,epoch_stats_file)
         logger.info(
-            " Training complete! Total Train Procedure took: {}".format(str(format_time(time.time() - total_t0))))
+            "# Training complete; Total Train Procedure took: {}".format(str(format_time(time.time() - total_t0))))
+        logger.info(
+            "# Epoch Statistics saved at {}".format(epoch_stats_file)
+        )
+        return epoch_stats_file
 
     def train(self, epoch):
         ''' train process '''
@@ -317,10 +324,9 @@ class BaseTrainer():
         save_to_json(data.to_dict(orient='records'), pred_filepath)
         logger.info("Prediction {} saved at {}".format(pred_filename, self.exp_result_dir))
 
-    def save_epoch_statistics(self, stats):
+    def save_epoch_statistics(self, stats,epoch_stats_file):
         ''' save statistics for each epoch '''
         stats = pd.DataFrame(stats)
-        epoch_stats_file = 'Epoch_Statstics_Time{}.csv'.format(str(current_time()))
         stats.to_csv(os.path.join(self.exp_result_dir, epoch_stats_file), sep=',', encoding='utf-8', index=False)
 
     def summary(self):

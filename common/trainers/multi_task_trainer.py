@@ -59,7 +59,10 @@ class MultiTaskTrainer(BaseTrainer):
             task_labels = target_label[task]
 
             for metric_name, metric in metrics.items():
-                eval_metrics[task][metric_name] = metric(task_preds, task_labels)
+                try:
+                    eval_metrics[task][metric_name] = metric(task_preds, task_labels)
+                except Exception as e:
+                    pass
 
         return eval_metrics
 

@@ -11,7 +11,8 @@
 
 from functools import partial
 
-from sklearn.metrics import f1_score,precision_score,recall_score,accuracy_score
+from sklearn.metrics import f1_score,precision_score,recall_score,accuracy_score,roc_auc_score
+from sklearn.metrics import ndcg_score,mean_absolute_percentage_error
 
 __registered_metrics = {
     'multi_label': {
@@ -21,12 +22,13 @@ __registered_metrics = {
         'Samples F1': partial(f1_score, average='samples')
     },
     'rank': {
-        'ndcg': ''
+        'ndcg': ndcg_score
     },
     'classification':{
         'f1':f1_score,
         'precision':precision_score,
-        'accuracy':accuracy_score
+        'accuracy':accuracy_score,
+        'roc_auc_score':roc_auc_score
     }
 }
 

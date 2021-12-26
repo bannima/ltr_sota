@@ -16,11 +16,15 @@
 
 ### Examples
 
-#### 1.1 MMoE on Census Income
+####  1.1 MMoE on Census Income
 
-`MMoe on Census Income dataset`
+- `MMoe on Census Income dataset`
 
+```angular2html
+python examples/census_income_mmoe/census_income_mmoe_exp.py
+```
 
+- `Experiment Results Analysis`
 
 
 

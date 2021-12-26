@@ -164,8 +164,7 @@ class BaseTrainer():
             if self.HYPERS['Save_Model']:
                 self.save_model(epoch)
 
-        epoch_stats_file = 'Epoch_Statstics_Time{}.csv'.format(str(current_time()))
-        self.save_epoch_statistics(epoch_stats,epoch_stats_file)
+        epoch_stats_file = self.save_epoch_statistics(epoch_stats)
         logger.info(
             "# Training complete; Total Train Procedure took: {}".format(str(format_time(time.time() - total_t0))))
         logger.info(
@@ -324,10 +323,12 @@ class BaseTrainer():
         save_to_json(data.to_dict(orient='records'), pred_filepath)
         logger.info("Prediction {} saved at {}".format(pred_filename, self.exp_result_dir))
 
-    def save_epoch_statistics(self, stats,epoch_stats_file):
+    def save_epoch_statistics(self, stats):
         ''' save statistics for each epoch '''
+        epoch_stats_file = 'Epoch_Statstics_Time{}.csv'.format(str(current_time()))
         stats = pd.DataFrame(stats)
         stats.to_csv(os.path.join(self.exp_result_dir, epoch_stats_file), sep=',', encoding='utf-8', index=False)
+        return os.path.join(self.exp_result_dir, epoch_stats_file)
 
     def summary(self):
         ''' summary the model '''

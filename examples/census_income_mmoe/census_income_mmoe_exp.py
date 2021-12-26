@@ -16,6 +16,7 @@ from common.utils import parse_parmas
 from ltr_sota import MMoE
 from common.trainers.multi_task_trainer import MultiTaskTrainer
 from common.modules.analyzer import MultiTaskExpAnalyzer
+from common.config import project_path
 
 def train_mmoe_with_censusincome(HYPERS):
     # 1. load census income dataset
@@ -46,16 +47,20 @@ def train_mmoe_with_censusincome(HYPERS):
         num_tasks=2 #当前数据集只有两个任务
     )
     epoch_stats_file = trainer.run_epoch()
+    #epoch_stats_file = os.path.join(project_path,'examples/census_income_mmoe/results/Model_LR1e-05_Batch64_LossBCELoss/Epoch_Statstics_Time20211226_1657.csv')
 
     # 4. trained mmoe model analysis using MultiTaskExpAnalyzer
-    analyzer = MultiTaskExpAnalyzer(epoch_stats_file)
-    analyzer.analysis_experiment()
+    cur_dir = os.path.dirname(__file__)
+    analyzer = MultiTaskExpAnalyzer(os.path.join(cur_dir,epoch_stats_file))
+    analyzer.analysis_experiment(title='MMoE_CensusIncome_Experiment')
 
 if __name__ == '__main__':
     logger.info(" Start train MMoE on census income dataset ")
     HYPERS = parse_parmas()
 
-    HYPERS['Epochs'] = 10
+    HYPERS['Epochs'] = 80
+    HYPERS['LearningRate'] = 1e-4
+    HYPERS['Batch']=1024
     HYPERS['Save_Model']=False
 
     train_mmoe_with_censusincome(HYPERS)

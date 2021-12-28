@@ -2,21 +2,9 @@
 
 `搜索排序解决方案汇总`
 
-### SOTA solutions
-
-#### 1. Multi-Task learning based
-
-#### 1.1. [MMoE](https://www.kdd.org/kdd2018/accepted-papers/view/modeling-task-relationships-in-multi-task-learning-with-multi-gate-mixture-) KDD18
-
-[source code](https://github.com/drawbridge/keras-mmoe)
-
-### Datasets
-
-#### 1. [Census-Income (KDD) Data Set](http://archive.ics.uci.edu/ml/datasets/Census-Income+(KDD))
-
 ### Examples
 
-####  1.1 MMoE on Census Income
+####  1. MMoE on Census Income
 
 - `MMoe on Census Income dataset`
 
@@ -25,6 +13,37 @@ python examples/census_income_mmoe/census_income_mmoe_exp.py
 ```
 
 - `Experiment Results Analysis`
+
+![avatar](./examples/census_income_mmoe/results/Model_LR0.0001_Batch1024_LossBCELoss/MMoE_CensusIncome_Experiment.png)
+
+- [README](./examples/census_income_mmoe/README.md)
+
+### 2. Wide&Deep on Adult 
+
+- `Wide&Deep on Adult`
+
+```angular2html
+python examples/adult_widedeep/adult_widedeep_exp.py
+```
+
+- [README](./examples/adult_widedeep/README.md)
+
+
+### SOTA solutions
+
+#### 1. Multi-Task learning based
+
+- [MMoE](https://www.kdd.org/kdd2018/accepted-papers/view/modeling-task-relationships-in-multi-task-learning-with-multi-gate-mixture-) 
+
+#### 2. Deep Learning based
+
+- [Wide & Deep]()
+
+### Datasets
+
+- [Census-Income (KDD) Data Set](http://archive.ics.uci.edu/ml/datasets/Census-Income+(KDD))
+
+- [Adult Data Set](https://archive.ics.uci.edu/ml/datasets/adult)
 
 
 

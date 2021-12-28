@@ -18,7 +18,7 @@ python examples/census_income_mmoe/census_income_mmoe_exp.py
 
 - [README](./examples/census_income_mmoe/README.md)
 
-### 2. Wide&Deep on Adult 
+#### 2. Wide&Deep on Adult 
 
 - `Wide&Deep on Adult`
 
@@ -31,13 +31,13 @@ python examples/adult_widedeep/adult_widedeep_exp.py
 
 ### SOTA solutions
 
-#### 1. Multi-Task learning based
+- Multi-Task learning based
 
-- [MMoE](https://www.kdd.org/kdd2018/accepted-papers/view/modeling-task-relationships-in-multi-task-learning-with-multi-gate-mixture-) 
+  * [MMoE](https://www.kdd.org/kdd2018/accepted-papers/view/modeling-task-relationships-in-multi-task-learning-with-multi-gate-mixture-) 
 
-#### 2. Deep Learning based
+- Deep Learning based
 
-- [Wide & Deep]()
+  * [Wide & Deep]()
 
 ### Datasets
 

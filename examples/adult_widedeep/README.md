@@ -10,6 +10,7 @@ python adult_widedeep_exp.py
 
 ### Experiment Result Analysis
 
+![avatar](./results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss/WideDeep_Adult_Experiment.png)
 
 ### Reference
 

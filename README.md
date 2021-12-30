@@ -26,6 +26,11 @@ python examples/census_income_mmoe/census_income_mmoe_exp.py
 python examples/adult_widedeep/adult_widedeep_exp.py
 ```
 
+- `Experiment Results Analysis`
+
+![avatar](./examples/adult_widedeep/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss/WideDeep_Adult_Experiment.png)
+
+
 - [README](./examples/adult_widedeep/README.md)
 
 

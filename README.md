@@ -6,7 +6,7 @@
 
 ####  1. MMoE on Census Income
 
-- `MMoe on Census Income dataset`
+`MMoe on Census Income dataset`
 
 ```angular2html
 python examples/census_income_mmoe/census_income_mmoe_exp.py
@@ -20,7 +20,7 @@ python examples/census_income_mmoe/census_income_mmoe_exp.py
 
 #### 2. Wide&Deep on Adult 
 
-- `Wide&Deep on Adult`
+`Wide&Deep on Adult Dataset`
 
 ```angular2html
 python examples/adult_widedeep/adult_widedeep_exp.py
@@ -29,7 +29,7 @@ python examples/adult_widedeep/adult_widedeep_exp.py
 - [README](./examples/adult_widedeep/README.md)
 
 
-### SOTA solutions
+### SOTA Models
 
 - Multi-Task learning based
 

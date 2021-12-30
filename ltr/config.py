@@ -15,8 +15,8 @@ from logzero import logger
 
 # project path
 project_path = os.path.dirname(os.path.dirname(__file__))
-# dataset path
-dataset_path = os.path.join(project_path, 'dataset')
+# data path
+dataset_path = os.path.join(project_path, 'data')
 
 # logger
 log_path = os.path.join(project_path, 'logs')

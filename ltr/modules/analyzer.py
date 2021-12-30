@@ -26,6 +26,40 @@ class ExperimentAnalyzer(metaclass=ABCMeta):
         raise NotImplementedError
 
 
+class SingleTaskExpAnalyzer(ExperimentAnalyzer):
+    ''' Analysis the Single task Experiment '''
+
+    def __init__(self, stats_file):
+        super(SingleTaskExpAnalyzer, self).__init__(stats_file)
+
+    def analysis_task_metric(self, epoch_metrics):
+        eval_metrics = {}
+        for epoch_metric in epoch_metrics:
+                for metric in epoch_metric:
+                    if metric not in eval_metrics:
+                        eval_metrics[metric] = []
+                    eval_metrics[metric].append(epoch_metric[metric])
+        return list(eval_metrics.values()), list(eval_metrics.keys())
+
+    def analysis_experiment(self, exp_result_dir, title):
+        # load experiment statistics
+        evals, eval_metric_names = self.analysis_task_metric(self.statistics['Test Metrics'].apply(eval))
+
+        loss = (self.statistics['Train Loss'], self.statistics['Valid Loss'], self.statistics['Test Loss'])
+        loss_metric_names = ("Train Loss", 'Valid Loss', 'Test Loss')
+
+        draw_twin_lines_chart(title=title, \
+                              x_axis=self.statistics['Epoch'], \
+                              ax1_yticks=evals, \
+                              ax1_metrics=eval_metric_names, \
+                              ax2_yticks=loss, \
+                              ax2_metrics=loss_metric_names, \
+                              xlabel='Epochs', \
+                              ax1_ylabel='Eval Metric', \
+                              ax2_ylabel='Loss', \
+                              save_path=exp_result_dir)
+
+
 class MultiTaskExpAnalyzer(ExperimentAnalyzer):
     ''' Analysis the Multi task Experiment '''
 

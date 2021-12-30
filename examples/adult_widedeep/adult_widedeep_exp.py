@@ -14,21 +14,49 @@ from ltr.modules.utils import parse_parmas
 from ltr.data_loaders import create_dataloaders
 from ltr.models import WideDeep
 from ltr.trainers.base_trainer import Trainer
-from ltr.modules.analyzer import ExperimentAnalyzer
+from ltr.modules.analyzer import SingleTaskExpAnalyzer
 
 
 def train_widedeep_with_adult(HYPERS):
-    # 1. load adult dataset
-    (train_loader, val_loader, test_loader), data_converter = create_dataloaders(dataset='Adult',
-                                                                                 batch_size=HYPERS['Batch'])
-    logger.info(" Adult dataset loaded")
+    # 1. load adult data
 
-    # 2. prepare MMoE model
+    #wide model cross product features
+    crossed_cols = [("education", "occupation"),("native_country", "occupation")]
+    #wide model used featuers
+    wide_cols = [
+        "age_buckets",
+        "education",
+        "relationship",
+        "workclass",
+        "occupation",
+        "native_country",
+        "gender",
+    ]
+
+    #deep model features
+    continuous_cols = ["age", "hours_per_week"]
+    #deep model category embedding features
+    cat_embed_cols = [
+        "education",
+        "relationship",
+        "workclass",
+        "occupation",
+        "native_country",
+    ]
+    (train_loader, val_loader, test_loader), data_converter,info = create_dataloaders(dataset='Adult',
+                                                                                 batch_size=HYPERS['Batch'],
+                                                                                 wide_cols = wide_cols,
+                                                                                 crossed_cols=crossed_cols,
+                                                                                 continuous_cols = continuous_cols,
+                                                                                 cat_embed_cols= cat_embed_cols)
+    logger.info(" Adult data loaded")
+
+    # 2. prepare Wide&Deep model
     widedeep = WideDeep(
-        wide_dim=805,
         pred_dim=1,
-        deep_hidden_dims=[805, 1024, 512, 256, 1],
+        deep_hidden_dims=[1024, 512, 256,1],
         deep_dropouts=[0.3, 0.3, 0.3, 0.3, 0.3],
+        **info
     )
     logger.info(" Wide&Deep initialized ")
 
@@ -42,21 +70,20 @@ def train_widedeep_with_adult(HYPERS):
         HYPERS=HYPERS,
     )
     epoch_stats_file = trainer.fit()
-    # epoch_stats_file = os.path.join(project_path,'examples/census_income_mmoe/results/Model_LR1e-05_Batch64_LossBCELoss/Epoch_Statstics_Time20211226_1657.csv')
 
-    # 4. trained mmoe model analysis using MultiTaskExpAnalyzer
+    # 4. trained wide deep model analysis using ExperimentAnalyzer
     cur_dir = os.path.dirname(__file__)
-    analyzer = ExperimentAnalyzer(os.path.join(cur_dir, epoch_stats_file))
+    analyzer = SingleTaskExpAnalyzer(os.path.join(cur_dir, epoch_stats_file))
     analyzer.analysis_experiment(exp_result_dir=trainer.exp_result_dir, title='WideDeep_Adult_Experiment')
 
-
 if __name__ == '__main__':
-    logger.info(" Start train Wide&Deep on Adult dataset ")
+    logger.info(" Start train Wide&Deep on Adult data ")
     HYPERS = parse_parmas()
 
-    HYPERS['Epochs'] = 2
+    HYPERS['Epochs'] = 100
     HYPERS['LearningRate'] = 1e-3
     HYPERS['Batch'] = 256
     HYPERS['Save_Model'] = False
+    HYPERS['Criterion']='BCEWithLogitsLoss'
 
     train_widedeep_with_adult(HYPERS)

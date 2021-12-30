@@ -173,6 +173,18 @@ class Trainer():
         )
         return epoch_stats_file
 
+    def tensor_to_device(self,tensors):
+        if torch.cuda.is_available():
+            if isinstance(tensors,torch.Tensor):
+                return tensors.to(self.device)
+            elif isinstance(tensors,list):
+                return [tensor.to(self.device) for tensor in tensors]
+            elif isinstance(tensors,dict):
+                return {
+                    key:val.to(self.device) for key,val in tensors.items()
+                }
+        return tensors
+
     def train(self, epoch):
         ''' train process '''
         total_train_loss = 0
@@ -188,10 +200,8 @@ class Trainer():
             # convert data to task-specific format
             inputs = self.data_converter(inputs)
 
-            # inputs = [t.to(self.device) for t in inputs.tens
-            inputs = inputs.to(self.device)
-
-            labels = labels.to(self.device)
+            inputs = self.tensor_to_device(inputs)
+            labels = self.tensor_to_device(labels)
 
             outputs = self.model(inputs)
 
@@ -223,8 +233,8 @@ class Trainer():
             inputs = self.data_converter(inputs)
             # inputs = [t.to(self.device) for t in inputs]
 
-            inputs = inputs.to(self.device)
-            labels = labels.to(self.device)
+            inputs = self.tensor_to_device(inputs)
+            labels = self.tensor_to_device(labels)
 
             # no gradients
             with torch.no_grad():
@@ -255,15 +265,16 @@ class Trainer():
 
     def calc_metrics(self, predict_labels, target_labels, metrics):
         ''' calc metrics for single task, can be override '''
-        target_labels = torch.cat(target_labels, dim=0)
-        predict_labels = torch.cat(predict_labels, dim=0)
+        # target_labels = torch.cat(target_labels, dim=0)
+        # predict_labels = torch.cat(predict_labels, dim=0)
+
         eval_metrics = {}
         for metric_name, metric in metrics.items():
             eval_metrics[metric_name] = metric(target_labels, predict_labels)
         return eval_metrics
 
     def transform_result(self, result):
-        return result
+        return np.hstack(result)
 
     def report_metrics(self, metrics_results):
         ''' report the eval and test metrics '''
@@ -275,11 +286,14 @@ class Trainer():
         # move logits and labels to GPU
         logits = outputs.detach().cpu().numpy()
         label_ids = labels.to("cpu")
-        y_pred = np.argmax(logits, axis=1).flatten()
+        #y_pred = np.argmax(logits, axis=1).flatten()
+        y_pred = np.int64(logits>0.5).squeeze() #默认为二分类问题，大于0.5则为1，否则为0
         return y_pred, label_ids
 
     def calc_loss(self, outputs, labels):
         '''single task loss calculation, can be override'''
+        labels = labels.view(-1,1)#tranform [batch_size] to [batch_size X 1]
+        labels = labels.to(torch.float32)
         batch_loss = self.criterion(outputs, labels)
         return batch_loss
 

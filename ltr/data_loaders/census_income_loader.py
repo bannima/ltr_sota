@@ -45,21 +45,21 @@ def to_categorical(y, num_classes=None, dtype='float32'):
 
 
 class CensusIncomeLoader(BaseLoader):
-    ''' Census Income dataset loader generator '''
+    ''' Census Income data loader generator '''
 
     def __init__(self, batch_size):
         self.batch_size = batch_size
-        self.dataset_path = os.path.join(project_path, 'dataset/census-income')
+        self.dataset_path = os.path.join(project_path, 'data/census-income')
         self.type = type
         if not os.path.exists(self.dataset_path):
             raise ValueError("Dataset path not exist: {} ".format(self.dataset_path))
 
         self.train_data, self.train_label, self.validation_data, self.validation_label, self.test_data, self.test_label, self.output_info = self.do_preparation()
         self._train_loader, self._validation_loader, self._test_loader = None, None, None
-        logger.info(" census income dataset preprocessed ")
+        logger.info(" census income data preprocessed ")
 
     def do_preparation(self):
-        logger.info("### Warning prepeocess census income dataset")
+        logger.info("### Warning prepeocess census income data")
         train_file = os.path.join(self.dataset_path, 'census-income.data.gz')
         test_file = os.path.join(self.dataset_path, 'census-income.test.gz')
         column_names = ['age', 'class_worker', 'det_ind_code', 'det_occ_code', 'education', 'wage_per_hour',
@@ -72,7 +72,7 @@ class CensusIncomeLoader(BaseLoader):
                         'num_emp', 'fam_under_18', 'country_father', 'country_mother', 'country_self', 'citizenship',
                         'own_or_self', 'vet_question', 'vet_benefits', 'weeks_worked', 'year', 'income_50k']
 
-        # Load the dataset in Pandas
+        # Load the data in Pandas
         train_df = pd.read_csv(
             train_file,
             delimiter=',',
@@ -87,7 +87,7 @@ class CensusIncomeLoader(BaseLoader):
             index_col=None,
             names=column_names
         )
-        # preprocess dataset
+        # preprocess data
         # First group of tasks according to the paper
         label_columns = ['income_50k', 'marital_stat']
 
@@ -129,7 +129,7 @@ class CensusIncomeLoader(BaseLoader):
         }
         output_info = [(dict_outputs[key], key) for key in sorted(dict_outputs.keys())]
 
-        # Split the other dataset into 1:1 validation to test according to the paper
+        # Split the other data into 1:1 validation to test according to the paper
         validation_indices = transformed_other.sample(frac=0.5, replace=False, random_state=SEED).index
         test_indices = list(set(transformed_other.index) - set(validation_indices))
         validation_data = transformed_other.iloc[validation_indices]

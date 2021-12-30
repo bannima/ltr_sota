@@ -9,7 +9,26 @@
 @desc: 
 """
 import torch
+import torch.nn as nn
 from torch.utils.data import TensorDataset
+
+def get_activation(activation):
+    if activation =='relu':
+        return nn.ReLU(inplace=True)
+    elif activation=='leaky_relu':
+        return nn.LeakyReLU(inplace=True)
+    elif activation=='tanh':
+        return nn.Tanh()
+    elif activation=='gelu':
+        return nn.GELU()
+    elif activation=='geglu':
+        return nn.GEGLU()
+    elif activation=='reglu':
+        return nn.REGLU()
+    elif activation=='softplus':
+        return nn.Softplus()
+    else:
+        raise ValueError("{} activation not recognized".format(activation))
 
 
 def convert_to_bert_batch_data(data, tokenizer, max_length):

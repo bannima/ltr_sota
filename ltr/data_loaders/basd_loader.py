@@ -34,4 +34,7 @@ class BaseLoader(metaclass=ABCMeta):
         ''' do nothing '''
         return inputs
 
-
+    @property
+    def info(self):
+        ''' return dataset information where model init needs '''
+        return None

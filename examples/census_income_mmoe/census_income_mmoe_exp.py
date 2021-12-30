@@ -18,10 +18,10 @@ from ltr.models import MMoE
 
 
 def train_mmoe_with_censusincome(HYPERS):
-    # 1. load census income dataset
-    (train_loader, val_loader, test_loader), data_converter = create_dataloaders(dataset='CensusIncome',
+    # 1. load census income data
+    (train_loader, val_loader, test_loader), data_converter,info = create_dataloaders(dataset='CensusIncome',
                                                                                  batch_size=HYPERS['Batch'])
-    logger.info(" census income dataset loaded")
+    logger.info(" census income data loaded")
 
     # 2. prepare MMoE model
     mmoe = MMoE(
@@ -55,7 +55,7 @@ def train_mmoe_with_censusincome(HYPERS):
 
 
 if __name__ == '__main__':
-    logger.info(" Start train MMoE on census income dataset ")
+    logger.info(" Start train MMoE on census income data ")
     HYPERS = parse_parmas()
 
     HYPERS['Epochs'] = 80

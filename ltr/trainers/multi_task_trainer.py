@@ -9,7 +9,7 @@
 @desc: 
 """
 import numpy as np
-
+import pandas as pd
 from ltr.config import logger
 from ltr.trainers.base_trainer import Trainer
 
@@ -51,8 +51,9 @@ class MultiTaskTrainer(Trainer):
         label_ids = [list(np.argmax(labels[:, i, :], axis=1).numpy()) for i in range(self.num_tasks)]
         return y_pred, label_ids
 
-    def calc_metrics(self, predict_label, target_label, metrics):
+    def calc_metrics(self, predict_label, target_label, metrics,group_ids=None):
         ''' calc metrics for multi task situation '''
+
         eval_metrics = {}
         for task in range(self.num_tasks):
             eval_metrics[task] = {}

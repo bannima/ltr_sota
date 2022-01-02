@@ -8,3 +8,13 @@
 @time: 2021/12/22 10:28 AM
 @desc: 
 """
+
+from .base_trainer import Trainer
+from .ltr_trainer import LtrTrainer
+from .multi_task_trainer import MultiTaskTrainer
+
+__all__ = [
+    'Trainer',
+    'ltr_trainer',
+    'MultiTaskTrainer'
+]

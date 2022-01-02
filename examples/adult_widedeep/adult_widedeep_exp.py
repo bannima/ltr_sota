@@ -15,6 +15,7 @@ from ltr.data_loaders import create_dataloaders
 from ltr.models import WideDeep
 from ltr.trainers.base_trainer import Trainer
 from ltr.modules.analyzer import SingleTaskExpAnalyzer
+from sklearn.metrics import ndcg_score
 
 
 def train_widedeep_with_adult(HYPERS):

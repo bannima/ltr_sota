@@ -228,6 +228,7 @@ class Trainer():
         epoch_loss = 0
         predict_label = []
         target_label = []
+        group_ids = []
         for batch in tqdm(loader, desc='{} for epoch {}'.format(type, epoch), unit="batch"):
             inputs, labels = batch
             inputs = self.data_converter(inputs)
@@ -235,6 +236,10 @@ class Trainer():
 
             inputs = self.tensor_to_device(inputs)
             labels = self.tensor_to_device(labels)
+
+            #group ids for group specific metric like ndcg in ltr
+            if inputs.get("group_id") is not None:
+                group_ids += inputs['group_id']
 
             # no gradients
             with torch.no_grad():
@@ -253,7 +258,7 @@ class Trainer():
         predict_label = self.transform_result(predict_label)
         target_label = self.transform_result(target_label)
 
-        eval_metrics = self.calc_metrics(predict_label, target_label, metrics)
+        eval_metrics = self.calc_metrics(predict_label, target_label, metrics,group_ids)
 
         self.report_metrics(eval_metrics)
 
@@ -263,10 +268,8 @@ class Trainer():
 
         return epoch_loss, eval_metrics
 
-    def calc_metrics(self, predict_labels, target_labels, metrics):
+    def calc_metrics(self, predict_labels, target_labels, metrics,group_ids=None):
         ''' calc metrics for single task, can be override '''
-        # target_labels = torch.cat(target_labels, dim=0)
-        # predict_labels = torch.cat(predict_labels, dim=0)
 
         eval_metrics = {}
         for metric_name, metric in metrics.items():

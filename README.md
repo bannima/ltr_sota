@@ -46,7 +46,7 @@ python examples/adult_widedeep/adult_widedeep_exp.py
 
 ### Datasets
 
-- [Census-Income (KDD) Data Set](http://archive.ics.uci.edu/ml/datasets/Census-Income+(KDD))
+- [Census-Income Data Set](http://archive.ics.uci.edu/ml/datasets/Census-Income+(KDD))
 
 - [Adult Data Set](https://archive.ics.uci.edu/ml/datasets/adult)
 

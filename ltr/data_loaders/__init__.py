@@ -10,6 +10,7 @@
 """
 from ltr.data_loaders.census_income_loader import CensusIncomeLoader
 from ltr.data_loaders.adult_loader import AdultLoader
+from ltr.data_loaders.adult_deepcross_loader import AdultDeepCrossLoader
 
 __registered_dataloaders = {
     'CensusIncome': {
@@ -19,6 +20,10 @@ __registered_dataloaders = {
     'Adult':{
         'cls':AdultLoader,
         'intro':'Adult Dataset'
+    },
+    'Adult_DeepCross':{
+        'cls':AdultDeepCrossLoader,
+        'intro':'Adult Dataset for Deep&Cross Loader'
     }
 }
 

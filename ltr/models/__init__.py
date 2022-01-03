@@ -11,8 +11,10 @@
 
 from ltr.models.mmoe import MMoE
 from ltr.models.wide_deep import WideDeep
+from ltr.models.deep_cross import DeepCross
 
 __all__ = [
     'MMoE',
-    'WideDeep'
+    'WideDeep',
+    'DeepCross'
 ]

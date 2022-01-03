@@ -10,9 +10,9 @@
 """
 
 from functools import partial
-
 from sklearn.metrics import f1_score, precision_score, accuracy_score, roc_auc_score
 from sklearn.metrics import ndcg_score
+from sklearn.metrics import average_precision_score
 
 __registered_metrics = {
     'multi_label': {
@@ -22,7 +22,13 @@ __registered_metrics = {
         'Samples F1': partial(f1_score, average='samples')
     },
     'rank': {
-        'ndcg': ndcg_score
+        'ndcg@1': partial(ndcg_score,k=1),
+        'ndcg@3': partial(ndcg_score, k=3),
+        'ndcg@5': partial(ndcg_score, k=5),
+        'ndcg@10': partial(ndcg_score, k=10),
+        'ndcg@20': partial(ndcg_score, k=20),
+        'ndcg@30': partial(ndcg_score, k=30),
+        'ndcg@50': partial(ndcg_score, k=50)
     },
     'classification': {
         'f1': f1_score,

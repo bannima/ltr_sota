@@ -59,6 +59,7 @@ class LtrTrainer(Trainer):
             for metric_name,metric in metrics.items():
                 if metric_name not in eval_metrics:
                     eval_metrics[metric_name] = []
+                #note must in (y_true,y_predict) order for ndcg
                 eval_metrics[metric_name].append(metric(group['predict_label'],group['target_label']))
 
         return {key:np.mean(val) for key,val in eval_metrics.items()}

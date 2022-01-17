@@ -1,0 +1,287 @@
+[I 220114 16:05:45 adult_deepcross_exp:79]  Start train Deep&Cross on Adult data 
+[I 220114 16:06:02 adult_deepcross_exp:79]  Start train Deep&Cross on Adult data 
+[I 220114 16:06:02 adult_deepcross_loader:118] adult data processed 
+[I 220114 16:06:02 adult_deepcross_exp:60]  Wide&Deep initialized 
+[I 220114 16:06:02 base_trainer:90] Using CPU ... 
+[I 220114 16:06:02 base_trainer:115] # Training for epoch: 1 
+[I 220114 16:06:03 base_trainer:123]  # Train loss for epoch:1 is nan 
+[I 220114 16:06:03 base_trainer:305]  Eval epoch 1
+[I 220114 16:06:03 base_trainer:285] f1: 0.0
+[I 220114 16:06:03 base_trainer:285] precision: 0.0
+[I 220114 16:06:03 base_trainer:285] accuracy: 0.7618289353958144
+[I 220114 16:06:03 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:03 base_trainer:134] # Valid loss for epoch 1 is nan 
+[I 220114 16:06:03 base_trainer:137]  # Valid f1 score for epoch 1 is 0.0
+[I 220114 16:06:03 base_trainer:137]  # Valid precision score for epoch 1 is 0.0
+[I 220114 16:06:03 base_trainer:137]  # Valid accuracy score for epoch 1 is 0.7618289353958144
+[I 220114 16:06:03 base_trainer:137]  # Valid roc_auc_score score for epoch 1 is 0.5
+[I 220114 16:06:03 base_trainer:312]  Test epoch 1
+[I 220114 16:06:03 base_trainer:285] f1: 0.0
+[I 220114 16:06:03 base_trainer:285] precision: 0.0
+[I 220114 16:06:03 base_trainer:285] accuracy: 0.7628936336160671
+[I 220114 16:06:03 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:03 base_trainer:345] Prediction Model_Epoch1_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_deepcross/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220114 16:06:03 base_trainer:143] # Test loss for epoch 1 is nan 
+[I 220114 16:06:03 base_trainer:146]  # Test f1 score for epoch 1 is 0.0
+[I 220114 16:06:03 base_trainer:146]  # Test precision score for epoch 1 is 0.0
+[I 220114 16:06:03 base_trainer:146]  # Test accuracy score for epoch 1 is 0.7628936336160671
+[I 220114 16:06:03 base_trainer:146]  # Test roc_auc_score score for epoch 1 is 0.5
+[I 220114 16:06:03 base_trainer:115] # Training for epoch: 2 
+[I 220114 16:06:04 base_trainer:123]  # Train loss for epoch:2 is nan 
+[I 220114 16:06:04 base_trainer:305]  Eval epoch 2
+[I 220114 16:06:04 base_trainer:285] f1: 0.0
+[I 220114 16:06:04 base_trainer:285] precision: 0.0
+[I 220114 16:06:04 base_trainer:285] accuracy: 0.7618289353958144
+[I 220114 16:06:04 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:04 base_trainer:134] # Valid loss for epoch 2 is nan 
+[I 220114 16:06:04 base_trainer:137]  # Valid f1 score for epoch 2 is 0.0
+[I 220114 16:06:04 base_trainer:137]  # Valid precision score for epoch 2 is 0.0
+[I 220114 16:06:04 base_trainer:137]  # Valid accuracy score for epoch 2 is 0.7618289353958144
+[I 220114 16:06:04 base_trainer:137]  # Valid roc_auc_score score for epoch 2 is 0.5
+[I 220114 16:06:04 base_trainer:312]  Test epoch 2
+[I 220114 16:06:04 base_trainer:285] f1: 0.0
+[I 220114 16:06:04 base_trainer:285] precision: 0.0
+[I 220114 16:06:04 base_trainer:285] accuracy: 0.7628936336160671
+[I 220114 16:06:04 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:04 base_trainer:345] Prediction Model_Epoch2_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_deepcross/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220114 16:06:04 base_trainer:143] # Test loss for epoch 2 is nan 
+[I 220114 16:06:04 base_trainer:146]  # Test f1 score for epoch 2 is 0.0
+[I 220114 16:06:04 base_trainer:146]  # Test precision score for epoch 2 is 0.0
+[I 220114 16:06:04 base_trainer:146]  # Test accuracy score for epoch 2 is 0.7628936336160671
+[I 220114 16:06:04 base_trainer:146]  # Test roc_auc_score score for epoch 2 is 0.5
+[I 220114 16:06:04 base_trainer:115] # Training for epoch: 3 
+[I 220114 16:06:05 base_trainer:123]  # Train loss for epoch:3 is nan 
+[I 220114 16:06:05 base_trainer:305]  Eval epoch 3
+[I 220114 16:06:05 base_trainer:285] f1: 0.0
+[I 220114 16:06:05 base_trainer:285] precision: 0.0
+[I 220114 16:06:05 base_trainer:285] accuracy: 0.7618289353958144
+[I 220114 16:06:05 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:05 base_trainer:134] # Valid loss for epoch 3 is nan 
+[I 220114 16:06:05 base_trainer:137]  # Valid f1 score for epoch 3 is 0.0
+[I 220114 16:06:05 base_trainer:137]  # Valid precision score for epoch 3 is 0.0
+[I 220114 16:06:05 base_trainer:137]  # Valid accuracy score for epoch 3 is 0.7618289353958144
+[I 220114 16:06:05 base_trainer:137]  # Valid roc_auc_score score for epoch 3 is 0.5
+[I 220114 16:06:05 base_trainer:312]  Test epoch 3
+[I 220114 16:06:05 base_trainer:285] f1: 0.0
+[I 220114 16:06:05 base_trainer:285] precision: 0.0
+[I 220114 16:06:05 base_trainer:285] accuracy: 0.7628936336160671
+[I 220114 16:06:05 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:05 base_trainer:345] Prediction Model_Epoch3_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_deepcross/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220114 16:06:05 base_trainer:143] # Test loss for epoch 3 is nan 
+[I 220114 16:06:05 base_trainer:146]  # Test f1 score for epoch 3 is 0.0
+[I 220114 16:06:05 base_trainer:146]  # Test precision score for epoch 3 is 0.0
+[I 220114 16:06:05 base_trainer:146]  # Test accuracy score for epoch 3 is 0.7628936336160671
+[I 220114 16:06:05 base_trainer:146]  # Test roc_auc_score score for epoch 3 is 0.5
+[I 220114 16:06:05 base_trainer:115] # Training for epoch: 4 
+[I 220114 16:06:06 base_trainer:123]  # Train loss for epoch:4 is nan 
+[I 220114 16:06:06 base_trainer:305]  Eval epoch 4
+[I 220114 16:06:06 base_trainer:285] f1: 0.0
+[I 220114 16:06:06 base_trainer:285] precision: 0.0
+[I 220114 16:06:06 base_trainer:285] accuracy: 0.7618289353958144
+[I 220114 16:06:06 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:06 base_trainer:134] # Valid loss for epoch 4 is nan 
+[I 220114 16:06:06 base_trainer:137]  # Valid f1 score for epoch 4 is 0.0
+[I 220114 16:06:06 base_trainer:137]  # Valid precision score for epoch 4 is 0.0
+[I 220114 16:06:06 base_trainer:137]  # Valid accuracy score for epoch 4 is 0.7618289353958144
+[I 220114 16:06:06 base_trainer:137]  # Valid roc_auc_score score for epoch 4 is 0.5
+[I 220114 16:06:06 base_trainer:312]  Test epoch 4
+[I 220114 16:06:06 base_trainer:285] f1: 0.0
+[I 220114 16:06:06 base_trainer:285] precision: 0.0
+[I 220114 16:06:06 base_trainer:285] accuracy: 0.7628936336160671
+[I 220114 16:06:06 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:07 base_trainer:345] Prediction Model_Epoch4_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_deepcross/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220114 16:06:07 base_trainer:143] # Test loss for epoch 4 is nan 
+[I 220114 16:06:07 base_trainer:146]  # Test f1 score for epoch 4 is 0.0
+[I 220114 16:06:07 base_trainer:146]  # Test precision score for epoch 4 is 0.0
+[I 220114 16:06:07 base_trainer:146]  # Test accuracy score for epoch 4 is 0.7628936336160671
+[I 220114 16:06:07 base_trainer:146]  # Test roc_auc_score score for epoch 4 is 0.5
+[I 220114 16:06:07 base_trainer:115] # Training for epoch: 5 
+[I 220114 16:06:07 base_trainer:123]  # Train loss for epoch:5 is nan 
+[I 220114 16:06:07 base_trainer:305]  Eval epoch 5
+[I 220114 16:06:07 base_trainer:285] f1: 0.0
+[I 220114 16:06:07 base_trainer:285] precision: 0.0
+[I 220114 16:06:07 base_trainer:285] accuracy: 0.7618289353958144
+[I 220114 16:06:07 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:07 base_trainer:134] # Valid loss for epoch 5 is nan 
+[I 220114 16:06:07 base_trainer:137]  # Valid f1 score for epoch 5 is 0.0
+[I 220114 16:06:07 base_trainer:137]  # Valid precision score for epoch 5 is 0.0
+[I 220114 16:06:07 base_trainer:137]  # Valid accuracy score for epoch 5 is 0.7618289353958144
+[I 220114 16:06:07 base_trainer:137]  # Valid roc_auc_score score for epoch 5 is 0.5
+[I 220114 16:06:07 base_trainer:312]  Test epoch 5
+[I 220114 16:06:08 base_trainer:285] f1: 0.0
+[I 220114 16:06:08 base_trainer:285] precision: 0.0
+[I 220114 16:06:08 base_trainer:285] accuracy: 0.7628936336160671
+[I 220114 16:06:08 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:08 base_trainer:345] Prediction Model_Epoch5_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_deepcross/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220114 16:06:08 base_trainer:143] # Test loss for epoch 5 is nan 
+[I 220114 16:06:08 base_trainer:146]  # Test f1 score for epoch 5 is 0.0
+[I 220114 16:06:08 base_trainer:146]  # Test precision score for epoch 5 is 0.0
+[I 220114 16:06:08 base_trainer:146]  # Test accuracy score for epoch 5 is 0.7628936336160671
+[I 220114 16:06:08 base_trainer:146]  # Test roc_auc_score score for epoch 5 is 0.5
+[I 220114 16:06:08 base_trainer:115] # Training for epoch: 6 
+[I 220114 16:06:08 base_trainer:123]  # Train loss for epoch:6 is nan 
+[I 220114 16:06:08 base_trainer:305]  Eval epoch 6
+[I 220114 16:06:09 base_trainer:285] f1: 0.0
+[I 220114 16:06:09 base_trainer:285] precision: 0.0
+[I 220114 16:06:09 base_trainer:285] accuracy: 0.7618289353958144
+[I 220114 16:06:09 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:09 base_trainer:134] # Valid loss for epoch 6 is nan 
+[I 220114 16:06:09 base_trainer:137]  # Valid f1 score for epoch 6 is 0.0
+[I 220114 16:06:09 base_trainer:137]  # Valid precision score for epoch 6 is 0.0
+[I 220114 16:06:09 base_trainer:137]  # Valid accuracy score for epoch 6 is 0.7618289353958144
+[I 220114 16:06:09 base_trainer:137]  # Valid roc_auc_score score for epoch 6 is 0.5
+[I 220114 16:06:09 base_trainer:312]  Test epoch 6
+[I 220114 16:06:09 base_trainer:285] f1: 0.0
+[I 220114 16:06:09 base_trainer:285] precision: 0.0
+[I 220114 16:06:09 base_trainer:285] accuracy: 0.7628936336160671
+[I 220114 16:06:09 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:09 base_trainer:345] Prediction Model_Epoch6_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_deepcross/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220114 16:06:09 base_trainer:143] # Test loss for epoch 6 is nan 
+[I 220114 16:06:09 base_trainer:146]  # Test f1 score for epoch 6 is 0.0
+[I 220114 16:06:09 base_trainer:146]  # Test precision score for epoch 6 is 0.0
+[I 220114 16:06:09 base_trainer:146]  # Test accuracy score for epoch 6 is 0.7628936336160671
+[I 220114 16:06:09 base_trainer:146]  # Test roc_auc_score score for epoch 6 is 0.5
+[I 220114 16:06:09 base_trainer:115] # Training for epoch: 7 
+[I 220114 16:06:10 base_trainer:123]  # Train loss for epoch:7 is nan 
+[I 220114 16:06:10 base_trainer:305]  Eval epoch 7
+[I 220114 16:06:10 base_trainer:285] f1: 0.0
+[I 220114 16:06:10 base_trainer:285] precision: 0.0
+[I 220114 16:06:10 base_trainer:285] accuracy: 0.7618289353958144
+[I 220114 16:06:10 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:10 base_trainer:134] # Valid loss for epoch 7 is nan 
+[I 220114 16:06:10 base_trainer:137]  # Valid f1 score for epoch 7 is 0.0
+[I 220114 16:06:10 base_trainer:137]  # Valid precision score for epoch 7 is 0.0
+[I 220114 16:06:10 base_trainer:137]  # Valid accuracy score for epoch 7 is 0.7618289353958144
+[I 220114 16:06:10 base_trainer:137]  # Valid roc_auc_score score for epoch 7 is 0.5
+[I 220114 16:06:10 base_trainer:312]  Test epoch 7
+[I 220114 16:06:10 base_trainer:285] f1: 0.0
+[I 220114 16:06:10 base_trainer:285] precision: 0.0
+[I 220114 16:06:10 base_trainer:285] accuracy: 0.7628936336160671
+[I 220114 16:06:10 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:10 base_trainer:345] Prediction Model_Epoch7_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_deepcross/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220114 16:06:10 base_trainer:143] # Test loss for epoch 7 is nan 
+[I 220114 16:06:10 base_trainer:146]  # Test f1 score for epoch 7 is 0.0
+[I 220114 16:06:10 base_trainer:146]  # Test precision score for epoch 7 is 0.0
+[I 220114 16:06:10 base_trainer:146]  # Test accuracy score for epoch 7 is 0.7628936336160671
+[I 220114 16:06:10 base_trainer:146]  # Test roc_auc_score score for epoch 7 is 0.5
+[I 220114 16:06:10 base_trainer:115] # Training for epoch: 8 
+[I 220114 16:06:11 base_trainer:123]  # Train loss for epoch:8 is nan 
+[I 220114 16:06:11 base_trainer:305]  Eval epoch 8
+[I 220114 16:06:11 base_trainer:285] f1: 0.0
+[I 220114 16:06:11 base_trainer:285] precision: 0.0
+[I 220114 16:06:11 base_trainer:285] accuracy: 0.7618289353958144
+[I 220114 16:06:11 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:11 base_trainer:134] # Valid loss for epoch 8 is nan 
+[I 220114 16:06:11 base_trainer:137]  # Valid f1 score for epoch 8 is 0.0
+[I 220114 16:06:11 base_trainer:137]  # Valid precision score for epoch 8 is 0.0
+[I 220114 16:06:11 base_trainer:137]  # Valid accuracy score for epoch 8 is 0.7618289353958144
+[I 220114 16:06:11 base_trainer:137]  # Valid roc_auc_score score for epoch 8 is 0.5
+[I 220114 16:06:11 base_trainer:312]  Test epoch 8
+[I 220114 16:06:11 base_trainer:285] f1: 0.0
+[I 220114 16:06:11 base_trainer:285] precision: 0.0
+[I 220114 16:06:11 base_trainer:285] accuracy: 0.7628936336160671
+[I 220114 16:06:11 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:11 base_trainer:345] Prediction Model_Epoch8_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_deepcross/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220114 16:06:11 base_trainer:143] # Test loss for epoch 8 is nan 
+[I 220114 16:06:11 base_trainer:146]  # Test f1 score for epoch 8 is 0.0
+[I 220114 16:06:11 base_trainer:146]  # Test precision score for epoch 8 is 0.0
+[I 220114 16:06:11 base_trainer:146]  # Test accuracy score for epoch 8 is 0.7628936336160671
+[I 220114 16:06:11 base_trainer:146]  # Test roc_auc_score score for epoch 8 is 0.5
+[I 220114 16:06:11 base_trainer:115] # Training for epoch: 9 
+[I 220114 16:06:12 base_trainer:123]  # Train loss for epoch:9 is nan 
+[I 220114 16:06:12 base_trainer:305]  Eval epoch 9
+[I 220114 16:06:12 base_trainer:285] f1: 0.0
+[I 220114 16:06:12 base_trainer:285] precision: 0.0
+[I 220114 16:06:12 base_trainer:285] accuracy: 0.7618289353958144
+[I 220114 16:06:12 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:12 base_trainer:134] # Valid loss for epoch 9 is nan 
+[I 220114 16:06:12 base_trainer:137]  # Valid f1 score for epoch 9 is 0.0
+[I 220114 16:06:12 base_trainer:137]  # Valid precision score for epoch 9 is 0.0
+[I 220114 16:06:12 base_trainer:137]  # Valid accuracy score for epoch 9 is 0.7618289353958144
+[I 220114 16:06:12 base_trainer:137]  # Valid roc_auc_score score for epoch 9 is 0.5
+[I 220114 16:06:12 base_trainer:312]  Test epoch 9
+[I 220114 16:06:12 base_trainer:285] f1: 0.0
+[I 220114 16:06:12 base_trainer:285] precision: 0.0
+[I 220114 16:06:12 base_trainer:285] accuracy: 0.7628936336160671
+[I 220114 16:06:12 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:12 base_trainer:345] Prediction Model_Epoch9_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_deepcross/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220114 16:06:12 base_trainer:143] # Test loss for epoch 9 is nan 
+[I 220114 16:06:12 base_trainer:146]  # Test f1 score for epoch 9 is 0.0
+[I 220114 16:06:12 base_trainer:146]  # Test precision score for epoch 9 is 0.0
+[I 220114 16:06:12 base_trainer:146]  # Test accuracy score for epoch 9 is 0.7628936336160671
+[I 220114 16:06:12 base_trainer:146]  # Test roc_auc_score score for epoch 9 is 0.5
+[I 220114 16:06:12 base_trainer:115] # Training for epoch: 10 
+[I 220114 16:06:13 base_trainer:123]  # Train loss for epoch:10 is nan 
+[I 220114 16:06:13 base_trainer:305]  Eval epoch 10
+[I 220114 16:06:13 base_trainer:285] f1: 0.0
+[I 220114 16:06:13 base_trainer:285] precision: 0.0
+[I 220114 16:06:13 base_trainer:285] accuracy: 0.7618289353958144
+[I 220114 16:06:13 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:13 base_trainer:134] # Valid loss for epoch 10 is nan 
+[I 220114 16:06:13 base_trainer:137]  # Valid f1 score for epoch 10 is 0.0
+[I 220114 16:06:13 base_trainer:137]  # Valid precision score for epoch 10 is 0.0
+[I 220114 16:06:13 base_trainer:137]  # Valid accuracy score for epoch 10 is 0.7618289353958144
+[I 220114 16:06:13 base_trainer:137]  # Valid roc_auc_score score for epoch 10 is 0.5
+[I 220114 16:06:13 base_trainer:312]  Test epoch 10
+[I 220114 16:06:13 base_trainer:285] f1: 0.0
+[I 220114 16:06:13 base_trainer:285] precision: 0.0
+[I 220114 16:06:13 base_trainer:285] accuracy: 0.7628936336160671
+[I 220114 16:06:13 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:13 base_trainer:345] Prediction Model_Epoch10_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_deepcross/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220114 16:06:13 base_trainer:143] # Test loss for epoch 10 is nan 
+[I 220114 16:06:13 base_trainer:146]  # Test f1 score for epoch 10 is 0.0
+[I 220114 16:06:13 base_trainer:146]  # Test precision score for epoch 10 is 0.0
+[I 220114 16:06:13 base_trainer:146]  # Test accuracy score for epoch 10 is 0.7628936336160671
+[I 220114 16:06:13 base_trainer:146]  # Test roc_auc_score score for epoch 10 is 0.5
+[I 220114 16:06:13 base_trainer:115] # Training for epoch: 11 
+[I 220114 16:06:14 base_trainer:123]  # Train loss for epoch:11 is nan 
+[I 220114 16:06:14 base_trainer:305]  Eval epoch 11
+[I 220114 16:06:14 base_trainer:285] f1: 0.0
+[I 220114 16:06:14 base_trainer:285] precision: 0.0
+[I 220114 16:06:14 base_trainer:285] accuracy: 0.7618289353958144
+[I 220114 16:06:14 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:14 base_trainer:134] # Valid loss for epoch 11 is nan 
+[I 220114 16:06:14 base_trainer:137]  # Valid f1 score for epoch 11 is 0.0
+[I 220114 16:06:14 base_trainer:137]  # Valid precision score for epoch 11 is 0.0
+[I 220114 16:06:14 base_trainer:137]  # Valid accuracy score for epoch 11 is 0.7618289353958144
+[I 220114 16:06:14 base_trainer:137]  # Valid roc_auc_score score for epoch 11 is 0.5
+[I 220114 16:06:14 base_trainer:312]  Test epoch 11
+[I 220114 16:06:14 base_trainer:285] f1: 0.0
+[I 220114 16:06:14 base_trainer:285] precision: 0.0
+[I 220114 16:06:14 base_trainer:285] accuracy: 0.7628936336160671
+[I 220114 16:06:14 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:14 base_trainer:345] Prediction Model_Epoch11_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_deepcross/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220114 16:06:14 base_trainer:143] # Test loss for epoch 11 is nan 
+[I 220114 16:06:14 base_trainer:146]  # Test f1 score for epoch 11 is 0.0
+[I 220114 16:06:14 base_trainer:146]  # Test precision score for epoch 11 is 0.0
+[I 220114 16:06:14 base_trainer:146]  # Test accuracy score for epoch 11 is 0.7628936336160671
+[I 220114 16:06:14 base_trainer:146]  # Test roc_auc_score score for epoch 11 is 0.5
+[I 220114 16:06:14 base_trainer:115] # Training for epoch: 12 
+[I 220114 16:06:15 base_trainer:123]  # Train loss for epoch:12 is nan 
+[I 220114 16:06:15 base_trainer:305]  Eval epoch 12
+[I 220114 16:06:15 base_trainer:285] f1: 0.0
+[I 220114 16:06:15 base_trainer:285] precision: 0.0
+[I 220114 16:06:15 base_trainer:285] accuracy: 0.7618289353958144
+[I 220114 16:06:15 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:15 base_trainer:134] # Valid loss for epoch 12 is nan 
+[I 220114 16:06:15 base_trainer:137]  # Valid f1 score for epoch 12 is 0.0
+[I 220114 16:06:15 base_trainer:137]  # Valid precision score for epoch 12 is 0.0
+[I 220114 16:06:15 base_trainer:137]  # Valid accuracy score for epoch 12 is 0.7618289353958144
+[I 220114 16:06:15 base_trainer:137]  # Valid roc_auc_score score for epoch 12 is 0.5
+[I 220114 16:06:15 base_trainer:312]  Test epoch 12
+[I 220114 16:06:15 base_trainer:285] f1: 0.0
+[I 220114 16:06:15 base_trainer:285] precision: 0.0
+[I 220114 16:06:15 base_trainer:285] accuracy: 0.7628936336160671
+[I 220114 16:06:15 base_trainer:285] roc_auc_score: 0.5
+[I 220114 16:06:16 base_trainer:345] Prediction Model_Epoch12_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_deepcross/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220114 16:06:16 base_trainer:143] # Test loss for epoch 12 is nan 
+[I 220114 16:06:16 base_trainer:146]  # Test f1 score for epoch 12 is 0.0
+[I 220114 16:06:16 base_trainer:146]  # Test precision score for epoch 12 is 0.0
+[I 220114 16:06:16 base_trainer:146]  # Test accuracy score for epoch 12 is 0.7628936336160671
+[I 220114 16:06:16 base_trainer:146]  # Test roc_auc_score score for epoch 12 is 0.5
+[I 220114 16:06:16 base_trainer:115] # Training for epoch: 13 
+[I 220114 16:07:39 adult_deepcross_exp:79]  Start train Deep&Cross on Adult data 
+[I 220115 21:02:14 adult_deepcross_loader:118] adult data processed 
+[I 220116 14:30:28 adult_deepcross_exp:60]  Wide&Deep initialized 
+[I 220116 14:30:32 base_trainer:90] Using CPU ... 
+[I 220116 15:17:19 base_trainer:115] # Training for epoch: 1 

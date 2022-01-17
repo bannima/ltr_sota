@@ -2,6 +2,68 @@
 
 `搜索排序解决方案汇总`
 
+### Architecture
+
+```angular2html
+├── data
+│   ├── adult
+│   └── census-income
+├── doc
+├── examples
+│   ├── __init__.py
+│   ├── adult_deepcross
+│   │   ├── README.md
+│   │   ├── __init__.py
+│   │   ├── adult_deepcross_exp.py
+│   ├── adult_widedeep
+│   │   ├── README.md
+│   │   ├── __init__.py
+│   │   ├── adult_widedeep_exp.py
+│   └── census_income_mmoe
+│       ├── README.md
+│       ├── __init__.py
+│       ├── census_income_mmoe_exp.py
+├── logs
+├── ltr
+│   ├── __init__.py
+│   ├── config.py
+│   ├── data_loaders
+│   │   ├── __init__.py
+|   │   ├── adult_deepcross_loader.py
+│   │   ├── adult_loader.py
+│   │   ├── basd_loader.py
+│   │   └── census_income_loader.py
+│   ├── datasets.py
+│   ├── features.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── deep_cross.py
+│   │   ├── din.py
+│   │   ├── layers
+│   │   │   ├── __init__.py
+│   │   │   ├── core.py
+│   │   │   ├── interaction.py
+│   │   │   └── sequence.py
+│   │   ├── mmoe.py
+│   │   └── wide_deep.py
+│   ├── modules
+│   │   ├── __init__.py
+│   │   ├── analyzer.py
+│   │   ├── criterions.py
+│   │   ├── data_utils.py
+│   │   ├── evaluation_metrics.py
+│   │   ├── utils.py
+│   │   └── visualizer.py
+│   ├── project_files
+│   └── trainers
+│       ├── __init__.py
+│       ├── base_trainer.py
+│       ├── ltr_trainer.py
+│       └── multi_task_trainer.py
+├── requirements.txt
+├── test
+```
+
 ### Examples
 
 ####  1. MMoE on Census Income
@@ -33,8 +95,20 @@ python examples/adult_widedeep/adult_widedeep_exp.py
 
 - [README](./examples/adult_widedeep/README.md)
 
+#### 3. Deep&Cross on Adult 
+`Deep&Cross on Adult Dataset`
 
-### SOTA Models
+```angular2html
+>>> python adult_deepcross_exp.py
+```
+- `Experiment Results Analysis`
+
+![avatar](./examples/adult_deepcross/results/Model_LR0.0005_Batch64_LossBCEWithLogitsLoss/DeepCross_Adult_Experiment.jpg)
+
+- [README](./examples/adult_deepcross/README.md)
+
+
+### LTR Models
 
 - Multi-Task learning based
 
@@ -42,7 +116,9 @@ python examples/adult_widedeep/adult_widedeep_exp.py
 
 - Deep Learning based
 
-  * [Wide & Deep]()
+  * [Wide & Deep](https://dl.acm.org/doi/10.1145/2988450.2988454)
+  
+  * [Deep & Cross](https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/1708.05123.pdf)
 
 ### Datasets
 
@@ -51,5 +127,8 @@ python examples/adult_widedeep/adult_widedeep_exp.py
 - [Adult Data Set](https://archive.ics.uci.edu/ml/datasets/adult)
 
 
+### Reference
 
+- [DeepCTR-Torch](https://github.com/shenweichen/DeepCTR-Torch)
 
+- [OpenMatch](https://github.com/thunlp/OpenMatch)

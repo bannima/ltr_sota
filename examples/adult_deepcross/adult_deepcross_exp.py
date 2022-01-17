@@ -73,16 +73,18 @@ def train_deepcorss_with_adult(HYPERS):
     # 4. trained wide deep model analysis using ExperimentAnalyzer
     cur_dir = os.path.dirname(__file__)
     analyzer = SingleTaskExpAnalyzer(os.path.join(cur_dir, epoch_stats_file))
-    analyzer.analysis_experiment(exp_result_dir=trainer.exp_result_dir, title='DeepCross_Adult_Experiment')
+    analyzer.analysis_experiment(exp_result_dir=trainer.exp_result_dir, title='DeepCross_Adult_Experiment.jpg')
 
 if __name__ == '__main__':
     logger.info(" Start train Deep&Cross on Adult data ")
     HYPERS = parse_parmas()
     HYPERS['Epochs'] = 100
-    HYPERS['LearningRate'] = 2e-5
+    HYPERS['LearningRate'] = 5e-4
     HYPERS['Batch'] = 64
     HYPERS['Save_Model'] = False
     HYPERS['Criterion']='BCEWithLogitsLoss'
+    HYPERS['save_test_preds'] = False
 
     train_deepcorss_with_adult(HYPERS)
+
 

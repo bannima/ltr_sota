@@ -14,7 +14,7 @@ import torch
 import numpy as np
 import pandas as pd
 from torch.utils.data import DataLoader,TensorDataset
-from sklearn.preprocessing import StandardScaler,LabelEncoder
+from sklearn.preprocessing import StandardScaler,LabelEncoder,MinMaxScaler
 from sklearn.utils import Bunch
 from torch.utils.data import Dataset
 from sklearn.model_selection import train_test_split
@@ -79,6 +79,7 @@ class AdultDeepCrossLoader(BaseLoader):
                  batch_size,
                  dense_cols, #dense feature columns
                  cat_embed_cols, # category embedding columns
+                 cont_feat_norm = True # normalize continuous features
                  ):
         super(AdultDeepCrossLoader, self).__init__(batch_size)
         self.adult_datapath = os.path.join(dataset_path,'adult')
@@ -87,6 +88,8 @@ class AdultDeepCrossLoader(BaseLoader):
         self.cat_embed_cols = cat_embed_cols
         #dense feature vectors
         self.dense_cols = dense_cols
+
+        self.cont_feat_norm = cont_feat_norm
 
         self._train_loader = None
         self._val_loader = None
@@ -103,6 +106,11 @@ class AdultDeepCrossLoader(BaseLoader):
         df["income_label"] = (df["income"].apply(lambda x: ">50K" in x)).astype(int)
         df.drop("income", axis=1, inplace=True)
         df.head()
+
+        #continuous feature normalization
+        if self.cont_feat_norm:
+            mms = MinMaxScaler(feature_range=(0,1))
+            df[self.dense_cols] = mms.fit_transform(df[self.dense_cols])
 
         target = "income_label"
         target = df[target].values

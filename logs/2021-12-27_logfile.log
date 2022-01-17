@@ -1,0 +1,8 @@
+[I 211227 20:24:59 census_income_mmoe_exp:58]  Start train MMoE on census income dataset 
+[I 211227 20:24:59 census_income_loader:61] ### Warning prepeocess census income dataset
+[I 211227 20:25:03 census_income_loader:58]  census income dataset preprocessed 
+[I 211227 20:25:03 census_income_mmoe_exp:24]  census income dataset loaded
+[I 211227 20:25:03 census_income_mmoe_exp:36]  mmoe initialized 
+[I 211227 20:25:03 base_trainer:90] Using CPU ... 
+[I 211227 20:25:03 base_trainer:115] # Training for epoch: 1 
+[I 211227 20:30:09 adult_widedeep_exp:57]  Start train Wide&Deep on Adult dataset 

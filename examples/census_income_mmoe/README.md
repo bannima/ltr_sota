@@ -4,7 +4,7 @@
 
 ### Train MMoE with Census Income Dataset
 
-` python census_income_mmoe_trainer.py `
+` >>> python census_income_mmoe_trainer.py `
 
 ### Experiment Results Analysis
 

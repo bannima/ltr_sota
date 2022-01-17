@@ -102,6 +102,9 @@ class MLP(nn.Module):
                             activation='relu',
                             dropout=dropouts[i-1])
             )
+        for name,tensor in self.mlp.named_parameters():
+            if 'weight' in name:
+                nn.init.normal_(tensor,mean=0,std=0.0001)
 
     def forward(self,x):
         #transform to category embed and continuous out

@@ -1,0 +1,17 @@
+[I 211228 11:23:36 adult_widedeep_exp:57]  Start train Wide&Deep on Adult dataset 
+[I 211228 17:17:25 adult_widedeep_exp:54]  Start train Wide&Deep on Adult dataset 
+[I 211228 17:17:26 adult_loader:72] adult data processed 
+[I 211228 17:17:26 adult_widedeep_exp:24]  Adult dataset loaded
+[I 211228 17:20:07 adult_widedeep_exp:54]  Start train Wide&Deep on Adult dataset 
+[I 211228 17:37:47 census_income_mmoe_exp:58]  Start train MMoE on census income dataset 
+[I 211228 17:37:47 census_income_loader:62] ### Warning prepeocess census income dataset
+[I 211228 17:37:52 census_income_loader:59]  census income dataset preprocessed 
+[I 211228 17:37:52 census_income_mmoe_exp:24]  census income dataset loaded
+[I 211228 17:37:52 census_income_mmoe_exp:36]  mmoe initialized 
+[I 211228 17:37:52 base_trainer:90] Using CPU ... 
+[I 211228 17:37:52 base_trainer:115] # Training for epoch: 1 
+[I 211228 17:38:45 census_income_mmoe_exp:58]  Start train MMoE on census income dataset 
+[I 211228 17:38:45 census_income_loader:62] ### Warning prepeocess census income dataset
+[I 211228 17:39:01 adult_widedeep_exp:54]  Start train Wide&Deep on Adult dataset 
+[I 211228 17:39:02 adult_loader:72] adult data processed 
+[I 211228 17:39:02 adult_widedeep_exp:24]  Adult dataset loaded

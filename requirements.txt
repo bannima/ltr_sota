@@ -6,3 +6,4 @@ tqdm
 logzero
 argparse
 pytorch-widedeep
+deepctr-torch

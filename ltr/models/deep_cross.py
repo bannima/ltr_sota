@@ -27,13 +27,15 @@ class CrossLayer(nn.Module):
         super(CrossLayer, self).__init__()
         self.act_func = get_activation(activation)
         self.dropout = nn.Dropout(dropout)
+        self.bn = nn.BatchNorm1d(layer_size,eps=1e-8)
 
-        self.weight = nn.Parameter(torch.empty(layer_size,1))
-        self.bias = nn.Parameter(torch.empty(layer_size,1))
+        self.weight = nn.Parameter(torch.zeros(layer_size,1))
+        #nn.init.normal_(self.weight, mean=0, std=0.0001)
+        self.bias = nn.Parameter(torch.zeros(layer_size,1))
 
     def forward(self,x):
-        x, x0 = x
-
+        x,x0 = x
+        x = self.bn(x)
         out = torch.bmm(x0.unsqueeze(dim=2),x.unsqueeze(dim=2).transpose(-1,-2))
         out = torch.matmul(out,self.weight)
         out.add_(self.bias)
@@ -59,9 +61,12 @@ class CrossNetwork(nn.Module):
                             activation='relu',
                             dropout=cross_dropouts[i])
             )
+        for name,tensor in self.cross.named_parameters():
+            if 'weight' in name:
+                nn.init.normal_(tensor,mean=0,std=0.0001)
 
     def forward(self, x):
-        x0 = x.detach()
+        x0 = x.clone()
         for cross_layer in self.cross:
             x = cross_layer([x,x0])
         return x
@@ -120,6 +125,10 @@ class MLP(nn.Module):
                             activation='relu',
                             dropout=dropouts[i-1])
             )
+
+        for name,tensor in self.mlp.named_parameters():
+            if 'weight' in name:
+                nn.init.normal_(tensor,mean=0,std=0.0001)
 
     def forward(self,x):
         #transform to category embed and continuous out

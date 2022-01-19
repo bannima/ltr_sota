@@ -13,6 +13,7 @@ import torch
 import torch.nn as nn
 import numpy as np
 from ltr.modules.data_utils import get_activation
+from ltr.models.layers.core import dense_layer
 
 class Wide(nn.Module):
     def __init__(self, wide_dim: int, pred_dim: int = 1):
@@ -38,13 +39,6 @@ class Wide(nn.Module):
         neuron(s)"""
         out = self.wide_linear(inputs.long()).sum(dim=1) + self.bias
         return out
-
-def dense_layer(input_size,output_size,activation,dropout):
-    ''' 生成dense layer '''
-    act_func = get_activation(activation)
-    linear = [nn.Linear(input_size,output_size),act_func,nn.Dropout(dropout)]
-    return nn.Sequential(*linear)
-
 
 class EmbAndConcat(nn.Module):
     ''' category embedding layer and concatenate layer for deep model'''

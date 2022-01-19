@@ -14,12 +14,7 @@ import torch
 import torch.nn as nn
 import numpy as np
 from ltr.modules.data_utils import get_activation
-
-def dense_layer(input_size,output_size,activation,dropout):
-    ''' 生成dense layer '''
-    act_func = get_activation(activation)
-    linear = [nn.Linear(input_size,output_size),act_func,nn.Dropout(dropout)]
-    return nn.Sequential(*linear)
+from ltr.models.layers.core import dense_layer
 
 class CrossLayer(nn.Module):
     ''' Cross Layer '''

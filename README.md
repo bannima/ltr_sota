@@ -107,6 +107,18 @@ python examples/adult_widedeep/adult_widedeep_exp.py
 
 - [README](./examples/adult_deepcross/README.md)
 
+#### 4. FM on Adult 
+`Factorization Machines on Adult Dataset`
+
+```angular2html
+>>> python adult_fm_exp.py
+```
+- `Experiment Results Analysis`
+
+![avatar](./examples/adult_fm/results/Model_LR0.0005_Batch128_LossBCEWithLogitsLoss/FM_Adult_Experiment.jpg)
+
+- [README](./examples/adult_fm/README.md)
+
 
 ### LTR Models
 
@@ -120,6 +132,8 @@ python examples/adult_widedeep/adult_widedeep_exp.py
   
   * [Deep & Cross](https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/1708.05123.pdf)
 
+  * [Factorization Machines](www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf)
+
 ### Datasets
 
 - [Census-Income Data Set](http://archive.ics.uci.edu/ml/datasets/Census-Income+(KDD))
@@ -130,5 +144,7 @@ python examples/adult_widedeep/adult_widedeep_exp.py
 ### Reference
 
 - [DeepCTR-Torch](https://github.com/shenweichen/DeepCTR-Torch)
+
+- [Pytorch-widedeep](https://github.com/jrzaurin/pytorch-widedeep)
 
 - [OpenMatch](https://github.com/thunlp/OpenMatch)

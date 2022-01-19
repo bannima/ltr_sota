@@ -116,7 +116,7 @@ class AdultDeepCrossLoader(BaseLoader):
         target = df[target].values
 
         self.prepare_deep = TabPreprocessor(
-            embed_cols=self.cat_embed_cols, continuous_cols=self.dense_cols  # type: ignore[arg-type]
+            embed_cols=self.cat_embed_cols, continuous_cols=self.dense_cols, auto_embed_dim=False,default_embed_dim=32 # type: ignore[arg-type]
         )
         x_deep = self.prepare_deep.fit_transform(df)
 

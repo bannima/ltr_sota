@@ -63,14 +63,12 @@ class EmbAndConcat(nn.Module):
 
 class MLP(nn.Module):
     ''' basic deep model '''
-    def __init__(self, hidden_dims, dropouts,deep_column_idx,deep_continuous_cols, deep_emb_inputs):
+    def __init__(self, hidden_dims, dropouts):
         super(MLP,self).__init__()
         assert isinstance(hidden_dims, list)
 
-        #category features embedding and concat
-        self.emb_cat = EmbAndConcat(deep_column_idx,deep_continuous_cols, deep_emb_inputs)
         #features should embedding first
-        self.hidden_dims = [self.emb_cat.out_dim]+hidden_dims
+        self.hidden_dims = hidden_dims
         self.mlp = nn.Sequential()
         for i in range(1,len(self.hidden_dims)):
             self.mlp.add_module(
@@ -85,10 +83,8 @@ class MLP(nn.Module):
                 nn.init.normal_(tensor,mean=0,std=0.0001)
 
     def forward(self,x):
-        #transform to category embed and continuous out
-        embed_outs,cont_outs = self.emb_cat(x)
-        outs = torch.cat([embed_outs, cont_outs], 1).to(torch.float32)
-        return self.mlp(outs)
+
+        return self.mlp(x)
 
 class LocalActivationUnit(nn.Module):
     """

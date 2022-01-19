@@ -12,10 +12,12 @@ from ltr.models.fm import FM
 from ltr.models.mmoe import MMoE
 from ltr.models.wide_deep import WideDeep
 from ltr.models.deep_cross import DeepCross
+from ltr.models.deep_fm import DeepFM
 
 __all__ = [
     'FM',
     'MMoE',
     'WideDeep',
-    'DeepCross'
+    'DeepCross',
+    'DeepFM'
 ]

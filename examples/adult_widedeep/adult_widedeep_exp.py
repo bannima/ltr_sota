@@ -81,8 +81,8 @@ if __name__ == '__main__':
     logger.info(" Start train Wide&Deep on Adult data ")
     HYPERS = parse_parmas()
 
-    HYPERS['Epochs'] = 100
-    HYPERS['LearningRate'] = 1e-3
+    HYPERS['Epochs'] = 10
+    HYPERS['LearningRate'] = 2e-3
     HYPERS['Batch'] = 256
     HYPERS['Save_Model'] = False
     HYPERS['Criterion']='BCEWithLogitsLoss'

@@ -74,3 +74,25 @@ class FMLayer(nn.Module):
         x2 = 0.5 * torch.sum((square_of_sum-sum_of_square),dim=-1,keepdim=True)
         x = x1 + x2
         return x
+
+class BiInteractionLayer(nn.Module):
+    """ Bi-Interaction Layer in Neural Factorization Machines """
+    def __init__(self):
+        super(BiInteractionLayer, self).__init__()
+
+    def forward(self,x):
+        """
+        Input Shape
+            - A 3D tensor with shape: ``(batch_size,feature_size,embedding_size)``
+
+        Output Shape
+            - 2D tensor with shape: ``(batch_size,embedding_size)``
+        """
+        square_of_sum = torch.pow(
+            torch.sum(x,dim=1,keepdim=True),2
+        )
+        sum_of_square = torch.sum(
+            torch.pow(x,2),dim=1,keepdim=True
+        )
+        x = 0.5*(square_of_sum-sum_of_square).squeeze(dim=1)
+        return x

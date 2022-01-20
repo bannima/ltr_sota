@@ -29,6 +29,7 @@ class FM(nn.Module):
         super(FM, self).__init__()
         self.emb_cat = EmbAndConcat(deep_column_idx,deep_continuous_cols, deep_emb_inputs)
 
+
         self.fm = FMLayer(self.emb_cat.out_dim,hidden_vector_dim)
 
     def forward(self, inputs):

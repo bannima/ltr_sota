@@ -61,6 +61,47 @@ class EmbAndConcat(nn.Module):
 
         return embed_outs,cont_outs
 
+
+class EmbeddingLayer(nn.Module):
+    ''' category embedding layer for deep model'''
+    def __init__(self,deep_column_idx, deep_continuous_cols, deep_emb_inputs,dropout=0.3):
+        super(EmbeddingLayer, self).__init__()
+        self.deep_column_idx = deep_column_idx
+        self.deep_continuous_cols = deep_continuous_cols
+        self.deep_emb_inputs = deep_emb_inputs
+        #init category features embedding
+        self.embed_layers = nn.ModuleDict(
+            {
+                "emb_layer_{}".format(col):nn.Embedding(val+1,dim,padding_idx=0)
+                for col,val,dim in self.deep_emb_inputs
+            }
+        )
+        self.embedding_dropout = nn.Dropout(dropout)
+        self.emb_out_dim = np.sum([embed[2] for embed in self.deep_emb_inputs])
+
+        #init continuous features
+        self.cont_out_dim = len(deep_continuous_cols)
+
+        self.out_dim = self.emb_out_dim +self.cont_out_dim
+
+        self.embedding_dim = self.deep_emb_inputs[0][2]
+
+    def forward(self,x):
+        ''' given deep input x, return the concat of category embedding layer '''
+        embed_outs = [
+            self.embed_layers['emb_layer_{}'.format(col)](x[:,self.deep_column_idx[col]].long())
+            for col,val,dim in self.deep_emb_inputs
+        ]
+        #concat by feat size dim
+        embed_outs = torch.stack(embed_outs,dim=1)
+        embed_outs = self.embedding_dropout(embed_outs)
+
+        #continuous featrues
+        #cont_outs = x[:,[self.deep_column_idx[col] for col in self.deep_continuous_cols]]
+
+        #return embed_outs,cont_outs
+        return embed_outs
+
 class MLP(nn.Module):
     ''' basic deep model '''
     def __init__(self, hidden_dims, dropouts):

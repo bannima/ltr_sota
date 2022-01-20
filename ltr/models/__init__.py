@@ -13,11 +13,13 @@ from ltr.models.mmoe import MMoE
 from ltr.models.wide_deep import WideDeep
 from ltr.models.deep_cross import DeepCross
 from ltr.models.deep_fm import DeepFM
+from ltr.models.nfm import NFM
 
 __all__ = [
     'FM',
     'MMoE',
     'WideDeep',
     'DeepCross',
-    'DeepFM'
+    'DeepFM',
+    'NFM'
 ]

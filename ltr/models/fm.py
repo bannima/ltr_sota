@@ -13,7 +13,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from ltr.models.layers.core import dense_layer,EmbAndConcat
+from ltr.models.layers.core import EmbAndConcat
 from ltr.models.layers.interaction import FMLayer
 
 

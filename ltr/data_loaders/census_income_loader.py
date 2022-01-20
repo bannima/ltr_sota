@@ -18,7 +18,7 @@ from torch.utils.data import DataLoader, TensorDataset
 
 from ltr.config import logger
 from ltr.config import project_path
-from ltr.data_loaders.basd_loader import BaseLoader
+from ltr.data_loaders.base_loader import BaseLoader
 
 SEED = 1
 

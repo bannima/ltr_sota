@@ -9,7 +9,6 @@
 @desc:  Implementation of 《 Deep & Cross Network for Ad Click Predictions 》
 """
 
-import math
 import torch
 import torch.nn as nn
 import numpy as np

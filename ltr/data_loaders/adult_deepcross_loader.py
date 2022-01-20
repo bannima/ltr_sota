@@ -22,7 +22,7 @@ from pytorch_widedeep.preprocessing import WidePreprocessor,TabPreprocessor
 
 from ltr.config import logger
 from ltr.config import dataset_path
-from ltr.data_loaders.basd_loader import BaseLoader
+from ltr.data_loaders.base_loader import BaseLoader
 
 def wd_train_test_split(x_deep,target,test_size=0.3,seed=2022):
     ''' split the deep dataset and return train,val,test set '''

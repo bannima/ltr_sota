@@ -4,7 +4,7 @@
 @version: 0.1
 @author: zhouenguo
 @license: Apache Licence
-@file: basd_loader.py
+@file: base_loader.py
 @time: 2021/12/28 5:11 PM
 @desc: 
 """

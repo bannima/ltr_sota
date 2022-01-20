@@ -10,10 +10,8 @@
 """
 import torch
 import torch.nn as nn
-import numpy as np
 from ltr.models.layers.interaction import FMLayer
-from ltr.modules.data_utils import get_activation
-from ltr.models.layers.core import dense_layer,MLP,EmbAndConcat
+from ltr.models.layers.core import MLP,EmbAndConcat
 
 
 class DeepFM(nn.Module):

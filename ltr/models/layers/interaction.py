@@ -10,6 +10,8 @@
 """
 import torch
 import torch.nn as nn
+from itertools import combinations
+import torch.nn.functional as F
 
 class FMLayer(nn.Module):
     """Factorization Machines
@@ -96,3 +98,61 @@ class BiInteractionLayer(nn.Module):
         )
         x = 0.5*(square_of_sum-sum_of_square).squeeze(dim=1)
         return x
+
+class AFMLayer(nn.Module):
+    """Attentional Factorization Machines Layer"""
+    def __init__(self,embedding_size,attention_factor=10,dropout=0.3):
+        super(AFMLayer, self).__init__()
+        self.attention_factor = attention_factor
+        self.dropout = nn.Dropout(dropout)
+
+        self.attention_W = nn.Parameter(
+            torch.Tensor(embedding_size,self.attention_factor)
+        )
+
+        self.attention_b = nn.Parameter(
+            torch.Tensor(self.attention_factor)
+        )
+
+        self.projection_h = nn.Parameter(torch.Tensor(self.attention_factor,1))
+
+        self.projection_p = nn.Parameter(torch.Tensor(embedding_size,1))
+
+        for tensor in [self.attention_W,self.projection_h,self.projection_p]:
+            nn.init.xavier_normal_(tensor)
+
+        for tensor in self.attention_b:
+            nn.init.zeros_(tensor)
+
+    def forward(self,x):
+        """
+        Input Shape
+            - A 3D tensor with shape: ``(batch_size,feature_size,embedding_size)``
+
+        Output Shape
+            - 2D tensor with shape: ``(batch_size,1)``
+        """
+        batch_size,feature_size,embedding_size = x.shape
+        p = []
+        q = []
+        #feature combinations
+        for i,j in combinations(list(range(feature_size)),2):
+            p.append(x[:,i,:])
+            q.append(x[:,j,:])
+        p = torch.stack(p,dim=1)
+        q = torch.stack(q,dim=1)
+        inter_product = torch.mul(p,q) # batch_size X combination_feature_size X embedding_size
+        attention_tmp = F.relu(
+            torch.tensordot(inter_product,self.attention_W,dims=([2],[0]))+self.attention_b
+        ) # batch_size X combination_feature_size X attention_factor
+        norm_attention_score = F.softmax(
+            torch.tensordot(attention_tmp,self.projection_h,dims=([2],[0])),dim=1
+        ) #batch_size X combination_feature_size X 1
+        attention_out = torch.sum(
+            norm_attention_score * inter_product,dim=1
+        )#batch_size,embedding_size
+        attention_out = self.dropout(attention_out)
+        #afm_out = torch.tensordot(attention_out,self.projection_p,dims=([1],[0]))
+        afm_out = torch.matmul(attention_out,self.projection_p)
+        return afm_out
+

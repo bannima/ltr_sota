@@ -16,7 +16,7 @@ import numpy as np
 import pandas as pd
 import torch
 import torch.nn as nn
-from tqdm import tqdm
+from tqdm import tqdm,trange
 from transformers import AdamW
 from transformers import get_linear_schedule_with_warmup
 
@@ -189,7 +189,8 @@ class Trainer():
         ''' train process '''
         total_train_loss = 0
         num_batchs = 0
-        for batch in tqdm(self.train_loader, desc=" Train for Epoch: {}".format(epoch), unit='batch'):
+
+        for batch in tqdm(self.train_loader, desc=" Train for Epoch: {}".format(epoch), unit='batch',colour='green'):
             num_batchs += 1
             # clear any previously calculated gradients before performing a backward pass
             self.model.zero_grad()

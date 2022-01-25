@@ -14,6 +14,7 @@ from ltr.models.wide_deep import WideDeep
 from ltr.models.deep_cross import DeepCross
 from ltr.models.deep_fm import DeepFM
 from ltr.models.nfm import NFM
+from ltr.models.afm import AFM
 
 __all__ = [
     'FM',
@@ -21,5 +22,6 @@ __all__ = [
     'WideDeep',
     'DeepCross',
     'DeepFM',
-    'NFM'
+    'NFM',
+    'AFM'
 ]

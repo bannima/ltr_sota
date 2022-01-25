@@ -12,6 +12,7 @@ import os
 
 import matplotlib
 import matplotlib.pyplot as plt
+from ltr.modules.utils import current_time
 
 # chinese font file
 font_file = os.path.join(os.path.dirname(__file__), 'project_file/HuaWenHeiTi-1.ttf')
@@ -59,5 +60,6 @@ def draw_twin_lines_chart(title, x_axis, ax1_yticks, ax1_metrics, ax2_yticks, ax
     plt.grid(ls='--')
     plt.title(title, color='black', fontsize='medium')
 
+    title = "{}_{}".format(title,str(current_time()))
     plt.savefig(os.path.join(save_path, title), type='jpg', dpi=600)
     plt.show()

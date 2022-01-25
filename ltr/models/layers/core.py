@@ -127,6 +127,15 @@ class MLP(nn.Module):
 
         return self.mlp(x)
 
+class AttentionLayer(nn.Module):
+    def __init__(self,input_size,hidden_size):
+        super(AttentionLayer, self).__init__()
+        self.att = nn.Parameter(torch.randn(input_size,hidden_size))
+        nn.init.normal_(self.att)
+
+    def forward(self,x):
+        return self.att(x)
+
 class LocalActivationUnit(nn.Module):
     """
     The Local Activation Unit used in DIN with the representation of user interets varies adaptively

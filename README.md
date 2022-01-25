@@ -76,9 +76,9 @@ python examples/census_income_mmoe/census_income_mmoe_exp.py
 
 - `Experiment Results Analysis`
 
-![avatar](./examples/census_income_mmoe/results/Model_LR0.0001_Batch1024_LossBCELoss/MMoE_CensusIncome_Experiment.png)
+![avatar](examples/censusincome_mmoe/results/Model_LR0.0001_Batch1024_LossBCELoss/MMoE_CensusIncome_Experiment.png)
 
-- [README](./examples/census_income_mmoe/README.md)
+- [README](examples/censusincome_mmoe/README.md)
 
 #### 2. Wide&Deep on Adult 
 

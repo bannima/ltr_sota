@@ -1,0 +1,1199 @@
+[I 220126 10:46:41 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 10:46:41 adult_deepcross_loader:126] adult data processed 
+[I 220126 10:47:17 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 10:47:17 adult_deepcross_loader:126] adult data processed 
+[I 220126 10:47:17 adult_ifm_exp:59]  IFM initialized 
+[I 220126 10:47:17 base_trainer:90] Using CPU ... 
+[I 220126 10:47:17 base_trainer:115] # Training for epoch: 1 
+[I 220126 10:47:40 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 10:47:41 adult_deepcross_loader:126] adult data processed 
+[I 220126 10:47:41 adult_ifm_exp:59]  IFM initialized 
+[I 220126 10:47:41 base_trainer:90] Using CPU ... 
+[I 220126 10:47:41 base_trainer:115] # Training for epoch: 1 
+[I 220126 10:48:13 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 10:48:13 adult_deepcross_loader:126] adult data processed 
+[I 220126 10:48:13 adult_ifm_exp:59]  IFM initialized 
+[I 220126 10:48:13 base_trainer:90] Using CPU ... 
+[I 220126 10:48:13 base_trainer:115] # Training for epoch: 1 
+[I 220126 10:48:22 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 10:48:23 adult_deepcross_loader:126] adult data processed 
+[I 220126 10:50:00 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 10:50:01 adult_deepcross_loader:126] adult data processed 
+[I 220126 10:50:01 adult_ifm_exp:59]  IFM initialized 
+[I 220126 10:50:01 base_trainer:90] Using CPU ... 
+[I 220126 10:50:01 base_trainer:115] # Training for epoch: 1 
+[I 220126 10:54:11 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 10:54:11 adult_deepcross_loader:126] adult data processed 
+[I 220126 10:54:11 adult_ifm_exp:59]  IFM initialized 
+[I 220126 10:54:11 base_trainer:90] Using CPU ... 
+[I 220126 10:54:11 base_trainer:115] # Training for epoch: 1 
+[I 220126 10:54:46 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 10:54:46 adult_deepcross_loader:126] adult data processed 
+[I 220126 10:54:46 adult_ifm_exp:59]  IFM initialized 
+[I 220126 10:54:46 base_trainer:90] Using CPU ... 
+[I 220126 10:54:46 base_trainer:115] # Training for epoch: 1 
+[I 220126 10:59:36 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 10:59:37 adult_deepcross_loader:126] adult data processed 
+[I 220126 10:59:37 adult_ifm_exp:59]  IFM initialized 
+[I 220126 10:59:37 base_trainer:90] Using CPU ... 
+[I 220126 10:59:37 base_trainer:115] # Training for epoch: 1 
+[I 220126 11:04:21 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 11:04:22 adult_deepcross_loader:126] adult data processed 
+[I 220126 11:04:22 adult_ifm_exp:59]  IFM initialized 
+[I 220126 11:04:22 base_trainer:90] Using CPU ... 
+[I 220126 11:04:22 base_trainer:115] # Training for epoch: 1 
+[I 220126 11:06:11 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 11:06:11 adult_deepcross_loader:126] adult data processed 
+[I 220126 11:06:17 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 11:06:17 adult_deepcross_loader:126] adult data processed 
+[I 220126 11:07:13 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 11:07:14 adult_deepcross_loader:126] adult data processed 
+[I 220126 11:07:14 adult_ifm_exp:59]  IFM initialized 
+[I 220126 11:07:14 base_trainer:90] Using CPU ... 
+[I 220126 11:07:14 base_trainer:115] # Training for epoch: 1 
+[I 220126 11:08:04 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 11:08:04 adult_deepcross_loader:126] adult data processed 
+[I 220126 11:08:04 adult_ifm_exp:59]  IFM initialized 
+[I 220126 11:08:04 base_trainer:90] Using CPU ... 
+[I 220126 11:08:04 base_trainer:115] # Training for epoch: 1 
+[I 220126 11:10:06 adult_fm_exp:76]  Start train Factorization Machines on Adult data 
+[I 220126 11:10:07 adult_deepcross_loader:126] adult data processed 
+[I 220126 11:10:07 adult_fm_exp:57]  Wide&Deep initialized 
+[I 220126 11:10:07 base_trainer:90] Using CPU ... 
+[I 220126 11:10:07 base_trainer:115] # Training for epoch: 1 
+[I 220126 11:13:59 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 11:13:59 adult_deepcross_loader:126] adult data processed 
+[I 220126 11:13:59 adult_ifm_exp:59]  IFM initialized 
+[I 220126 11:13:59 base_trainer:90] Using CPU ... 
+[I 220126 11:13:59 base_trainer:115] # Training for epoch: 1 
+[I 220126 11:14:37 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 11:14:38 adult_deepcross_loader:126] adult data processed 
+[I 220126 11:14:38 adult_ifm_exp:59]  IFM initialized 
+[I 220126 11:14:38 base_trainer:90] Using CPU ... 
+[I 220126 11:14:38 base_trainer:115] # Training for epoch: 1 
+[I 220126 11:14:44 base_trainer:123]  # Train loss for epoch:1 is 164.17274701595306 
+[I 220126 11:14:44 base_trainer:306]  Eval epoch 1
+[I 220126 11:14:44 base_trainer:286] f1: 0.3064687168610817
+[I 220126 11:14:44 base_trainer:286] precision: 0.21211009174311926
+[I 220126 11:14:44 base_trainer:286] accuracy: 0.4049135577797998
+[I 220126 11:14:44 base_trainer:286] roc_auc_score: 0.45548329727073583
+[I 220126 11:14:44 base_trainer:134] # Valid loss for epoch 1 is 18.779219269752502 
+[I 220126 11:14:44 base_trainer:137]  # Valid f1 score for epoch 1 is 0.3064687168610817
+[I 220126 11:14:44 base_trainer:137]  # Valid precision score for epoch 1 is 0.21211009174311926
+[I 220126 11:14:44 base_trainer:137]  # Valid accuracy score for epoch 1 is 0.4049135577797998
+[I 220126 11:14:44 base_trainer:137]  # Valid roc_auc_score score for epoch 1 is 0.45548329727073583
+[I 220126 11:14:44 base_trainer:313]  Test epoch 1
+[I 220126 11:14:45 base_trainer:286] f1: 0.30137614678899083
+[I 220126 11:14:45 base_trainer:286] precision: 0.20896946564885496
+[I 220126 11:14:45 base_trainer:286] accuracy: 0.4060641513112996
+[I 220126 11:14:45 base_trainer:286] roc_auc_score: 0.45232055027745083
+[I 220126 11:14:45 base_trainer:346] Prediction Model_Epoch1_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:14:45 base_trainer:143] # Test loss for epoch 1 is 42.48820149898529 
+[I 220126 11:14:45 base_trainer:146]  # Test f1 score for epoch 1 is 0.30137614678899083
+[I 220126 11:14:45 base_trainer:146]  # Test precision score for epoch 1 is 0.20896946564885496
+[I 220126 11:14:45 base_trainer:146]  # Test accuracy score for epoch 1 is 0.4060641513112996
+[I 220126 11:14:45 base_trainer:146]  # Test roc_auc_score score for epoch 1 is 0.45232055027745083
+[I 220126 11:14:45 base_trainer:115] # Training for epoch: 2 
+[I 220126 11:14:51 base_trainer:123]  # Train loss for epoch:2 is 126.69118708372116 
+[I 220126 11:14:51 base_trainer:306]  Eval epoch 2
+[I 220126 11:14:51 base_trainer:286] f1: 0.24967602591792656
+[I 220126 11:14:51 base_trainer:286] precision: 0.2279179810725552
+[I 220126 11:14:51 base_trainer:286] accuracy: 0.6048680618744313
+[I 220126 11:14:51 base_trainer:286] roc_auc_score: 0.4918503377963115
+[I 220126 11:14:51 base_trainer:134] # Valid loss for epoch 2 is 13.818002998828888 
+[I 220126 11:14:51 base_trainer:137]  # Valid f1 score for epoch 2 is 0.24967602591792656
+[I 220126 11:14:51 base_trainer:137]  # Valid precision score for epoch 2 is 0.2279179810725552
+[I 220126 11:14:51 base_trainer:137]  # Valid accuracy score for epoch 2 is 0.6048680618744313
+[I 220126 11:14:51 base_trainer:137]  # Valid roc_auc_score score for epoch 2 is 0.4918503377963115
+[I 220126 11:14:51 base_trainer:313]  Test epoch 2
+[I 220126 11:14:51 base_trainer:286] f1: 0.26236162361623616
+[I 220126 11:14:51 base_trainer:286] precision: 0.23795180722891565
+[I 220126 11:14:51 base_trainer:286] accuracy: 0.6102174124987814
+[I 220126 11:14:51 base_trainer:286] roc_auc_score: 0.5006807791743737
+[I 220126 11:14:52 base_trainer:346] Prediction Model_Epoch2_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:14:52 base_trainer:143] # Test loss for epoch 2 is 31.35920488834381 
+[I 220126 11:14:52 base_trainer:146]  # Test f1 score for epoch 2 is 0.26236162361623616
+[I 220126 11:14:52 base_trainer:146]  # Test precision score for epoch 2 is 0.23795180722891565
+[I 220126 11:14:52 base_trainer:146]  # Test accuracy score for epoch 2 is 0.6102174124987814
+[I 220126 11:14:52 base_trainer:146]  # Test roc_auc_score score for epoch 2 is 0.5006807791743737
+[I 220126 11:14:52 base_trainer:115] # Training for epoch: 3 
+[I 220126 11:14:57 base_trainer:123]  # Train loss for epoch:3 is 93.60078424215317 
+[I 220126 11:14:57 base_trainer:306]  Eval epoch 3
+[I 220126 11:14:58 base_trainer:286] f1: 0.39644218551461247
+[I 220126 11:14:58 base_trainer:286] precision: 0.5920303605313093
+[I 220126 11:14:58 base_trainer:286] accuracy: 0.783894449499545
+[I 220126 11:14:58 base_trainer:286] roc_auc_score: 0.6168980006006155
+[I 220126 11:14:58 base_trainer:134] # Valid loss for epoch 3 is 10.204796075820923 
+[I 220126 11:14:58 base_trainer:137]  # Valid f1 score for epoch 3 is 0.39644218551461247
+[I 220126 11:14:58 base_trainer:137]  # Valid precision score for epoch 3 is 0.5920303605313093
+[I 220126 11:14:58 base_trainer:137]  # Valid accuracy score for epoch 3 is 0.783894449499545
+[I 220126 11:14:58 base_trainer:137]  # Valid roc_auc_score score for epoch 3 is 0.6168980006006155
+[I 220126 11:14:58 base_trainer:313]  Test epoch 3
+[I 220126 11:14:58 base_trainer:286] f1: 0.4288770053475936
+[I 220126 11:14:58 base_trainer:286] precision: 0.6131498470948012
+[I 220126 11:14:58 base_trainer:286] accuracy: 0.7917519742614799
+[I 220126 11:14:58 base_trainer:286] roc_auc_score: 0.6325526000504456
+[I 220126 11:14:58 base_trainer:346] Prediction Model_Epoch3_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:14:58 base_trainer:143] # Test loss for epoch 3 is 23.07773244380951 
+[I 220126 11:14:58 base_trainer:146]  # Test f1 score for epoch 3 is 0.4288770053475936
+[I 220126 11:14:58 base_trainer:146]  # Test precision score for epoch 3 is 0.6131498470948012
+[I 220126 11:14:58 base_trainer:146]  # Test accuracy score for epoch 3 is 0.7917519742614799
+[I 220126 11:14:58 base_trainer:146]  # Test roc_auc_score score for epoch 3 is 0.6325526000504456
+[I 220126 11:14:58 base_trainer:115] # Training for epoch: 4 
+[I 220126 11:15:04 base_trainer:123]  # Train loss for epoch:4 is 72.4152500629425 
+[I 220126 11:15:04 base_trainer:306]  Eval epoch 4
+[I 220126 11:15:04 base_trainer:286] f1: 0.4056140350877193
+[I 220126 11:15:04 base_trainer:286] precision: 0.7645502645502645
+[I 220126 11:15:04 base_trainer:286] accuracy: 0.8073248407643312
+[I 220126 11:15:04 base_trainer:286] roc_auc_score: 0.62472582301578
+[I 220126 11:15:04 base_trainer:134] # Valid loss for epoch 4 is 8.393681854009628 
+[I 220126 11:15:04 base_trainer:137]  # Valid f1 score for epoch 4 is 0.4056140350877193
+[I 220126 11:15:04 base_trainer:137]  # Valid precision score for epoch 4 is 0.7645502645502645
+[I 220126 11:15:04 base_trainer:137]  # Valid accuracy score for epoch 4 is 0.8073248407643312
+[I 220126 11:15:04 base_trainer:137]  # Valid roc_auc_score score for epoch 4 is 0.62472582301578
+[I 220126 11:15:04 base_trainer:313]  Test epoch 4
+[I 220126 11:15:05 base_trainer:286] f1: 0.4508268059181897
+[I 220126 11:15:05 base_trainer:286] precision: 0.7655172413793103
+[I 220126 11:15:05 base_trainer:286] accuracy: 0.8154431120210588
+[I 220126 11:15:05 base_trainer:286] roc_auc_score: 0.6445373980578443
+[I 220126 11:15:05 base_trainer:346] Prediction Model_Epoch4_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:15:05 base_trainer:143] # Test loss for epoch 4 is 18.980897843837738 
+[I 220126 11:15:05 base_trainer:146]  # Test f1 score for epoch 4 is 0.4508268059181897
+[I 220126 11:15:05 base_trainer:146]  # Test precision score for epoch 4 is 0.7655172413793103
+[I 220126 11:15:05 base_trainer:146]  # Test accuracy score for epoch 4 is 0.8154431120210588
+[I 220126 11:15:05 base_trainer:146]  # Test roc_auc_score score for epoch 4 is 0.6445373980578443
+[I 220126 11:15:05 base_trainer:115] # Training for epoch: 5 
+[I 220126 11:15:11 base_trainer:123]  # Train loss for epoch:5 is 63.116089165210724 
+[I 220126 11:15:11 base_trainer:306]  Eval epoch 5
+[I 220126 11:15:11 base_trainer:286] f1: 0.41321152494729446
+[I 220126 11:15:11 base_trainer:286] precision: 0.7819148936170213
+[I 220126 11:15:11 base_trainer:286] accuracy: 0.8100545950864422
+[I 220126 11:15:11 base_trainer:286] roc_auc_score: 0.6281586856958541
+[I 220126 11:15:11 base_trainer:134] # Valid loss for epoch 5 is 7.682916671037674 
+[I 220126 11:15:11 base_trainer:137]  # Valid f1 score for epoch 5 is 0.41321152494729446
+[I 220126 11:15:11 base_trainer:137]  # Valid precision score for epoch 5 is 0.7819148936170213
+[I 220126 11:15:11 base_trainer:137]  # Valid accuracy score for epoch 5 is 0.8100545950864422
+[I 220126 11:15:11 base_trainer:137]  # Valid roc_auc_score score for epoch 5 is 0.6281586856958541
+[I 220126 11:15:11 base_trainer:313]  Test epoch 5
+[I 220126 11:15:12 base_trainer:286] f1: 0.458465991316932
+[I 220126 11:15:12 base_trainer:286] precision: 0.7741935483870968
+[I 220126 11:15:12 base_trainer:286] accuracy: 0.8175879886906503
+[I 220126 11:15:12 base_trainer:286] roc_auc_score: 0.6480685639818395
+[I 220126 11:15:12 base_trainer:346] Prediction Model_Epoch5_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:15:12 base_trainer:143] # Test loss for epoch 5 is 17.114767253398895 
+[I 220126 11:15:12 base_trainer:146]  # Test f1 score for epoch 5 is 0.458465991316932
+[I 220126 11:15:12 base_trainer:146]  # Test precision score for epoch 5 is 0.7741935483870968
+[I 220126 11:15:12 base_trainer:146]  # Test accuracy score for epoch 5 is 0.8175879886906503
+[I 220126 11:15:12 base_trainer:146]  # Test roc_auc_score score for epoch 5 is 0.6480685639818395
+[I 220126 11:15:12 base_trainer:115] # Training for epoch: 6 
+[I 220126 11:15:18 base_trainer:123]  # Train loss for epoch:6 is 58.82314547896385 
+[I 220126 11:15:18 base_trainer:306]  Eval epoch 6
+[I 220126 11:15:18 base_trainer:286] f1: 0.42105263157894735
+[I 220126 11:15:18 base_trainer:286] precision: 0.7657430730478589
+[I 220126 11:15:18 base_trainer:286] accuracy: 0.8098271155595996
+[I 220126 11:15:18 base_trainer:286] roc_auc_score: 0.6312919536060174
+[I 220126 11:15:18 base_trainer:134] # Valid loss for epoch 6 is 7.472229391336441 
+[I 220126 11:15:18 base_trainer:137]  # Valid f1 score for epoch 6 is 0.42105263157894735
+[I 220126 11:15:18 base_trainer:137]  # Valid precision score for epoch 6 is 0.7657430730478589
+[I 220126 11:15:18 base_trainer:137]  # Valid accuracy score for epoch 6 is 0.8098271155595996
+[I 220126 11:15:18 base_trainer:137]  # Valid roc_auc_score score for epoch 6 is 0.6312919536060174
+[I 220126 11:15:18 base_trainer:313]  Test epoch 6
+[I 220126 11:15:19 base_trainer:286] f1: 0.4641010913268237
+[I 220126 11:15:19 base_trainer:286] precision: 0.7695238095238095
+[I 220126 11:15:19 base_trainer:286] accuracy: 0.818075460661012
+[I 220126 11:15:19 base_trainer:286] roc_auc_score: 0.6506551622666892
+[I 220126 11:15:19 base_trainer:346] Prediction Model_Epoch6_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:15:19 base_trainer:143] # Test loss for epoch 6 is 16.49801328778267 
+[I 220126 11:15:19 base_trainer:146]  # Test f1 score for epoch 6 is 0.4641010913268237
+[I 220126 11:15:19 base_trainer:146]  # Test precision score for epoch 6 is 0.7695238095238095
+[I 220126 11:15:19 base_trainer:146]  # Test accuracy score for epoch 6 is 0.818075460661012
+[I 220126 11:15:19 base_trainer:146]  # Test roc_auc_score score for epoch 6 is 0.6506551622666892
+[I 220126 11:15:19 base_trainer:115] # Training for epoch: 7 
+[I 220126 11:15:25 base_trainer:123]  # Train loss for epoch:7 is 56.67772448062897 
+[I 220126 11:15:25 base_trainer:306]  Eval epoch 7
+[I 220126 11:15:25 base_trainer:286] f1: 0.44952893674293404
+[I 220126 11:15:25 base_trainer:286] precision: 0.7608200455580866
+[I 220126 11:15:25 base_trainer:286] accuracy: 0.8139217470427661
+[I 220126 11:15:25 base_trainer:286] roc_auc_score: 0.6438270215944945
+[I 220126 11:15:25 base_trainer:134] # Valid loss for epoch 7 is 7.286831349134445 
+[I 220126 11:15:25 base_trainer:137]  # Valid f1 score for epoch 7 is 0.44952893674293404
+[I 220126 11:15:25 base_trainer:137]  # Valid precision score for epoch 7 is 0.7608200455580866
+[I 220126 11:15:25 base_trainer:137]  # Valid accuracy score for epoch 7 is 0.8139217470427661
+[I 220126 11:15:25 base_trainer:137]  # Valid roc_auc_score score for epoch 7 is 0.6438270215944945
+[I 220126 11:15:25 base_trainer:313]  Test epoch 7
+[I 220126 11:15:26 base_trainer:286] f1: 0.4882022471910112
+[I 220126 11:15:26 base_trainer:286] precision: 0.7703900709219859
+[I 220126 11:15:26 base_trainer:286] accuracy: 0.822365214000195
+[I 220126 11:15:26 base_trainer:286] roc_auc_score: 0.662110018706911
+[I 220126 11:15:26 base_trainer:346] Prediction Model_Epoch7_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:15:26 base_trainer:143] # Test loss for epoch 7 is 16.2298042178154 
+[I 220126 11:15:26 base_trainer:146]  # Test f1 score for epoch 7 is 0.4882022471910112
+[I 220126 11:15:26 base_trainer:146]  # Test precision score for epoch 7 is 0.7703900709219859
+[I 220126 11:15:26 base_trainer:146]  # Test accuracy score for epoch 7 is 0.822365214000195
+[I 220126 11:15:26 base_trainer:146]  # Test roc_auc_score score for epoch 7 is 0.662110018706911
+[I 220126 11:15:26 base_trainer:115] # Training for epoch: 8 
+[I 220126 11:15:32 base_trainer:123]  # Train loss for epoch:8 is 56.217780381441116 
+[I 220126 11:15:32 base_trainer:306]  Eval epoch 8
+[I 220126 11:15:32 base_trainer:286] f1: 0.44519621109607577
+[I 220126 11:15:32 base_trainer:286] precision: 0.7633410672853829
+[I 220126 11:15:32 base_trainer:286] accuracy: 0.813466787989081
+[I 220126 11:15:32 base_trainer:286] roc_auc_score: 0.6418871418944143
+[I 220126 11:15:32 base_trainer:134] # Valid loss for epoch 8 is 7.179150462150574 
+[I 220126 11:15:32 base_trainer:137]  # Valid f1 score for epoch 8 is 0.44519621109607577
+[I 220126 11:15:32 base_trainer:137]  # Valid precision score for epoch 8 is 0.7633410672853829
+[I 220126 11:15:32 base_trainer:137]  # Valid accuracy score for epoch 8 is 0.813466787989081
+[I 220126 11:15:32 base_trainer:137]  # Valid roc_auc_score score for epoch 8 is 0.6418871418944143
+[I 220126 11:15:32 base_trainer:313]  Test epoch 8
+[I 220126 11:15:33 base_trainer:286] f1: 0.4846435615666385
+[I 220126 11:15:33 base_trainer:286] precision: 0.7699194270367055
+[I 220126 11:15:33 base_trainer:286] accuracy: 0.8216827532416886
+[I 220126 11:15:33 base_trainer:286] roc_auc_score: 0.6603874852866992
+[I 220126 11:15:33 base_trainer:346] Prediction Model_Epoch8_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:15:33 base_trainer:143] # Test loss for epoch 8 is 15.80922383069992 
+[I 220126 11:15:33 base_trainer:146]  # Test f1 score for epoch 8 is 0.4846435615666385
+[I 220126 11:15:33 base_trainer:146]  # Test precision score for epoch 8 is 0.7699194270367055
+[I 220126 11:15:33 base_trainer:146]  # Test accuracy score for epoch 8 is 0.8216827532416886
+[I 220126 11:15:33 base_trainer:146]  # Test roc_auc_score score for epoch 8 is 0.6603874852866992
+[I 220126 11:15:33 base_trainer:115] # Training for epoch: 9 
+[I 220126 11:15:39 base_trainer:123]  # Train loss for epoch:9 is 55.10582610964775 
+[I 220126 11:15:39 base_trainer:306]  Eval epoch 9
+[I 220126 11:15:39 base_trainer:286] f1: 0.45399597044996637
+[I 220126 11:15:39 base_trainer:286] precision: 0.7647058823529411
+[I 220126 11:15:39 base_trainer:286] accuracy: 0.815059144676979
+[I 220126 11:15:39 base_trainer:286] roc_auc_score: 0.6458865395677565
+[I 220126 11:15:39 base_trainer:134] # Valid loss for epoch 9 is 7.066507250070572 
+[I 220126 11:15:39 base_trainer:137]  # Valid f1 score for epoch 9 is 0.45399597044996637
+[I 220126 11:15:39 base_trainer:137]  # Valid precision score for epoch 9 is 0.7647058823529411
+[I 220126 11:15:39 base_trainer:137]  # Valid accuracy score for epoch 9 is 0.815059144676979
+[I 220126 11:15:39 base_trainer:137]  # Valid roc_auc_score score for epoch 9 is 0.6458865395677565
+[I 220126 11:15:39 base_trainer:313]  Test epoch 9
+[I 220126 11:15:40 base_trainer:286] f1: 0.49075630252100844
+[I 220126 11:15:40 base_trainer:286] precision: 0.7697715289982425
+[I 220126 11:15:40 base_trainer:286] accuracy: 0.8227551915764844
+[I 220126 11:15:40 base_trainer:286] roc_auc_score: 0.6633574701530183
+[I 220126 11:15:40 base_trainer:346] Prediction Model_Epoch9_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:15:40 base_trainer:143] # Test loss for epoch 9 is 15.886645764112473 
+[I 220126 11:15:40 base_trainer:146]  # Test f1 score for epoch 9 is 0.49075630252100844
+[I 220126 11:15:40 base_trainer:146]  # Test precision score for epoch 9 is 0.7697715289982425
+[I 220126 11:15:40 base_trainer:146]  # Test accuracy score for epoch 9 is 0.8227551915764844
+[I 220126 11:15:40 base_trainer:146]  # Test roc_auc_score score for epoch 9 is 0.6633574701530183
+[I 220126 11:15:40 base_trainer:115] # Training for epoch: 10 
+[I 220126 11:15:46 base_trainer:123]  # Train loss for epoch:10 is 54.79883036017418 
+[I 220126 11:15:46 base_trainer:306]  Eval epoch 10
+[I 220126 11:15:46 base_trainer:286] f1: 0.45087483176312243
+[I 220126 11:15:46 base_trainer:286] precision: 0.7630979498861048
+[I 220126 11:15:46 base_trainer:286] accuracy: 0.8143767060964513
+[I 220126 11:15:46 base_trainer:286] roc_auc_score: 0.6444538748113094
+[I 220126 11:15:46 base_trainer:134] # Valid loss for epoch 10 is 7.02787372469902 
+[I 220126 11:15:46 base_trainer:137]  # Valid f1 score for epoch 10 is 0.45087483176312243
+[I 220126 11:15:46 base_trainer:137]  # Valid precision score for epoch 10 is 0.7630979498861048
+[I 220126 11:15:46 base_trainer:137]  # Valid accuracy score for epoch 10 is 0.8143767060964513
+[I 220126 11:15:46 base_trainer:137]  # Valid roc_auc_score score for epoch 10 is 0.6444538748113094
+[I 220126 11:15:46 base_trainer:313]  Test epoch 10
+[I 220126 11:15:47 base_trainer:286] f1: 0.4859392575928009
+[I 220126 11:15:47 base_trainer:286] precision: 0.7686832740213523
+[I 220126 11:15:47 base_trainer:286] accuracy: 0.821780247635761
+[I 220126 11:15:47 base_trainer:286] roc_auc_score: 0.6610181604170169
+[I 220126 11:15:47 base_trainer:346] Prediction Model_Epoch10_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:15:47 base_trainer:143] # Test loss for epoch 10 is 15.778681248426437 
+[I 220126 11:15:47 base_trainer:146]  # Test f1 score for epoch 10 is 0.4859392575928009
+[I 220126 11:15:47 base_trainer:146]  # Test precision score for epoch 10 is 0.7686832740213523
+[I 220126 11:15:47 base_trainer:146]  # Test accuracy score for epoch 10 is 0.821780247635761
+[I 220126 11:15:47 base_trainer:146]  # Test roc_auc_score score for epoch 10 is 0.6610181604170169
+[I 220126 11:15:47 base_trainer:115] # Training for epoch: 11 
+[I 220126 11:15:53 base_trainer:123]  # Train loss for epoch:11 is 54.63995781540871 
+[I 220126 11:15:53 base_trainer:306]  Eval epoch 11
+[I 220126 11:15:53 base_trainer:286] f1: 0.45265278710543994
+[I 220126 11:15:53 base_trainer:286] precision: 0.7624434389140271
+[I 220126 11:15:53 base_trainer:286] accuracy: 0.814604185623294
+[I 220126 11:15:53 base_trainer:286] roc_auc_score: 0.6452596863509414
+[I 220126 11:15:53 base_trainer:134] # Valid loss for epoch 11 is 7.112226665019989 
+[I 220126 11:15:53 base_trainer:137]  # Valid f1 score for epoch 11 is 0.45265278710543994
+[I 220126 11:15:53 base_trainer:137]  # Valid precision score for epoch 11 is 0.7624434389140271
+[I 220126 11:15:53 base_trainer:137]  # Valid accuracy score for epoch 11 is 0.814604185623294
+[I 220126 11:15:53 base_trainer:137]  # Valid roc_auc_score score for epoch 11 is 0.6452596863509414
+[I 220126 11:15:53 base_trainer:313]  Test epoch 11
+[I 220126 11:15:53 base_trainer:286] f1: 0.48707865168539327
+[I 220126 11:15:53 base_trainer:286] precision: 0.7686170212765957
+[I 220126 11:15:53 base_trainer:286] accuracy: 0.8219752364239056
+[I 220126 11:15:53 base_trainer:286] roc_auc_score: 0.6615710389692282
+[I 220126 11:15:53 base_trainer:346] Prediction Model_Epoch11_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:15:53 base_trainer:143] # Test loss for epoch 11 is 15.602392345666885 
+[I 220126 11:15:53 base_trainer:146]  # Test f1 score for epoch 11 is 0.48707865168539327
+[I 220126 11:15:53 base_trainer:146]  # Test precision score for epoch 11 is 0.7686170212765957
+[I 220126 11:15:53 base_trainer:146]  # Test accuracy score for epoch 11 is 0.8219752364239056
+[I 220126 11:15:53 base_trainer:146]  # Test roc_auc_score score for epoch 11 is 0.6615710389692282
+[I 220126 11:15:53 base_trainer:115] # Training for epoch: 12 
+[I 220126 11:15:59 base_trainer:123]  # Train loss for epoch:12 is 54.46804293990135 
+[I 220126 11:15:59 base_trainer:306]  Eval epoch 12
+[I 220126 11:16:00 base_trainer:286] f1: 0.4502688172043011
+[I 220126 11:16:00 base_trainer:286] precision: 0.7596371882086168
+[I 220126 11:16:00 base_trainer:286] accuracy: 0.8139217470427661
+[I 220126 11:16:00 base_trainer:286] roc_auc_score: 0.6441552782153106
+[I 220126 11:16:00 base_trainer:134] # Valid loss for epoch 12 is 7.157467603683472 
+[I 220126 11:16:00 base_trainer:137]  # Valid f1 score for epoch 12 is 0.4502688172043011
+[I 220126 11:16:00 base_trainer:137]  # Valid precision score for epoch 12 is 0.7596371882086168
+[I 220126 11:16:00 base_trainer:137]  # Valid accuracy score for epoch 12 is 0.8139217470427661
+[I 220126 11:16:00 base_trainer:137]  # Valid roc_auc_score score for epoch 12 is 0.6441552782153106
+[I 220126 11:16:00 base_trainer:313]  Test epoch 12
+[I 220126 11:16:00 base_trainer:286] f1: 0.48677546426561613
+[I 220126 11:16:00 base_trainer:286] precision: 0.7709447415329769
+[I 220126 11:16:00 base_trainer:286] accuracy: 0.8221702252120503
+[I 220126 11:16:00 base_trainer:286] roc_auc_score: 0.661415445813015
+[I 220126 11:16:00 base_trainer:346] Prediction Model_Epoch12_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:16:00 base_trainer:143] # Test loss for epoch 12 is 15.833570092916489 
+[I 220126 11:16:00 base_trainer:146]  # Test f1 score for epoch 12 is 0.48677546426561613
+[I 220126 11:16:00 base_trainer:146]  # Test precision score for epoch 12 is 0.7709447415329769
+[I 220126 11:16:00 base_trainer:146]  # Test accuracy score for epoch 12 is 0.8221702252120503
+[I 220126 11:16:00 base_trainer:146]  # Test roc_auc_score score for epoch 12 is 0.661415445813015
+[I 220126 11:16:00 base_trainer:170] # Training complete; Total Train Procedure took: 0:01:23
+[I 220126 11:16:00 base_trainer:172] # Epoch Statistics saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR2e-05_Batch256_LossBCEWithLogitsLoss/Epoch_Statstics_Time20220126_1116.csv
+[I 220126 11:16:16 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 11:16:16 adult_deepcross_loader:126] adult data processed 
+[I 220126 11:16:16 adult_ifm_exp:59]  IFM initialized 
+[I 220126 11:16:16 base_trainer:90] Using CPU ... 
+[I 220126 11:16:16 base_trainer:115] # Training for epoch: 1 
+[I 220126 11:16:22 base_trainer:123]  # Train loss for epoch:1 is 61.0608976483345 
+[I 220126 11:16:22 base_trainer:306]  Eval epoch 1
+[I 220126 11:16:22 base_trainer:286] f1: 0.5125313283208021
+[I 220126 11:16:22 base_trainer:286] precision: 0.7449908925318761
+[I 220126 11:16:22 base_trainer:286] accuracy: 0.8230209281164695
+[I 220126 11:16:22 base_trainer:286] roc_auc_score: 0.6744182000756902
+[I 220126 11:16:22 base_trainer:134] # Valid loss for epoch 1 is 6.753385931253433 
+[I 220126 11:16:22 base_trainer:137]  # Valid f1 score for epoch 1 is 0.5125313283208021
+[I 220126 11:16:22 base_trainer:137]  # Valid precision score for epoch 1 is 0.7449908925318761
+[I 220126 11:16:22 base_trainer:137]  # Valid accuracy score for epoch 1 is 0.8230209281164695
+[I 220126 11:16:22 base_trainer:137]  # Valid roc_auc_score score for epoch 1 is 0.6744182000756902
+[I 220126 11:16:22 base_trainer:313]  Test epoch 1
+[I 220126 11:16:23 base_trainer:286] f1: 0.54375
+[I 220126 11:16:23 base_trainer:286] precision: 0.7414772727272727
+[I 220126 11:16:23 base_trainer:286] accuracy: 0.8291898215852589
+[I 220126 11:16:23 base_trainer:286] roc_auc_score: 0.6913793719522447
+[I 220126 11:16:23 base_trainer:346] Prediction Model_Epoch1_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.0005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:16:23 base_trainer:143] # Test loss for epoch 1 is 15.133974850177765 
+[I 220126 11:16:23 base_trainer:146]  # Test f1 score for epoch 1 is 0.54375
+[I 220126 11:16:23 base_trainer:146]  # Test precision score for epoch 1 is 0.7414772727272727
+[I 220126 11:16:23 base_trainer:146]  # Test accuracy score for epoch 1 is 0.8291898215852589
+[I 220126 11:16:23 base_trainer:146]  # Test roc_auc_score score for epoch 1 is 0.6913793719522447
+[I 220126 11:16:23 base_trainer:115] # Training for epoch: 2 
+[I 220126 11:16:29 base_trainer:123]  # Train loss for epoch:2 is 51.68228814005852 
+[I 220126 11:16:29 base_trainer:306]  Eval epoch 2
+[I 220126 11:16:30 base_trainer:286] f1: 0.5566765578635015
+[I 220126 11:16:30 base_trainer:286] precision: 0.7351097178683386
+[I 220126 11:16:30 base_trainer:286] accuracy: 0.8300727934485896
+[I 220126 11:16:30 base_trainer:286] roc_auc_score: 0.6987418445626472
+[I 220126 11:16:30 base_trainer:134] # Valid loss for epoch 2 is 6.610257714986801 
+[I 220126 11:16:30 base_trainer:137]  # Valid f1 score for epoch 2 is 0.5566765578635015
+[I 220126 11:16:30 base_trainer:137]  # Valid precision score for epoch 2 is 0.7351097178683386
+[I 220126 11:16:30 base_trainer:137]  # Valid accuracy score for epoch 2 is 0.8300727934485896
+[I 220126 11:16:30 base_trainer:137]  # Valid roc_auc_score score for epoch 2 is 0.6987418445626472
+[I 220126 11:16:30 base_trainer:313]  Test epoch 2
+[I 220126 11:16:30 base_trainer:286] f1: 0.5746955008699974
+[I 220126 11:16:30 base_trainer:286] precision: 0.7265870521684475
+[I 220126 11:16:30 base_trainer:286] accuracy: 0.8331870917422248
+[I 220126 11:16:30 base_trainer:286] roc_auc_score: 0.709868946527661
+[I 220126 11:16:30 base_trainer:346] Prediction Model_Epoch2_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.0005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:16:30 base_trainer:143] # Test loss for epoch 2 is 14.95835691690445 
+[I 220126 11:16:30 base_trainer:146]  # Test f1 score for epoch 2 is 0.5746955008699974
+[I 220126 11:16:30 base_trainer:146]  # Test precision score for epoch 2 is 0.7265870521684475
+[I 220126 11:16:30 base_trainer:146]  # Test accuracy score for epoch 2 is 0.8331870917422248
+[I 220126 11:16:30 base_trainer:146]  # Test roc_auc_score score for epoch 2 is 0.709868946527661
+[I 220126 11:16:30 base_trainer:115] # Training for epoch: 3 
+[I 220126 11:16:36 base_trainer:123]  # Train loss for epoch:3 is 50.901381969451904 
+[I 220126 11:16:36 base_trainer:306]  Eval epoch 3
+[I 220126 11:16:37 base_trainer:286] f1: 0.5082174462705435
+[I 220126 11:16:37 base_trainer:286] precision: 0.7514018691588785
+[I 220126 11:16:37 base_trainer:286] accuracy: 0.8230209281164695
+[I 220126 11:16:37 base_trainer:286] roc_auc_score: 0.6721204037299764
+[I 220126 11:16:37 base_trainer:134] # Valid loss for epoch 3 is 6.575013160705566 
+[I 220126 11:16:37 base_trainer:137]  # Valid f1 score for epoch 3 is 0.5082174462705435
+[I 220126 11:16:37 base_trainer:137]  # Valid precision score for epoch 3 is 0.7514018691588785
+[I 220126 11:16:37 base_trainer:137]  # Valid accuracy score for epoch 3 is 0.8230209281164695
+[I 220126 11:16:37 base_trainer:137]  # Valid roc_auc_score score for epoch 3 is 0.6721204037299764
+[I 220126 11:16:37 base_trainer:313]  Test epoch 3
+[I 220126 11:16:37 base_trainer:286] f1: 0.5369340746624305
+[I 220126 11:16:37 base_trainer:286] precision: 0.753903345724907
+[I 220126 11:16:37 base_trainer:286] accuracy: 0.8294823047674759
+[I 220126 11:16:37 base_trainer:286] roc_auc_score: 0.6873202349924332
+[I 220126 11:16:37 base_trainer:346] Prediction Model_Epoch3_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.0005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:16:37 base_trainer:143] # Test loss for epoch 3 is 14.616843909025192 
+[I 220126 11:16:37 base_trainer:146]  # Test f1 score for epoch 3 is 0.5369340746624305
+[I 220126 11:16:37 base_trainer:146]  # Test precision score for epoch 3 is 0.753903345724907
+[I 220126 11:16:37 base_trainer:146]  # Test accuracy score for epoch 3 is 0.8294823047674759
+[I 220126 11:16:37 base_trainer:146]  # Test roc_auc_score score for epoch 3 is 0.6873202349924332
+[I 220126 11:16:37 base_trainer:115] # Training for epoch: 4 
+[I 220126 11:16:43 base_trainer:123]  # Train loss for epoch:4 is 50.15691202878952 
+[I 220126 11:16:43 base_trainer:306]  Eval epoch 4
+[I 220126 11:16:44 base_trainer:286] f1: 0.44095563139931737
+[I 220126 11:16:44 base_trainer:286] precision: 0.7727272727272727
+[I 220126 11:16:44 base_trainer:286] accuracy: 0.8136942675159236
+[I 220126 11:16:44 base_trainer:286] roc_auc_score: 0.6400669004675161
+[I 220126 11:16:44 base_trainer:134] # Valid loss for epoch 4 is 6.698767125606537 
+[I 220126 11:16:44 base_trainer:137]  # Valid f1 score for epoch 4 is 0.44095563139931737
+[I 220126 11:16:44 base_trainer:137]  # Valid precision score for epoch 4 is 0.7727272727272727
+[I 220126 11:16:44 base_trainer:137]  # Valid accuracy score for epoch 4 is 0.8136942675159236
+[I 220126 11:16:44 base_trainer:137]  # Valid roc_auc_score score for epoch 4 is 0.6400669004675161
+[I 220126 11:16:44 base_trainer:313]  Test epoch 4
+[I 220126 11:16:44 base_trainer:286] f1: 0.47224618924360084
+[I 220126 11:16:44 base_trainer:286] precision: 0.785645933014354
+[I 220126 11:16:44 base_trainer:286] accuracy: 0.8210977868772545
+[I 220126 11:16:44 base_trainer:286] roc_auc_score: 0.6544780193795191
+[I 220126 11:16:44 base_trainer:346] Prediction Model_Epoch4_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.0005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:16:44 base_trainer:143] # Test loss for epoch 4 is 14.521152317523956 
+[I 220126 11:16:44 base_trainer:146]  # Test f1 score for epoch 4 is 0.47224618924360084
+[I 220126 11:16:44 base_trainer:146]  # Test precision score for epoch 4 is 0.785645933014354
+[I 220126 11:16:44 base_trainer:146]  # Test accuracy score for epoch 4 is 0.8210977868772545
+[I 220126 11:16:44 base_trainer:146]  # Test roc_auc_score score for epoch 4 is 0.6544780193795191
+[I 220126 11:16:44 base_trainer:115] # Training for epoch: 5 
+[I 220126 11:16:51 base_trainer:123]  # Train loss for epoch:5 is 49.94090020656586 
+[I 220126 11:16:51 base_trainer:306]  Eval epoch 5
+[I 220126 11:16:51 base_trainer:286] f1: 0.43711340206185567
+[I 220126 11:16:51 base_trainer:286] precision: 0.7794117647058824
+[I 220126 11:16:51 base_trainer:286] accuracy: 0.8136942675159236
+[I 220126 11:16:51 base_trainer:286] roc_auc_score: 0.6384256173634348
+[I 220126 11:16:51 base_trainer:134] # Valid loss for epoch 5 is 6.4877913892269135 
+[I 220126 11:16:51 base_trainer:137]  # Valid f1 score for epoch 5 is 0.43711340206185567
+[I 220126 11:16:51 base_trainer:137]  # Valid precision score for epoch 5 is 0.7794117647058824
+[I 220126 11:16:51 base_trainer:137]  # Valid accuracy score for epoch 5 is 0.8136942675159236
+[I 220126 11:16:51 base_trainer:137]  # Valid roc_auc_score score for epoch 5 is 0.6384256173634348
+[I 220126 11:16:51 base_trainer:313]  Test epoch 5
+[I 220126 11:16:51 base_trainer:286] f1: 0.47264394156402173
+[I 220126 11:16:51 base_trainer:286] precision: 0.7790368271954674
+[I 220126 11:16:51 base_trainer:286] accuracy: 0.8205128205128205
+[I 220126 11:16:51 base_trainer:286] roc_auc_score: 0.6546614101647891
+[I 220126 11:16:51 base_trainer:346] Prediction Model_Epoch5_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.0005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:16:51 base_trainer:143] # Test loss for epoch 5 is 14.555954068899155 
+[I 220126 11:16:51 base_trainer:146]  # Test f1 score for epoch 5 is 0.47264394156402173
+[I 220126 11:16:51 base_trainer:146]  # Test precision score for epoch 5 is 0.7790368271954674
+[I 220126 11:16:51 base_trainer:146]  # Test accuracy score for epoch 5 is 0.8205128205128205
+[I 220126 11:16:51 base_trainer:146]  # Test roc_auc_score score for epoch 5 is 0.6546614101647891
+[I 220126 11:16:51 base_trainer:115] # Training for epoch: 6 
+[I 220126 11:16:58 base_trainer:123]  # Train loss for epoch:6 is 49.45895892381668 
+[I 220126 11:16:58 base_trainer:306]  Eval epoch 6
+[I 220126 11:16:58 base_trainer:286] f1: 0.5307881773399015
+[I 220126 11:16:58 base_trainer:286] precision: 0.7469670710571924
+[I 220126 11:16:58 base_trainer:286] accuracy: 0.8266606005459509
+[I 220126 11:16:58 base_trainer:286] roc_auc_score: 0.6840286185016383
+[I 220126 11:16:58 base_trainer:134] # Valid loss for epoch 6 is 6.449679493904114 
+[I 220126 11:16:58 base_trainer:137]  # Valid f1 score for epoch 6 is 0.5307881773399015
+[I 220126 11:16:58 base_trainer:137]  # Valid precision score for epoch 6 is 0.7469670710571924
+[I 220126 11:16:58 base_trainer:137]  # Valid accuracy score for epoch 6 is 0.8266606005459509
+[I 220126 11:16:58 base_trainer:137]  # Valid roc_auc_score score for epoch 6 is 0.6840286185016383
+[I 220126 11:16:58 base_trainer:313]  Test epoch 6
+[I 220126 11:16:59 base_trainer:286] f1: 0.5557851239669422
+[I 220126 11:16:59 base_trainer:286] precision: 0.7472222222222222
+[I 220126 11:16:59 base_trainer:286] accuracy: 0.8323096421955738
+[I 220126 11:16:59 base_trainer:286] roc_auc_score: 0.6979583193206658
+[I 220126 11:16:59 base_trainer:346] Prediction Model_Epoch6_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.0005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:16:59 base_trainer:143] # Test loss for epoch 6 is 14.525170892477036 
+[I 220126 11:16:59 base_trainer:146]  # Test f1 score for epoch 6 is 0.5557851239669422
+[I 220126 11:16:59 base_trainer:146]  # Test precision score for epoch 6 is 0.7472222222222222
+[I 220126 11:16:59 base_trainer:146]  # Test accuracy score for epoch 6 is 0.8323096421955738
+[I 220126 11:16:59 base_trainer:146]  # Test roc_auc_score score for epoch 6 is 0.6979583193206658
+[I 220126 11:16:59 base_trainer:115] # Training for epoch: 7 
+[I 220126 11:17:05 base_trainer:123]  # Train loss for epoch:7 is 49.132067531347275 
+[I 220126 11:17:05 base_trainer:306]  Eval epoch 7
+[I 220126 11:17:05 base_trainer:286] f1: 0.42777777777777776
+[I 220126 11:17:05 base_trainer:286] precision: 0.7837150127226463
+[I 220126 11:17:05 base_trainer:286] accuracy: 0.8125568698817106
+[I 220126 11:17:05 base_trainer:286] roc_auc_score: 0.6343965596652752
+[I 220126 11:17:05 base_trainer:134] # Valid loss for epoch 7 is 6.439775317907333 
+[I 220126 11:17:05 base_trainer:137]  # Valid f1 score for epoch 7 is 0.42777777777777776
+[I 220126 11:17:05 base_trainer:137]  # Valid precision score for epoch 7 is 0.7837150127226463
+[I 220126 11:17:05 base_trainer:137]  # Valid accuracy score for epoch 7 is 0.8125568698817106
+[I 220126 11:17:05 base_trainer:137]  # Valid roc_auc_score score for epoch 7 is 0.6343965596652752
+[I 220126 11:17:05 base_trainer:313]  Test epoch 7
+[I 220126 11:17:06 base_trainer:286] f1: 0.46122448979591835
+[I 220126 11:17:06 base_trainer:286] precision: 0.7925851703406813
+[I 220126 11:17:06 base_trainer:286] accuracy: 0.8198303597543142
+[I 220126 11:17:06 base_trainer:286] roc_auc_score: 0.649396518202455
+[I 220126 11:17:06 base_trainer:346] Prediction Model_Epoch7_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.0005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:17:06 base_trainer:143] # Test loss for epoch 7 is 14.321546018123627 
+[I 220126 11:17:06 base_trainer:146]  # Test f1 score for epoch 7 is 0.46122448979591835
+[I 220126 11:17:06 base_trainer:146]  # Test precision score for epoch 7 is 0.7925851703406813
+[I 220126 11:17:06 base_trainer:146]  # Test accuracy score for epoch 7 is 0.8198303597543142
+[I 220126 11:17:06 base_trainer:146]  # Test roc_auc_score score for epoch 7 is 0.649396518202455
+[I 220126 11:17:06 base_trainer:115] # Training for epoch: 8 
+[I 220126 11:17:12 base_trainer:123]  # Train loss for epoch:8 is 49.08391371369362 
+[I 220126 11:17:12 base_trainer:306]  Eval epoch 8
+[I 220126 11:17:12 base_trainer:286] f1: 0.5373493975903615
+[I 220126 11:17:12 base_trainer:286] precision: 0.7275693311582382
+[I 220126 11:17:12 base_trainer:286] accuracy: 0.8252957233848953
+[I 220126 11:17:12 base_trainer:286] roc_auc_score: 0.6880566780258857
+[I 220126 11:17:12 base_trainer:134] # Valid loss for epoch 8 is 6.560040175914764 
+[I 220126 11:17:12 base_trainer:137]  # Valid f1 score for epoch 8 is 0.5373493975903615
+[I 220126 11:17:12 base_trainer:137]  # Valid precision score for epoch 8 is 0.7275693311582382
+[I 220126 11:17:12 base_trainer:137]  # Valid accuracy score for epoch 8 is 0.8252957233848953
+[I 220126 11:17:12 base_trainer:137]  # Valid roc_auc_score score for epoch 8 is 0.6880566780258857
+[I 220126 11:17:12 base_trainer:313]  Test epoch 8
+[I 220126 11:17:13 base_trainer:286] f1: 0.571790969051243
+[I 220126 11:17:13 base_trainer:286] precision: 0.7463576158940397
+[I 220126 11:17:13 base_trainer:286] accuracy: 0.8354294628058887
+[I 220126 11:17:13 base_trainer:286] roc_auc_score: 0.7072294591810998
+[I 220126 11:17:13 base_trainer:346] Prediction Model_Epoch8_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.0005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:17:13 base_trainer:143] # Test loss for epoch 8 is 14.235732406377792 
+[I 220126 11:17:13 base_trainer:146]  # Test f1 score for epoch 8 is 0.571790969051243
+[I 220126 11:17:13 base_trainer:146]  # Test precision score for epoch 8 is 0.7463576158940397
+[I 220126 11:17:13 base_trainer:146]  # Test accuracy score for epoch 8 is 0.8354294628058887
+[I 220126 11:17:13 base_trainer:146]  # Test roc_auc_score score for epoch 8 is 0.7072294591810998
+[I 220126 11:17:13 base_trainer:115] # Training for epoch: 9 
+[I 220126 11:17:19 base_trainer:123]  # Train loss for epoch:9 is 48.518810868263245 
+[I 220126 11:17:19 base_trainer:306]  Eval epoch 9
+[I 220126 11:17:19 base_trainer:286] f1: 0.5288640595903166
+[I 220126 11:17:19 base_trainer:286] precision: 0.7553191489361702
+[I 220126 11:17:19 base_trainer:286] accuracy: 0.8273430391264787
+[I 220126 11:17:19 base_trainer:286] roc_auc_score: 0.6828352302915552
+[I 220126 11:17:19 base_trainer:134] # Valid loss for epoch 9 is 6.449822574853897 
+[I 220126 11:17:19 base_trainer:137]  # Valid f1 score for epoch 9 is 0.5288640595903166
+[I 220126 11:17:19 base_trainer:137]  # Valid precision score for epoch 9 is 0.7553191489361702
+[I 220126 11:17:19 base_trainer:137]  # Valid accuracy score for epoch 9 is 0.8273430391264787
+[I 220126 11:17:19 base_trainer:137]  # Valid roc_auc_score score for epoch 9 is 0.6828352302915552
+[I 220126 11:17:19 base_trainer:313]  Test epoch 9
+[I 220126 11:17:20 base_trainer:286] f1: 0.5558455114822547
+[I 220126 11:17:20 base_trainer:286] precision: 0.7607142857142857
+[I 220126 11:17:20 base_trainer:286] accuracy: 0.8340645412888759
+[I 220126 11:17:20 base_trainer:286] roc_auc_score: 0.6975498413065412
+[I 220126 11:17:20 base_trainer:346] Prediction Model_Epoch9_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.0005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:17:20 base_trainer:143] # Test loss for epoch 9 is 14.678068697452545 
+[I 220126 11:17:20 base_trainer:146]  # Test f1 score for epoch 9 is 0.5558455114822547
+[I 220126 11:17:20 base_trainer:146]  # Test precision score for epoch 9 is 0.7607142857142857
+[I 220126 11:17:20 base_trainer:146]  # Test accuracy score for epoch 9 is 0.8340645412888759
+[I 220126 11:17:20 base_trainer:146]  # Test roc_auc_score score for epoch 9 is 0.6975498413065412
+[I 220126 11:17:20 base_trainer:115] # Training for epoch: 10 
+[I 220126 11:17:26 base_trainer:123]  # Train loss for epoch:10 is 48.61195468902588 
+[I 220126 11:17:26 base_trainer:306]  Eval epoch 10
+[I 220126 11:17:27 base_trainer:286] f1: 0.5022595222724339
+[I 220126 11:17:27 base_trainer:286] precision: 0.7749003984063745
+[I 220126 11:17:27 base_trainer:286] accuracy: 0.8246132848043676
+[I 220126 11:17:27 base_trainer:286] roc_auc_score: 0.6688981557453607
+[I 220126 11:17:27 base_trainer:134] # Valid loss for epoch 10 is 6.496374189853668 
+[I 220126 11:17:27 base_trainer:137]  # Valid f1 score for epoch 10 is 0.5022595222724339
+[I 220126 11:17:27 base_trainer:137]  # Valid precision score for epoch 10 is 0.7749003984063745
+[I 220126 11:17:27 base_trainer:137]  # Valid accuracy score for epoch 10 is 0.8246132848043676
+[I 220126 11:17:27 base_trainer:137]  # Valid roc_auc_score score for epoch 10 is 0.6688981557453607
+[I 220126 11:17:27 base_trainer:313]  Test epoch 10
+[I 220126 11:17:27 base_trainer:286] f1: 0.5269137138220178
+[I 220126 11:17:27 base_trainer:286] precision: 0.7699604743083004
+[I 220126 11:17:27 base_trainer:286] accuracy: 0.8294823047674759
+[I 220126 11:17:27 base_trainer:286] roc_auc_score: 0.6816524613250379
+[I 220126 11:17:27 base_trainer:346] Prediction Model_Epoch10_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.0005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:17:27 base_trainer:143] # Test loss for epoch 10 is 14.22482430934906 
+[I 220126 11:17:27 base_trainer:146]  # Test f1 score for epoch 10 is 0.5269137138220178
+[I 220126 11:17:27 base_trainer:146]  # Test precision score for epoch 10 is 0.7699604743083004
+[I 220126 11:17:27 base_trainer:146]  # Test accuracy score for epoch 10 is 0.8294823047674759
+[I 220126 11:17:27 base_trainer:146]  # Test roc_auc_score score for epoch 10 is 0.6816524613250379
+[I 220126 11:17:27 base_trainer:115] # Training for epoch: 11 
+[I 220126 11:17:34 base_trainer:123]  # Train loss for epoch:11 is 48.384901374578476 
+[I 220126 11:17:34 base_trainer:306]  Eval epoch 11
+[I 220126 11:17:34 base_trainer:286] f1: 0.5266418835192069
+[I 220126 11:17:34 base_trainer:286] precision: 0.7495590828924162
+[I 220126 11:17:34 base_trainer:286] accuracy: 0.8262056414922657
+[I 220126 11:17:34 base_trainer:286] roc_auc_score: 0.6817604821807418
+[I 220126 11:17:34 base_trainer:134] # Valid loss for epoch 11 is 6.305316045880318 
+[I 220126 11:17:34 base_trainer:137]  # Valid f1 score for epoch 11 is 0.5266418835192069
+[I 220126 11:17:34 base_trainer:137]  # Valid precision score for epoch 11 is 0.7495590828924162
+[I 220126 11:17:34 base_trainer:137]  # Valid accuracy score for epoch 11 is 0.8262056414922657
+[I 220126 11:17:34 base_trainer:137]  # Valid roc_auc_score score for epoch 11 is 0.6817604821807418
+[I 220126 11:17:34 base_trainer:313]  Test epoch 11
+[I 220126 11:17:34 base_trainer:286] f1: 0.5580670303975058
+[I 220126 11:17:34 base_trainer:286] precision: 0.757939308398024
+[I 220126 11:17:34 base_trainer:286] accuracy: 0.8341620356829482
+[I 220126 11:17:34 base_trainer:286] roc_auc_score: 0.6988889881452833
+[I 220126 11:17:35 base_trainer:346] Prediction Model_Epoch11_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.0005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:17:35 base_trainer:143] # Test loss for epoch 11 is 14.253228664398193 
+[I 220126 11:17:35 base_trainer:146]  # Test f1 score for epoch 11 is 0.5580670303975058
+[I 220126 11:17:35 base_trainer:146]  # Test precision score for epoch 11 is 0.757939308398024
+[I 220126 11:17:35 base_trainer:146]  # Test accuracy score for epoch 11 is 0.8341620356829482
+[I 220126 11:17:35 base_trainer:146]  # Test roc_auc_score score for epoch 11 is 0.6988889881452833
+[I 220126 11:17:35 base_trainer:115] # Training for epoch: 12 
+[I 220126 11:17:41 base_trainer:123]  # Train loss for epoch:12 is 48.08481439948082 
+[I 220126 11:17:41 base_trainer:306]  Eval epoch 12
+[I 220126 11:17:41 base_trainer:286] f1: 0.5209244222361025
+[I 220126 11:17:41 base_trainer:286] precision: 0.7527075812274369
+[I 220126 11:17:41 base_trainer:286] accuracy: 0.825523202911738
+[I 220126 11:17:41 base_trainer:286] roc_auc_score: 0.6786865343202135
+[I 220126 11:17:41 base_trainer:134] # Valid loss for epoch 12 is 6.295063927769661 
+[I 220126 11:17:41 base_trainer:137]  # Valid f1 score for epoch 12 is 0.5209244222361025
+[I 220126 11:17:41 base_trainer:137]  # Valid precision score for epoch 12 is 0.7527075812274369
+[I 220126 11:17:41 base_trainer:137]  # Valid accuracy score for epoch 12 is 0.825523202911738
+[I 220126 11:17:41 base_trainer:137]  # Valid roc_auc_score score for epoch 12 is 0.6786865343202135
+[I 220126 11:17:41 base_trainer:313]  Test epoch 12
+[I 220126 11:17:42 base_trainer:286] f1: 0.5508385744234802
+[I 220126 11:17:42 base_trainer:286] precision: 0.759393063583815
+[I 220126 11:17:42 base_trainer:286] accuracy: 0.8328946085600079
+[I 220126 11:17:42 base_trainer:286] roc_auc_score: 0.6947993473600135
+[I 220126 11:17:42 base_trainer:346] Prediction Model_Epoch12_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.0005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:17:42 base_trainer:143] # Test loss for epoch 12 is 14.289524644613266 
+[I 220126 11:17:42 base_trainer:146]  # Test f1 score for epoch 12 is 0.5508385744234802
+[I 220126 11:17:42 base_trainer:146]  # Test precision score for epoch 12 is 0.759393063583815
+[I 220126 11:17:42 base_trainer:146]  # Test accuracy score for epoch 12 is 0.8328946085600079
+[I 220126 11:17:42 base_trainer:146]  # Test roc_auc_score score for epoch 12 is 0.6947993473600135
+[I 220126 11:17:42 base_trainer:170] # Training complete; Total Train Procedure took: 0:01:26
+[I 220126 11:17:42 base_trainer:172] # Epoch Statistics saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.0005_Batch256_LossBCEWithLogitsLoss/Epoch_Statstics_Time20220126_1117.csv
+[I 220126 11:18:00 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 11:18:01 adult_deepcross_loader:126] adult data processed 
+[I 220126 11:18:01 adult_ifm_exp:59]  IFM initialized 
+[I 220126 11:18:01 base_trainer:90] Using CPU ... 
+[I 220126 11:18:01 base_trainer:115] # Training for epoch: 1 
+[I 220126 11:18:07 base_trainer:123]  # Train loss for epoch:1 is 80.04844546318054 
+[I 220126 11:18:07 base_trainer:306]  Eval epoch 1
+[I 220126 11:18:07 base_trainer:286] f1: 0.4690553745928339
+[I 220126 11:18:07 base_trainer:286] precision: 0.7377049180327869
+[I 220126 11:18:07 base_trainer:286] accuracy: 0.814604185623294
+[I 220126 11:18:07 base_trainer:286] roc_auc_score: 0.6528095886297154
+[I 220126 11:18:07 base_trainer:134] # Valid loss for epoch 1 is 7.365642756223679 
+[I 220126 11:18:07 base_trainer:137]  # Valid f1 score for epoch 1 is 0.4690553745928339
+[I 220126 11:18:07 base_trainer:137]  # Valid precision score for epoch 1 is 0.7377049180327869
+[I 220126 11:18:07 base_trainer:137]  # Valid accuracy score for epoch 1 is 0.814604185623294
+[I 220126 11:18:07 base_trainer:137]  # Valid roc_auc_score score for epoch 1 is 0.6528095886297154
+[I 220126 11:18:07 base_trainer:313]  Test epoch 1
+[I 220126 11:18:08 base_trainer:286] f1: 0.4990568579897601
+[I 220126 11:18:08 base_trainer:286] precision: 0.7240031274433151
+[I 220126 11:18:08 base_trainer:286] accuracy: 0.8187579214195184
+[I 220126 11:18:08 base_trainer:286] roc_auc_score: 0.6678223789305532
+[I 220126 11:18:08 base_trainer:346] Prediction Model_Epoch1_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:18:08 base_trainer:143] # Test loss for epoch 1 is 16.502452045679092 
+[I 220126 11:18:08 base_trainer:146]  # Test f1 score for epoch 1 is 0.4990568579897601
+[I 220126 11:18:08 base_trainer:146]  # Test precision score for epoch 1 is 0.7240031274433151
+[I 220126 11:18:08 base_trainer:146]  # Test accuracy score for epoch 1 is 0.8187579214195184
+[I 220126 11:18:08 base_trainer:146]  # Test roc_auc_score score for epoch 1 is 0.6678223789305532
+[I 220126 11:18:08 base_trainer:115] # Training for epoch: 2 
+[I 220126 11:18:14 base_trainer:123]  # Train loss for epoch:2 is 60.67462468147278 
+[I 220126 11:18:14 base_trainer:306]  Eval epoch 2
+[I 220126 11:18:15 base_trainer:286] f1: 0.5252894576477758
+[I 220126 11:18:15 base_trainer:286] precision: 0.7255892255892256
+[I 220126 11:18:15 base_trainer:286] accuracy: 0.8227934485896269
+[I 220126 11:18:15 base_trainer:286] roc_auc_score: 0.6814905474356484
+[I 220126 11:18:15 base_trainer:134] # Valid loss for epoch 2 is 7.481790632009506 
+[I 220126 11:18:15 base_trainer:137]  # Valid f1 score for epoch 2 is 0.5252894576477758
+[I 220126 11:18:15 base_trainer:137]  # Valid precision score for epoch 2 is 0.7255892255892256
+[I 220126 11:18:15 base_trainer:137]  # Valid accuracy score for epoch 2 is 0.8227934485896269
+[I 220126 11:18:15 base_trainer:137]  # Valid roc_auc_score score for epoch 2 is 0.6814905474356484
+[I 220126 11:18:15 base_trainer:313]  Test epoch 2
+[I 220126 11:18:15 base_trainer:286] f1: 0.539820742637644
+[I 220126 11:18:15 base_trainer:286] precision: 0.7155465037338764
+[I 220126 11:18:15 base_trainer:286] accuracy: 0.8248025738520035
+[I 220126 11:18:15 base_trainer:286] roc_auc_score: 0.6899209160080713
+[I 220126 11:18:15 base_trainer:346] Prediction Model_Epoch2_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:18:15 base_trainer:143] # Test loss for epoch 2 is 15.998997420072556 
+[I 220126 11:18:15 base_trainer:146]  # Test f1 score for epoch 2 is 0.539820742637644
+[I 220126 11:18:15 base_trainer:146]  # Test precision score for epoch 2 is 0.7155465037338764
+[I 220126 11:18:15 base_trainer:146]  # Test accuracy score for epoch 2 is 0.8248025738520035
+[I 220126 11:18:15 base_trainer:146]  # Test roc_auc_score score for epoch 2 is 0.6899209160080713
+[I 220126 11:18:15 base_trainer:115] # Training for epoch: 3 
+[I 220126 11:18:21 base_trainer:123]  # Train loss for epoch:3 is 57.02372434735298 
+[I 220126 11:18:21 base_trainer:306]  Eval epoch 3
+[I 220126 11:18:22 base_trainer:286] f1: 0.5153751537515375
+[I 220126 11:18:22 base_trainer:286] precision: 0.7236614853195165
+[I 220126 11:18:22 base_trainer:286] accuracy: 0.8207461328480437
+[I 220126 11:18:22 base_trainer:286] roc_auc_score: 0.6762077833038587
+[I 220126 11:18:22 base_trainer:134] # Valid loss for epoch 3 is 6.660282492637634 
+[I 220126 11:18:22 base_trainer:137]  # Valid f1 score for epoch 3 is 0.5153751537515375
+[I 220126 11:18:22 base_trainer:137]  # Valid precision score for epoch 3 is 0.7236614853195165
+[I 220126 11:18:22 base_trainer:137]  # Valid accuracy score for epoch 3 is 0.8207461328480437
+[I 220126 11:18:22 base_trainer:137]  # Valid roc_auc_score score for epoch 3 is 0.6762077833038587
+[I 220126 11:18:22 base_trainer:313]  Test epoch 3
+[I 220126 11:18:22 base_trainer:286] f1: 0.5206415987378386
+[I 220126 11:18:22 base_trainer:286] precision: 0.7221006564551422
+[I 220126 11:18:22 base_trainer:286] accuracy: 0.8222677196061227
+[I 220126 11:18:22 base_trainer:286] roc_auc_score: 0.6791911362872036
+[I 220126 11:18:22 base_trainer:346] Prediction Model_Epoch3_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:18:22 base_trainer:143] # Test loss for epoch 3 is 15.092695504426956 
+[I 220126 11:18:22 base_trainer:146]  # Test f1 score for epoch 3 is 0.5206415987378386
+[I 220126 11:18:22 base_trainer:146]  # Test precision score for epoch 3 is 0.7221006564551422
+[I 220126 11:18:22 base_trainer:146]  # Test accuracy score for epoch 3 is 0.8222677196061227
+[I 220126 11:18:22 base_trainer:146]  # Test roc_auc_score score for epoch 3 is 0.6791911362872036
+[I 220126 11:18:22 base_trainer:115] # Training for epoch: 4 
+[I 220126 11:18:29 base_trainer:123]  # Train loss for epoch:4 is 52.66290035843849 
+[I 220126 11:18:29 base_trainer:306]  Eval epoch 4
+[I 220126 11:18:29 base_trainer:286] f1: 0.5338983050847457
+[I 220126 11:18:29 base_trainer:286] precision: 0.7289256198347107
+[I 220126 11:18:29 base_trainer:286] accuracy: 0.8248407643312102
+[I 220126 11:18:29 base_trainer:286] roc_auc_score: 0.6861167983258057
+[I 220126 11:18:29 base_trainer:134] # Valid loss for epoch 4 is 6.544821560382843 
+[I 220126 11:18:29 base_trainer:137]  # Valid f1 score for epoch 4 is 0.5338983050847457
+[I 220126 11:18:29 base_trainer:137]  # Valid precision score for epoch 4 is 0.7289256198347107
+[I 220126 11:18:29 base_trainer:137]  # Valid accuracy score for epoch 4 is 0.8248407643312102
+[I 220126 11:18:29 base_trainer:137]  # Valid roc_auc_score score for epoch 4 is 0.6861167983258057
+[I 220126 11:18:29 base_trainer:313]  Test epoch 4
+[I 220126 11:18:29 base_trainer:286] f1: 0.5451254202223945
+[I 220126 11:18:29 base_trainer:286] precision: 0.7344947735191638
+[I 220126 11:18:29 base_trainer:286] accuracy: 0.8285073608267525
+[I 220126 11:18:29 base_trainer:286] roc_auc_score: 0.6923490310240457
+[I 220126 11:18:30 base_trainer:346] Prediction Model_Epoch4_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:18:30 base_trainer:143] # Test loss for epoch 4 is 14.546109527349472 
+[I 220126 11:18:30 base_trainer:146]  # Test f1 score for epoch 4 is 0.5451254202223945
+[I 220126 11:18:30 base_trainer:146]  # Test precision score for epoch 4 is 0.7344947735191638
+[I 220126 11:18:30 base_trainer:146]  # Test accuracy score for epoch 4 is 0.8285073608267525
+[I 220126 11:18:30 base_trainer:146]  # Test roc_auc_score score for epoch 4 is 0.6923490310240457
+[I 220126 11:18:30 base_trainer:115] # Training for epoch: 5 
+[I 220126 11:18:36 base_trainer:123]  # Train loss for epoch:5 is 50.56389316916466 
+[I 220126 11:18:36 base_trainer:306]  Eval epoch 5
+[I 220126 11:18:36 base_trainer:286] f1: 0.5127566894835096
+[I 220126 11:18:36 base_trainer:286] precision: 0.7357142857142858
+[I 220126 11:18:36 base_trainer:286] accuracy: 0.8218835304822566
+[I 220126 11:18:36 base_trainer:286] roc_auc_score: 0.6746564784481418
+[I 220126 11:18:36 base_trainer:134] # Valid loss for epoch 5 is 6.376623779535294 
+[I 220126 11:18:36 base_trainer:137]  # Valid f1 score for epoch 5 is 0.5127566894835096
+[I 220126 11:18:36 base_trainer:137]  # Valid precision score for epoch 5 is 0.7357142857142858
+[I 220126 11:18:36 base_trainer:137]  # Valid accuracy score for epoch 5 is 0.8218835304822566
+[I 220126 11:18:36 base_trainer:137]  # Valid roc_auc_score score for epoch 5 is 0.6746564784481418
+[I 220126 11:18:36 base_trainer:313]  Test epoch 5
+[I 220126 11:18:37 base_trainer:286] f1: 0.5420267085624509
+[I 220126 11:18:37 base_trainer:286] precision: 0.7462148521989906
+[I 220126 11:18:37 base_trainer:286] accuracy: 0.8294823047674759
+[I 220126 11:18:37 base_trainer:286] roc_auc_score: 0.6902958161678157
+[I 220126 11:18:37 base_trainer:346] Prediction Model_Epoch5_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:18:37 base_trainer:143] # Test loss for epoch 5 is 14.441313564777374 
+[I 220126 11:18:37 base_trainer:146]  # Test f1 score for epoch 5 is 0.5420267085624509
+[I 220126 11:18:37 base_trainer:146]  # Test precision score for epoch 5 is 0.7462148521989906
+[I 220126 11:18:37 base_trainer:146]  # Test accuracy score for epoch 5 is 0.8294823047674759
+[I 220126 11:18:37 base_trainer:146]  # Test roc_auc_score score for epoch 5 is 0.6902958161678157
+[I 220126 11:18:37 base_trainer:115] # Training for epoch: 6 
+[I 220126 11:18:43 base_trainer:123]  # Train loss for epoch:6 is 49.52193543314934 
+[I 220126 11:18:43 base_trainer:306]  Eval epoch 6
+[I 220126 11:18:43 base_trainer:286] f1: 0.5351252290775809
+[I 220126 11:18:43 base_trainer:286] precision: 0.7423728813559322
+[I 220126 11:18:43 base_trainer:286] accuracy: 0.8268880800727935
+[I 220126 11:18:43 base_trainer:286] roc_auc_score: 0.6864757131453515
+[I 220126 11:18:43 base_trainer:134] # Valid loss for epoch 6 is 6.31250536441803 
+[I 220126 11:18:43 base_trainer:137]  # Valid f1 score for epoch 6 is 0.5351252290775809
+[I 220126 11:18:43 base_trainer:137]  # Valid precision score for epoch 6 is 0.7423728813559322
+[I 220126 11:18:43 base_trainer:137]  # Valid accuracy score for epoch 6 is 0.8268880800727935
+[I 220126 11:18:43 base_trainer:137]  # Valid roc_auc_score score for epoch 6 is 0.6864757131453515
+[I 220126 11:18:43 base_trainer:313]  Test epoch 6
+[I 220126 11:18:44 base_trainer:286] f1: 0.5526179367547953
+[I 220126 11:18:44 base_trainer:286] precision: 0.7475455820476858
+[I 220126 11:18:44 base_trainer:286] accuracy: 0.8317246758311397
+[I 220126 11:18:44 base_trainer:286] roc_auc_score: 0.6961579893223473
+[I 220126 11:18:44 base_trainer:346] Prediction Model_Epoch6_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:18:44 base_trainer:143] # Test loss for epoch 6 is 14.183796867728233 
+[I 220126 11:18:44 base_trainer:146]  # Test f1 score for epoch 6 is 0.5526179367547953
+[I 220126 11:18:44 base_trainer:146]  # Test precision score for epoch 6 is 0.7475455820476858
+[I 220126 11:18:44 base_trainer:146]  # Test accuracy score for epoch 6 is 0.8317246758311397
+[I 220126 11:18:44 base_trainer:146]  # Test roc_auc_score score for epoch 6 is 0.6961579893223473
+[I 220126 11:18:44 base_trainer:115] # Training for epoch: 7 
+[I 220126 11:18:50 base_trainer:123]  # Train loss for epoch:7 is 48.956064224243164 
+[I 220126 11:18:50 base_trainer:306]  Eval epoch 7
+[I 220126 11:18:50 base_trainer:286] f1: 0.5312693498452012
+[I 220126 11:18:50 base_trainer:286] precision: 0.7552816901408451
+[I 220126 11:18:50 base_trainer:286] accuracy: 0.8277979981801638
+[I 220126 11:18:50 base_trainer:286] roc_auc_score: 0.6841185967500029
+[I 220126 11:18:50 base_trainer:134] # Valid loss for epoch 7 is 6.444825321435928 
+[I 220126 11:18:50 base_trainer:137]  # Valid f1 score for epoch 7 is 0.5312693498452012
+[I 220126 11:18:50 base_trainer:137]  # Valid precision score for epoch 7 is 0.7552816901408451
+[I 220126 11:18:50 base_trainer:137]  # Valid accuracy score for epoch 7 is 0.8277979981801638
+[I 220126 11:18:50 base_trainer:137]  # Valid roc_auc_score score for epoch 7 is 0.6841185967500029
+[I 220126 11:18:50 base_trainer:313]  Test epoch 7
+[I 220126 11:18:51 base_trainer:286] f1: 0.5502070393374742
+[I 220126 11:18:51 base_trainer:286] precision: 0.74231843575419
+[I 220126 11:18:51 base_trainer:286] accuracy: 0.8305547431022716
+[I 220126 11:18:51 base_trainer:286] roc_auc_score: 0.6949661331343534
+[I 220126 11:18:51 base_trainer:346] Prediction Model_Epoch7_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:18:51 base_trainer:143] # Test loss for epoch 7 is 14.207464277744293 
+[I 220126 11:18:51 base_trainer:146]  # Test f1 score for epoch 7 is 0.5502070393374742
+[I 220126 11:18:51 base_trainer:146]  # Test precision score for epoch 7 is 0.74231843575419
+[I 220126 11:18:51 base_trainer:146]  # Test accuracy score for epoch 7 is 0.8305547431022716
+[I 220126 11:18:51 base_trainer:146]  # Test roc_auc_score score for epoch 7 is 0.6949661331343534
+[I 220126 11:18:51 base_trainer:115] # Training for epoch: 8 
+[I 220126 11:18:57 base_trainer:123]  # Train loss for epoch:8 is 48.38457506895065 
+[I 220126 11:18:57 base_trainer:306]  Eval epoch 8
+[I 220126 11:18:57 base_trainer:286] f1: 0.5081967213114754
+[I 220126 11:18:57 base_trainer:286] precision: 0.7476808905380334
+[I 220126 11:18:57 base_trainer:286] accuracy: 0.8225659690627843
+[I 220126 11:18:57 base_trainer:286] roc_auc_score: 0.6721500637547938
+[I 220126 11:18:57 base_trainer:134] # Valid loss for epoch 8 is 6.2543177008628845 
+[I 220126 11:18:57 base_trainer:137]  # Valid f1 score for epoch 8 is 0.5081967213114754
+[I 220126 11:18:57 base_trainer:137]  # Valid precision score for epoch 8 is 0.7476808905380334
+[I 220126 11:18:57 base_trainer:137]  # Valid accuracy score for epoch 8 is 0.8225659690627843
+[I 220126 11:18:57 base_trainer:137]  # Valid roc_auc_score score for epoch 8 is 0.6721500637547938
+[I 220126 11:18:57 base_trainer:313]  Test epoch 8
+[I 220126 11:18:58 base_trainer:286] f1: 0.5336870026525198
+[I 220126 11:18:58 base_trainer:286] precision: 0.7518684603886397
+[I 220126 11:18:58 base_trainer:286] accuracy: 0.8286048552208248
+[I 220126 11:18:58 base_trainer:286] roc_auc_score: 0.6856116003867496
+[I 220126 11:18:58 base_trainer:346] Prediction Model_Epoch8_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:18:58 base_trainer:143] # Test loss for epoch 8 is 14.25236400961876 
+[I 220126 11:18:58 base_trainer:146]  # Test f1 score for epoch 8 is 0.5336870026525198
+[I 220126 11:18:58 base_trainer:146]  # Test precision score for epoch 8 is 0.7518684603886397
+[I 220126 11:18:58 base_trainer:146]  # Test accuracy score for epoch 8 is 0.8286048552208248
+[I 220126 11:18:58 base_trainer:146]  # Test roc_auc_score score for epoch 8 is 0.6856116003867496
+[I 220126 11:18:58 base_trainer:115] # Training for epoch: 9 
+[I 220126 11:19:04 base_trainer:123]  # Train loss for epoch:9 is 48.27103805541992 
+[I 220126 11:19:04 base_trainer:306]  Eval epoch 9
+[I 220126 11:19:04 base_trainer:286] f1: 0.5327669902912622
+[I 220126 11:19:04 base_trainer:286] precision: 0.7304492512479202
+[I 220126 11:19:04 base_trainer:286] accuracy: 0.8248407643312102
+[I 220126 11:19:04 base_trainer:286] roc_auc_score: 0.6854602850841731
+[I 220126 11:19:04 base_trainer:134] # Valid loss for epoch 9 is 6.391440033912659 
+[I 220126 11:19:04 base_trainer:137]  # Valid f1 score for epoch 9 is 0.5327669902912622
+[I 220126 11:19:04 base_trainer:137]  # Valid precision score for epoch 9 is 0.7304492512479202
+[I 220126 11:19:04 base_trainer:137]  # Valid accuracy score for epoch 9 is 0.8248407643312102
+[I 220126 11:19:04 base_trainer:137]  # Valid roc_auc_score score for epoch 9 is 0.6854602850841731
+[I 220126 11:19:04 base_trainer:313]  Test epoch 9
+[I 220126 11:19:05 base_trainer:286] f1: 0.5590189064895248
+[I 220126 11:19:05 base_trainer:286] precision: 0.738191632928475
+[I 220126 11:19:05 base_trainer:286] accuracy: 0.8317246758311397
+[I 220126 11:19:05 base_trainer:286] roc_auc_score: 0.7001254308895241
+[I 220126 11:19:05 base_trainer:346] Prediction Model_Epoch9_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:19:05 base_trainer:143] # Test loss for epoch 9 is 14.28353801369667 
+[I 220126 11:19:05 base_trainer:146]  # Test f1 score for epoch 9 is 0.5590189064895248
+[I 220126 11:19:05 base_trainer:146]  # Test precision score for epoch 9 is 0.738191632928475
+[I 220126 11:19:05 base_trainer:146]  # Test accuracy score for epoch 9 is 0.8317246758311397
+[I 220126 11:19:05 base_trainer:146]  # Test roc_auc_score score for epoch 9 is 0.7001254308895241
+[I 220126 11:19:05 base_trainer:115] # Training for epoch: 10 
+[I 220126 11:19:11 base_trainer:123]  # Train loss for epoch:10 is 47.88576382398605 
+[I 220126 11:19:11 base_trainer:306]  Eval epoch 10
+[I 220126 11:19:11 base_trainer:286] f1: 0.5308641975308641
+[I 220126 11:19:11 base_trainer:286] precision: 0.7504363001745201
+[I 220126 11:19:11 base_trainer:286] accuracy: 0.827115559599636
+[I 220126 11:19:11 base_trainer:286] roc_auc_score: 0.6839989584768209
+[I 220126 11:19:11 base_trainer:134] # Valid loss for epoch 10 is 6.3009220361709595 
+[I 220126 11:19:11 base_trainer:137]  # Valid f1 score for epoch 10 is 0.5308641975308641
+[I 220126 11:19:11 base_trainer:137]  # Valid precision score for epoch 10 is 0.7504363001745201
+[I 220126 11:19:11 base_trainer:137]  # Valid accuracy score for epoch 10 is 0.827115559599636
+[I 220126 11:19:11 base_trainer:137]  # Valid roc_auc_score score for epoch 10 is 0.6839989584768209
+[I 220126 11:19:11 base_trainer:313]  Test epoch 10
+[I 220126 11:19:12 base_trainer:286] f1: 0.5566208862399585
+[I 220126 11:19:12 base_trainer:286] precision: 0.7526278906797477
+[I 220126 11:19:12 base_trainer:286] accuracy: 0.8331870917422248
+[I 220126 11:19:12 base_trainer:286] roc_auc_score: 0.6982500105095006
+[I 220126 11:19:12 base_trainer:346] Prediction Model_Epoch10_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:19:12 base_trainer:143] # Test loss for epoch 10 is 14.069816663861275 
+[I 220126 11:19:12 base_trainer:146]  # Test f1 score for epoch 10 is 0.5566208862399585
+[I 220126 11:19:12 base_trainer:146]  # Test precision score for epoch 10 is 0.7526278906797477
+[I 220126 11:19:12 base_trainer:146]  # Test accuracy score for epoch 10 is 0.8331870917422248
+[I 220126 11:19:12 base_trainer:146]  # Test roc_auc_score score for epoch 10 is 0.6982500105095006
+[I 220126 11:19:12 base_trainer:115] # Training for epoch: 11 
+[I 220126 11:19:18 base_trainer:123]  # Train loss for epoch:11 is 47.55545289814472 
+[I 220126 11:19:18 base_trainer:306]  Eval epoch 11
+[I 220126 11:19:18 base_trainer:286] f1: 0.5184721352536006
+[I 220126 11:19:18 base_trainer:286] precision: 0.7527272727272727
+[I 220126 11:19:18 base_trainer:286] accuracy: 0.8250682438580528
+[I 220126 11:19:18 base_trainer:286] roc_auc_score: 0.6774031678617661
+[I 220126 11:19:18 base_trainer:134] # Valid loss for epoch 11 is 6.2163082510232925 
+[I 220126 11:19:18 base_trainer:137]  # Valid f1 score for epoch 11 is 0.5184721352536006
+[I 220126 11:19:18 base_trainer:137]  # Valid precision score for epoch 11 is 0.7527272727272727
+[I 220126 11:19:18 base_trainer:137]  # Valid accuracy score for epoch 11 is 0.8250682438580528
+[I 220126 11:19:18 base_trainer:137]  # Valid roc_auc_score score for epoch 11 is 0.6774031678617661
+[I 220126 11:19:18 base_trainer:313]  Test epoch 11
+[I 220126 11:19:19 base_trainer:286] f1: 0.550603041426324
+[I 220126 11:19:19 base_trainer:286] precision: 0.7597684515195369
+[I 220126 11:19:19 base_trainer:286] accuracy: 0.8328946085600079
+[I 220126 11:19:19 base_trainer:286] roc_auc_score: 0.6946576530183286
+[I 220126 11:19:19 base_trainer:346] Prediction Model_Epoch11_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:19:19 base_trainer:143] # Test loss for epoch 11 is 14.001876577734947 
+[I 220126 11:19:19 base_trainer:146]  # Test f1 score for epoch 11 is 0.550603041426324
+[I 220126 11:19:19 base_trainer:146]  # Test precision score for epoch 11 is 0.7597684515195369
+[I 220126 11:19:19 base_trainer:146]  # Test accuracy score for epoch 11 is 0.8328946085600079
+[I 220126 11:19:19 base_trainer:146]  # Test roc_auc_score score for epoch 11 is 0.6946576530183286
+[I 220126 11:19:19 base_trainer:115] # Training for epoch: 12 
+[I 220126 11:19:25 base_trainer:123]  # Train loss for epoch:12 is 47.57722660899162 
+[I 220126 11:19:25 base_trainer:306]  Eval epoch 12
+[I 220126 11:19:25 base_trainer:286] f1: 0.5166561910747958
+[I 220126 11:19:25 base_trainer:286] precision: 0.7555147058823529
+[I 220126 11:19:25 base_trainer:286] accuracy: 0.8250682438580528
+[I 220126 11:19:25 base_trainer:286] roc_auc_score: 0.6764183979993172
+[I 220126 11:19:25 base_trainer:134] # Valid loss for epoch 12 is 6.2832179963588715 
+[I 220126 11:19:25 base_trainer:137]  # Valid f1 score for epoch 12 is 0.5166561910747958
+[I 220126 11:19:25 base_trainer:137]  # Valid precision score for epoch 12 is 0.7555147058823529
+[I 220126 11:19:25 base_trainer:137]  # Valid accuracy score for epoch 12 is 0.8250682438580528
+[I 220126 11:19:25 base_trainer:137]  # Valid roc_auc_score score for epoch 12 is 0.6764183979993172
+[I 220126 11:19:25 base_trainer:313]  Test epoch 12
+[I 220126 11:19:26 base_trainer:286] f1: 0.5413811280969953
+[I 220126 11:19:26 base_trainer:286] precision: 0.7540381791483113
+[I 220126 11:19:26 base_trainer:286] accuracy: 0.8303597543141269
+[I 220126 11:19:26 base_trainer:286] roc_auc_score: 0.6897373413065411
+[I 220126 11:19:26 base_trainer:346] Prediction Model_Epoch12_Predictions.json saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.005_Batch256_LossBCEWithLogitsLoss
+[I 220126 11:19:26 base_trainer:143] # Test loss for epoch 12 is 14.281751811504364 
+[I 220126 11:19:26 base_trainer:146]  # Test f1 score for epoch 12 is 0.5413811280969953
+[I 220126 11:19:26 base_trainer:146]  # Test precision score for epoch 12 is 0.7540381791483113
+[I 220126 11:19:26 base_trainer:146]  # Test accuracy score for epoch 12 is 0.8303597543141269
+[I 220126 11:19:26 base_trainer:146]  # Test roc_auc_score score for epoch 12 is 0.6897373413065411
+[I 220126 11:19:26 base_trainer:170] # Training complete; Total Train Procedure took: 0:01:25
+[I 220126 11:19:26 base_trainer:172] # Epoch Statistics saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.005_Batch256_LossBCEWithLogitsLoss/Epoch_Statstics_Time20220126_1119.csv
+[I 220126 11:27:26 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 11:27:26 adult_deepcross_loader:126] adult data processed 
+[I 220126 11:27:26 adult_ifm_exp:59]  IFM initialized 
+[I 220126 11:27:26 base_trainer:90] Using CPU ... 
+[I 220126 11:27:26 base_trainer:115] # Training for epoch: 1 
+[I 220126 11:28:47 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 11:28:48 adult_deepcross_loader:126] adult data processed 
+[I 220126 11:28:48 adult_ifm_exp:59]  IFM initialized 
+[I 220126 11:28:48 base_trainer:90] Using CPU ... 
+[I 220126 11:28:48 base_trainer:115] # Training for epoch: 1 
+[I 220126 11:31:05 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 11:31:05 adult_deepcross_loader:126] adult data processed 
+[I 220126 11:31:05 adult_ifm_exp:59]  IFM initialized 
+[I 220126 11:31:05 base_trainer:90] Using CPU ... 
+[I 220126 11:31:05 base_trainer:115] # Training for epoch: 1 
+[I 220126 11:31:16 adult_ifm_exp:78]  Start train Input-aware Factorization Machines on Adult data 
+[I 220126 11:31:16 adult_deepcross_loader:126] adult data processed 
+[I 220126 11:31:16 adult_ifm_exp:59]  IFM initialized 
+[I 220126 11:31:16 base_trainer:90] Using CPU ... 
+[I 220126 11:31:16 base_trainer:115] # Training for epoch: 1 
+[I 220126 11:31:22 base_trainer:123]  # Train loss for epoch:1 is 65.3756433725357 
+[I 220126 11:31:22 base_trainer:306]  Eval epoch 1
+[I 220126 11:31:22 base_trainer:286] f1: 0.5542439572793705
+[I 220126 11:31:22 base_trainer:286] precision: 0.6734972677595629
+[I 220126 11:31:22 base_trainer:286] accuracy: 0.8196087352138307
+[I 220126 11:31:22 base_trainer:286] roc_auc_score: 0.6997522817542648
+[I 220126 11:31:22 base_trainer:134] # Valid loss for epoch 1 is 7.132475674152374 
+[I 220126 11:31:22 base_trainer:137]  # Valid f1 score for epoch 1 is 0.5542439572793705
+[I 220126 11:31:22 base_trainer:137]  # Valid precision score for epoch 1 is 0.6734972677595629
+[I 220126 11:31:22 base_trainer:137]  # Valid accuracy score for epoch 1 is 0.8196087352138307
+[I 220126 11:31:22 base_trainer:137]  # Valid roc_auc_score score for epoch 1 is 0.6997522817542648
+[I 220126 11:31:22 base_trainer:313]  Test epoch 1
+[I 220126 11:31:23 base_trainer:286] f1: 0.577121425222691
+[I 220126 11:31:23 base_trainer:286] precision: 0.6712104689203926
+[I 220126 11:31:23 base_trainer:286] accuracy: 0.8241201130934971
+[I 220126 11:31:23 base_trainer:286] roc_auc_score: 0.7145535301412477
+[I 220126 11:31:23 base_trainer:143] # Test loss for epoch 1 is 15.77003699541092 
+[I 220126 11:31:23 base_trainer:146]  # Test f1 score for epoch 1 is 0.577121425222691
+[I 220126 11:31:23 base_trainer:146]  # Test precision score for epoch 1 is 0.6712104689203926
+[I 220126 11:31:23 base_trainer:146]  # Test accuracy score for epoch 1 is 0.8241201130934971
+[I 220126 11:31:23 base_trainer:146]  # Test roc_auc_score score for epoch 1 is 0.7145535301412477
+[I 220126 11:31:23 base_trainer:115] # Training for epoch: 2 
+[I 220126 11:31:29 base_trainer:123]  # Train loss for epoch:2 is 57.89884656667709 
+[I 220126 11:31:29 base_trainer:306]  Eval epoch 2
+[I 220126 11:31:29 base_trainer:286] f1: 0.5509391007398975
+[I 220126 11:31:29 base_trainer:286] precision: 0.6816901408450704
+[I 220126 11:31:29 base_trainer:286] accuracy: 0.8205186533212011
+[I 220126 11:31:29 base_trainer:286] roc_auc_score: 0.6973951653589163
+[I 220126 11:31:29 base_trainer:134] # Valid loss for epoch 2 is 6.930557608604431 
+[I 220126 11:31:29 base_trainer:137]  # Valid f1 score for epoch 2 is 0.5509391007398975
+[I 220126 11:31:29 base_trainer:137]  # Valid precision score for epoch 2 is 0.6816901408450704
+[I 220126 11:31:29 base_trainer:137]  # Valid accuracy score for epoch 2 is 0.8205186533212011
+[I 220126 11:31:29 base_trainer:137]  # Valid roc_auc_score score for epoch 2 is 0.6973951653589163
+[I 220126 11:31:29 base_trainer:313]  Test epoch 2
+[I 220126 11:31:30 base_trainer:286] f1: 0.5688695231178892
+[I 220126 11:31:30 base_trainer:286] precision: 0.6915832842848735
+[I 220126 11:31:30 base_trainer:286] accuracy: 0.826362484157161
+[I 220126 11:31:30 base_trainer:286] roc_auc_score: 0.7080882955691945
+[I 220126 11:31:30 base_trainer:143] # Test loss for epoch 2 is 15.263456374406815 
+[I 220126 11:31:30 base_trainer:146]  # Test f1 score for epoch 2 is 0.5688695231178892
+[I 220126 11:31:30 base_trainer:146]  # Test precision score for epoch 2 is 0.6915832842848735
+[I 220126 11:31:30 base_trainer:146]  # Test accuracy score for epoch 2 is 0.826362484157161
+[I 220126 11:31:30 base_trainer:146]  # Test roc_auc_score score for epoch 2 is 0.7080882955691945
+[I 220126 11:31:30 base_trainer:115] # Training for epoch: 3 
+[I 220126 11:31:36 base_trainer:123]  # Train loss for epoch:3 is 55.428962886333466 
+[I 220126 11:31:36 base_trainer:306]  Eval epoch 3
+[I 220126 11:31:36 base_trainer:286] f1: 0.5584112149532711
+[I 220126 11:31:36 base_trainer:286] precision: 0.718796992481203
+[I 220126 11:31:36 base_trainer:286] accuracy: 0.8280254777070064
+[I 220126 11:31:36 base_trainer:286] roc_auc_score: 0.700352469467999
+[I 220126 11:31:36 base_trainer:134] # Valid loss for epoch 3 is 6.826989948749542 
+[I 220126 11:31:36 base_trainer:137]  # Valid f1 score for epoch 3 is 0.5584112149532711
+[I 220126 11:31:36 base_trainer:137]  # Valid precision score for epoch 3 is 0.718796992481203
+[I 220126 11:31:36 base_trainer:137]  # Valid accuracy score for epoch 3 is 0.8280254777070064
+[I 220126 11:31:36 base_trainer:137]  # Valid roc_auc_score score for epoch 3 is 0.700352469467999
+[I 220126 11:31:36 base_trainer:313]  Test epoch 3
+[I 220126 11:31:36 base_trainer:286] f1: 0.5708582834331337
+[I 220126 11:31:36 base_trainer:286] precision: 0.7258883248730964
+[I 220126 11:31:36 base_trainer:286] accuracy: 0.8323096421955738
+[I 220126 11:31:36 base_trainer:286] roc_auc_score: 0.7075935345552379
+[I 220126 11:31:36 base_trainer:143] # Test loss for epoch 3 is 15.421947807073593 
+[I 220126 11:31:36 base_trainer:146]  # Test f1 score for epoch 3 is 0.5708582834331337
+[I 220126 11:31:36 base_trainer:146]  # Test precision score for epoch 3 is 0.7258883248730964
+[I 220126 11:31:36 base_trainer:146]  # Test accuracy score for epoch 3 is 0.8323096421955738
+[I 220126 11:31:36 base_trainer:146]  # Test roc_auc_score score for epoch 3 is 0.7075935345552379
+[I 220126 11:31:36 base_trainer:115] # Training for epoch: 4 
+[I 220126 11:31:42 base_trainer:123]  # Train loss for epoch:4 is 52.99530577659607 
+[I 220126 11:31:42 base_trainer:306]  Eval epoch 4
+[I 220126 11:31:43 base_trainer:286] f1: 0.4809960681520315
+[I 220126 11:31:43 base_trainer:286] precision: 0.7661795407098121
+[I 220126 11:31:43 base_trainer:286] accuracy: 0.8198362147406734
+[I 220126 11:31:43 base_trainer:286] roc_auc_score: 0.6585412458294154
+[I 220126 11:31:43 base_trainer:134] # Valid loss for epoch 4 is 6.48528665304184 
+[I 220126 11:31:43 base_trainer:137]  # Valid f1 score for epoch 4 is 0.4809960681520315
+[I 220126 11:31:43 base_trainer:137]  # Valid precision score for epoch 4 is 0.7661795407098121
+[I 220126 11:31:43 base_trainer:137]  # Valid accuracy score for epoch 4 is 0.8198362147406734
+[I 220126 11:31:43 base_trainer:137]  # Valid roc_auc_score score for epoch 4 is 0.6585412458294154
+[I 220126 11:31:43 base_trainer:313]  Test epoch 4
+[I 220126 11:31:43 base_trainer:286] f1: 0.487710577188622
+[I 220126 11:31:43 base_trainer:286] precision: 0.7426408746846089
+[I 220126 11:31:43 base_trainer:286] accuracy: 0.8191478989958078
+[I 220126 11:31:43 base_trainer:286] roc_auc_score: 0.6619851132924163
+[I 220126 11:31:43 base_trainer:143] # Test loss for epoch 4 is 14.646743714809418 
+[I 220126 11:31:43 base_trainer:146]  # Test f1 score for epoch 4 is 0.487710577188622
+[I 220126 11:31:43 base_trainer:146]  # Test precision score for epoch 4 is 0.7426408746846089
+[I 220126 11:31:43 base_trainer:146]  # Test accuracy score for epoch 4 is 0.8191478989958078
+[I 220126 11:31:43 base_trainer:146]  # Test roc_auc_score score for epoch 4 is 0.6619851132924163
+[I 220126 11:31:43 base_trainer:115] # Training for epoch: 5 
+[I 220126 11:31:49 base_trainer:123]  # Train loss for epoch:5 is 50.854411751031876 
+[I 220126 11:31:49 base_trainer:306]  Eval epoch 5
+[I 220126 11:31:49 base_trainer:286] f1: 0.5607911576497964
+[I 220126 11:31:49 base_trainer:286] precision: 0.7172619047619048
+[I 220126 11:31:49 base_trainer:286] accuracy: 0.828252957233849
+[I 220126 11:31:49 base_trainer:286] roc_auc_score: 0.7018147942492634
+[I 220126 11:31:49 base_trainer:134] # Valid loss for epoch 5 is 6.444280058145523 
+[I 220126 11:31:49 base_trainer:137]  # Valid f1 score for epoch 5 is 0.5607911576497964
+[I 220126 11:31:49 base_trainer:137]  # Valid precision score for epoch 5 is 0.7172619047619048
+[I 220126 11:31:49 base_trainer:137]  # Valid accuracy score for epoch 5 is 0.828252957233849
+[I 220126 11:31:49 base_trainer:137]  # Valid roc_auc_score score for epoch 5 is 0.7018147942492634
+[I 220126 11:31:49 base_trainer:313]  Test epoch 5
+[I 220126 11:31:50 base_trainer:286] f1: 0.5876288659793816
+[I 220126 11:31:50 base_trainer:286] precision: 0.7289890377588307
+[I 220126 11:31:50 base_trainer:286] accuracy: 0.8362094179584674
+[I 220126 11:31:50 base_trainer:286] roc_auc_score: 0.7176592452076677
+[I 220126 11:31:50 base_trainer:143] # Test loss for epoch 5 is 14.662886917591095 
+[I 220126 11:31:50 base_trainer:146]  # Test f1 score for epoch 5 is 0.5876288659793816
+[I 220126 11:31:50 base_trainer:146]  # Test precision score for epoch 5 is 0.7289890377588307
+[I 220126 11:31:50 base_trainer:146]  # Test accuracy score for epoch 5 is 0.8362094179584674
+[I 220126 11:31:50 base_trainer:146]  # Test roc_auc_score score for epoch 5 is 0.7176592452076677
+[I 220126 11:31:50 base_trainer:115] # Training for epoch: 6 
+[I 220126 11:31:56 base_trainer:123]  # Train loss for epoch:6 is 50.34867638349533 
+[I 220126 11:31:56 base_trainer:306]  Eval epoch 6
+[I 220126 11:31:56 base_trainer:286] f1: 0.39857142857142863
+[I 220126 11:31:56 base_trainer:286] precision: 0.7903682719546742
+[I 220126 11:31:56 base_trainer:286] accuracy: 0.8084622383985441
+[I 220126 11:31:56 base_trainer:286] roc_auc_score: 0.6221897482976144
+[I 220126 11:31:56 base_trainer:134] # Valid loss for epoch 6 is 6.429989904165268 
+[I 220126 11:31:56 base_trainer:137]  # Valid f1 score for epoch 6 is 0.39857142857142863
+[I 220126 11:31:56 base_trainer:137]  # Valid precision score for epoch 6 is 0.7903682719546742
+[I 220126 11:31:56 base_trainer:137]  # Valid accuracy score for epoch 6 is 0.8084622383985441
+[I 220126 11:31:56 base_trainer:137]  # Valid roc_auc_score score for epoch 6 is 0.6221897482976144
+[I 220126 11:31:56 base_trainer:313]  Test epoch 6
+[I 220126 11:31:56 base_trainer:286] f1: 0.42366298177472367
+[I 220126 11:31:56 base_trainer:286] precision: 0.774863387978142
+[I 220126 11:31:56 base_trainer:286] accuracy: 0.8119333138344546
+[I 220126 11:31:56 base_trainer:286] roc_auc_score: 0.6326018633344543
+[I 220126 11:31:56 base_trainer:143] # Test loss for epoch 6 is 14.69640964269638 
+[I 220126 11:31:56 base_trainer:146]  # Test f1 score for epoch 6 is 0.42366298177472367
+[I 220126 11:31:56 base_trainer:146]  # Test precision score for epoch 6 is 0.774863387978142
+[I 220126 11:31:56 base_trainer:146]  # Test accuracy score for epoch 6 is 0.8119333138344546
+[I 220126 11:31:56 base_trainer:146]  # Test roc_auc_score score for epoch 6 is 0.6326018633344543
+[I 220126 11:31:56 base_trainer:115] # Training for epoch: 7 
+[I 220126 11:32:02 base_trainer:123]  # Train loss for epoch:7 is 49.601860880851746 
+[I 220126 11:32:02 base_trainer:306]  Eval epoch 7
+[I 220126 11:32:03 base_trainer:286] f1: 0.5385556915544676
+[I 220126 11:32:03 base_trainer:286] precision: 0.7495741056218058
+[I 220126 11:32:03 base_trainer:286] accuracy: 0.8284804367606915
+[I 220126 11:32:03 base_trainer:286] roc_auc_score: 0.6881773144729799
+[I 220126 11:32:03 base_trainer:134] # Valid loss for epoch 7 is 6.345684677362442 
+[I 220126 11:32:03 base_trainer:137]  # Valid f1 score for epoch 7 is 0.5385556915544676
+[I 220126 11:32:03 base_trainer:137]  # Valid precision score for epoch 7 is 0.7495741056218058
+[I 220126 11:32:03 base_trainer:137]  # Valid accuracy score for epoch 7 is 0.8284804367606915
+[I 220126 11:32:03 base_trainer:137]  # Valid roc_auc_score score for epoch 7 is 0.6881773144729799
+[I 220126 11:32:03 base_trainer:313]  Test epoch 7
+[I 220126 11:32:03 base_trainer:286] f1: 0.549467670734874
+[I 220126 11:32:03 base_trainer:286] precision: 0.7455954897815363
+[I 220126 11:32:03 base_trainer:286] accuracy: 0.8308472262844886
+[I 220126 11:32:03 base_trainer:286] roc_auc_score: 0.6944493547166637
+[I 220126 11:32:03 base_trainer:143] # Test loss for epoch 7 is 14.557703346014023 
+[I 220126 11:32:03 base_trainer:146]  # Test f1 score for epoch 7 is 0.549467670734874
+[I 220126 11:32:03 base_trainer:146]  # Test precision score for epoch 7 is 0.7455954897815363
+[I 220126 11:32:03 base_trainer:146]  # Test accuracy score for epoch 7 is 0.8308472262844886
+[I 220126 11:32:03 base_trainer:146]  # Test roc_auc_score score for epoch 7 is 0.6944493547166637
+[I 220126 11:32:03 base_trainer:115] # Training for epoch: 8 
+[I 220126 11:32:09 base_trainer:123]  # Train loss for epoch:8 is 48.99098363518715 
+[I 220126 11:32:09 base_trainer:306]  Eval epoch 8
+[I 220126 11:32:09 base_trainer:286] f1: 0.5161691542288558
+[I 220126 11:32:09 base_trainer:286] precision: 0.7397504456327986
+[I 220126 11:32:09 base_trainer:286] accuracy: 0.8230209281164695
+[I 220126 11:32:09 base_trainer:286] roc_auc_score: 0.6763877398005878
+[I 220126 11:32:09 base_trainer:134] # Valid loss for epoch 8 is 6.453902751207352 
+[I 220126 11:32:09 base_trainer:137]  # Valid f1 score for epoch 8 is 0.5161691542288558
+[I 220126 11:32:09 base_trainer:137]  # Valid precision score for epoch 8 is 0.7397504456327986
+[I 220126 11:32:09 base_trainer:137]  # Valid accuracy score for epoch 8 is 0.8230209281164695
+[I 220126 11:32:09 base_trainer:137]  # Valid roc_auc_score score for epoch 8 is 0.6763877398005878
+[I 220126 11:32:09 base_trainer:313]  Test epoch 8
+[I 220126 11:32:10 base_trainer:286] f1: 0.5365597054182009
+[I 220126 11:32:10 base_trainer:286] precision: 0.7445255474452555
+[I 220126 11:32:10 base_trainer:286] accuracy: 0.8282148776445354
+[I 220126 11:32:10 base_trainer:286] roc_auc_score: 0.6873397301160249
+[I 220126 11:32:10 base_trainer:143] # Test loss for epoch 8 is 14.168661296367645 
+[I 220126 11:32:10 base_trainer:146]  # Test f1 score for epoch 8 is 0.5365597054182009
+[I 220126 11:32:10 base_trainer:146]  # Test precision score for epoch 8 is 0.7445255474452555
+[I 220126 11:32:10 base_trainer:146]  # Test accuracy score for epoch 8 is 0.8282148776445354
+[I 220126 11:32:10 base_trainer:146]  # Test roc_auc_score score for epoch 8 is 0.6873397301160249
+[I 220126 11:32:10 base_trainer:115] # Training for epoch: 9 
+[I 220126 11:32:16 base_trainer:123]  # Train loss for epoch:9 is 48.555742651224136 
+[I 220126 11:32:16 base_trainer:306]  Eval epoch 9
+[I 220126 11:32:16 base_trainer:286] f1: 0.5594322885866351
+[I 220126 11:32:16 base_trainer:286] precision: 0.734472049689441
+[I 220126 11:32:16 base_trainer:286] accuracy: 0.8305277525022748
+[I 220126 11:32:16 base_trainer:286] roc_auc_score: 0.7003534676419111
+[I 220126 11:32:16 base_trainer:134] # Valid loss for epoch 9 is 6.372578948736191 
+[I 220126 11:32:16 base_trainer:137]  # Valid f1 score for epoch 9 is 0.5594322885866351
+[I 220126 11:32:16 base_trainer:137]  # Valid precision score for epoch 9 is 0.734472049689441
+[I 220126 11:32:16 base_trainer:137]  # Valid accuracy score for epoch 9 is 0.8305277525022748
+[I 220126 11:32:16 base_trainer:137]  # Valid roc_auc_score score for epoch 9 is 0.7003534676419111
+[I 220126 11:32:16 base_trainer:313]  Test epoch 9
+[I 220126 11:32:17 base_trainer:286] f1: 0.5790790790790791
+[I 220126 11:32:17 base_trainer:286] precision: 0.739769820971867
+[I 220126 11:32:17 base_trainer:286] accuracy: 0.8360144291703228
+[I 220126 11:32:17 base_trainer:286] roc_auc_score: 0.7118636760131158
+[I 220126 11:32:17 base_trainer:143] # Test loss for epoch 9 is 14.315830022096634 
+[I 220126 11:32:17 base_trainer:146]  # Test f1 score for epoch 9 is 0.5790790790790791
+[I 220126 11:32:17 base_trainer:146]  # Test precision score for epoch 9 is 0.739769820971867
+[I 220126 11:32:17 base_trainer:146]  # Test accuracy score for epoch 9 is 0.8360144291703228
+[I 220126 11:32:17 base_trainer:146]  # Test roc_auc_score score for epoch 9 is 0.7118636760131158
+[I 220126 11:32:17 base_trainer:115] # Training for epoch: 10 
+[I 220126 11:32:23 base_trainer:123]  # Train loss for epoch:10 is 48.05318087339401 
+[I 220126 11:32:23 base_trainer:306]  Eval epoch 10
+[I 220126 11:32:23 base_trainer:286] f1: 0.5160883280757097
+[I 220126 11:32:23 base_trainer:286] precision: 0.7602230483271375
+[I 220126 11:32:23 base_trainer:286] accuracy: 0.825523202911738
+[I 220126 11:32:23 base_trainer:286] roc_auc_score: 0.6760604813536836
+[I 220126 11:32:23 base_trainer:134] # Valid loss for epoch 10 is 6.342973679304123 
+[I 220126 11:32:23 base_trainer:137]  # Valid f1 score for epoch 10 is 0.5160883280757097
+[I 220126 11:32:23 base_trainer:137]  # Valid precision score for epoch 10 is 0.7602230483271375
+[I 220126 11:32:23 base_trainer:137]  # Valid accuracy score for epoch 10 is 0.825523202911738
+[I 220126 11:32:23 base_trainer:137]  # Valid roc_auc_score score for epoch 10 is 0.6760604813536836
+[I 220126 11:32:23 base_trainer:313]  Test epoch 10
+[I 220126 11:32:23 base_trainer:286] f1: 0.5370124701512338
+[I 220126 11:32:23 base_trainer:286] precision: 0.7569184741959611
+[I 220126 11:32:23 base_trainer:286] accuracy: 0.8298722823437652
+[I 220126 11:32:23 base_trainer:286] roc_auc_score: 0.6872924373633765
+[I 220126 11:32:23 base_trainer:143] # Test loss for epoch 10 is 13.983577653765678 
+[I 220126 11:32:23 base_trainer:146]  # Test f1 score for epoch 10 is 0.5370124701512338
+[I 220126 11:32:23 base_trainer:146]  # Test precision score for epoch 10 is 0.7569184741959611
+[I 220126 11:32:23 base_trainer:146]  # Test accuracy score for epoch 10 is 0.8298722823437652
+[I 220126 11:32:23 base_trainer:146]  # Test roc_auc_score score for epoch 10 is 0.6872924373633765
+[I 220126 11:32:23 base_trainer:115] # Training for epoch: 11 
+[I 220126 11:32:29 base_trainer:123]  # Train loss for epoch:11 is 47.81183123588562 
+[I 220126 11:32:29 base_trainer:306]  Eval epoch 11
+[I 220126 11:32:30 base_trainer:286] f1: 0.5035233824471493
+[I 220126 11:32:30 base_trainer:286] precision: 0.7645914396887159
+[I 220126 11:32:30 base_trainer:286] accuracy: 0.8237033666969973
+[I 220126 11:32:30 base_trainer:286] roc_auc_score: 0.6696139890366282
+[I 220126 11:32:30 base_trainer:134] # Valid loss for epoch 11 is 6.259474992752075 
+[I 220126 11:32:30 base_trainer:137]  # Valid f1 score for epoch 11 is 0.5035233824471493
+[I 220126 11:32:30 base_trainer:137]  # Valid precision score for epoch 11 is 0.7645914396887159
+[I 220126 11:32:30 base_trainer:137]  # Valid accuracy score for epoch 11 is 0.8237033666969973
+[I 220126 11:32:30 base_trainer:137]  # Valid roc_auc_score score for epoch 11 is 0.6696139890366282
+[I 220126 11:32:30 base_trainer:313]  Test epoch 11
+[I 220126 11:32:30 base_trainer:286] f1: 0.5221382289416846
+[I 220126 11:32:30 base_trainer:286] precision: 0.7602201257861635
+[I 220126 11:32:30 base_trainer:286] accuracy: 0.8274349224919567
+[I 220126 11:32:30 base_trainer:286] roc_auc_score: 0.6793187478980999
+[I 220126 11:32:30 base_trainer:143] # Test loss for epoch 11 is 14.179783880710602 
+[I 220126 11:32:30 base_trainer:146]  # Test f1 score for epoch 11 is 0.5221382289416846
+[I 220126 11:32:30 base_trainer:146]  # Test precision score for epoch 11 is 0.7602201257861635
+[I 220126 11:32:30 base_trainer:146]  # Test accuracy score for epoch 11 is 0.8274349224919567
+[I 220126 11:32:30 base_trainer:146]  # Test roc_auc_score score for epoch 11 is 0.6793187478980999
+[I 220126 11:32:30 base_trainer:115] # Training for epoch: 12 
+[I 220126 11:32:36 base_trainer:123]  # Train loss for epoch:12 is 47.516635954380035 
+[I 220126 11:32:36 base_trainer:306]  Eval epoch 12
+[I 220126 11:32:36 base_trainer:286] f1: 0.5164141414141413
+[I 220126 11:32:36 base_trainer:286] precision: 0.7616387337057728
+[I 220126 11:32:36 base_trainer:286] accuracy: 0.8257506824385805
+[I 220126 11:32:36 base_trainer:286] roc_auc_score: 0.6762097796516829
+[I 220126 11:32:36 base_trainer:134] # Valid loss for epoch 12 is 6.2346563041210175 
+[I 220126 11:32:36 base_trainer:137]  # Valid f1 score for epoch 12 is 0.5164141414141413
+[I 220126 11:32:36 base_trainer:137]  # Valid precision score for epoch 12 is 0.7616387337057728
+[I 220126 11:32:36 base_trainer:137]  # Valid accuracy score for epoch 12 is 0.8257506824385805
+[I 220126 11:32:36 base_trainer:137]  # Valid roc_auc_score score for epoch 12 is 0.6762097796516829
+[I 220126 11:32:36 base_trainer:313]  Test epoch 12
+[I 220126 11:32:37 base_trainer:286] f1: 0.538788522848034
+[I 220126 11:32:37 base_trainer:286] precision: 0.7612612612612613
+[I 220126 11:32:37 base_trainer:286] accuracy: 0.8307497318904163
+[I 220126 11:32:37 base_trainer:286] roc_auc_score: 0.6881509059189508
+[I 220126 11:32:37 base_trainer:143] # Test loss for epoch 12 is 14.240408092737198 
+[I 220126 11:32:37 base_trainer:146]  # Test f1 score for epoch 12 is 0.538788522848034
+[I 220126 11:32:37 base_trainer:146]  # Test precision score for epoch 12 is 0.7612612612612613
+[I 220126 11:32:37 base_trainer:146]  # Test accuracy score for epoch 12 is 0.8307497318904163
+[I 220126 11:32:37 base_trainer:146]  # Test roc_auc_score score for epoch 12 is 0.6881509059189508
+[I 220126 11:32:37 base_trainer:170] # Training complete; Total Train Procedure took: 0:01:21
+[I 220126 11:32:37 base_trainer:172] # Epoch Statistics saved at /Users/barryzhou/Desktop/Barry2022/codes/ltr/ltr_sota/examples/adult_ifm/results/Model_LR0.005_Batch256_LossBCEWithLogitsLoss/Epoch_Statstics_Time20220126_1132.csv

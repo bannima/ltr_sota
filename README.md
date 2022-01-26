@@ -127,7 +127,16 @@ python examples/adult_widedeep/adult_widedeep_exp.py
   * [MMoE](https://www.kdd.org/kdd2018/accepted-papers/view/modeling-task-relationships-in-multi-task-learning-with-multi-gate-mixture-) 
 
 - Deep Learning based
+  * [DIN]()
 
+  * [IFM]()
+
+  * [AFM]()
+  
+  * [NFM]()
+
+  * [DeepFm]()
+  
   * [Wide & Deep](https://dl.acm.org/doi/10.1145/2988450.2988454)
   
   * [Deep & Cross](https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/1708.05123.pdf)
